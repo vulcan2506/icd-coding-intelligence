@@ -1,0 +1,15 @@
+{
+  "parent": "Healthcare IT Operations",
+  "findings": [
+    {
+      "section": "Long-Term Insulin and Oral Hypoglycemics Information",
+      "change_type": "Administrative Update",
+      "summary": "The older version and the new version contain identical raw text excerpts directing users to section I.C.4.a.3. The only variation is the addition of the word 'must' in the new version's extracted profile, which adds a slight emphasis but does not alter the clinical logic or the specific code assignment rules. Since the core instruction and the referenced section remain unchanged, this represents a minor administrative update rather than a substantive guideline change.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Refer to section I.C.4.a.3 for information on the long-term use of insulin and oral hypoglycemics. -> icd (New Version): Coder must reference section I.C.4.a.3 for guidelines on long-term use of insulin and oral hypoglycemics",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    }
+  ]
+}

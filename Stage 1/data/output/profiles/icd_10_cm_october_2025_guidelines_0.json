@@ -1,0 +1,110 @@
+{
+  "domain": "medical coding and healthcare claims administration",
+  "document_purpose": "official guidelines for assigning ICD-10-CM diagnosis and external cause codes to clinical documentation",
+  "specialist_role": "a senior medical coding compliance specialist",
+  "analyst_role": "a healthcare data quality analyst",
+  "entity_types": [
+    "diagnosis code",
+    "external cause code",
+    "principal diagnosis",
+    "listed diagnosis",
+    "inclusion/exclusion note",
+    "clinical criteria",
+    "provider documentation",
+    "encounter type"
+  ],
+  "key_terminology": {
+    "ICD-10-CM": "International Classification of Diseases, 10th Revision, Clinical Modification",
+    "Principal Diagnosis": "The condition established after study to be chiefly responsible for occasioning the admission to the hospital or other health care facility",
+    "External Cause Code": "A code that identifies the cause of an injury or poisoning, including the mechanism and intent",
+    "Sequela": "Late effects of an injury, poisoning, or other external cause that occur after the acute phase has resolved",
+    "Combination Code": "A single code that includes both the disease and its associated manifestation or complication",
+    "Excludes1 Note": "A note indicating that a code is mutually exclusive with the code following the note",
+    "Excludes2 Note": "A note indicating that a code is not included in the code following the note, but the two conditions may occur together",
+    "Code First Note": "A directive to assign a specific code as the primary diagnosis before assigning a related code",
+    "Use Additional Code Note": "A directive to assign an additional code to provide more detail about the condition",
+    "Present on Admission (POA)": "A status indicating whether a condition was present at the time the patient was admitted to the hospital"
+  },
+  "labeling_few_shots": [
+    {
+      "text_snippet": "The selection of the appropriate external cause code is guided by the Alphabetic Index of External Causes and by Inclusion and Exclusion notes in the Tabular List.",
+      "master_label": "External Cause Code Selection",
+      "description": "Describes the methodology for choosing codes based on specific index and tabular list references."
+    },
+    {
+      "text_snippet": "All claims involving inpatient admissions to general acute care hospitals or other facilities that are subject to a law or regulation mandating collection of present on admission information.",
+      "master_label": "Claims Reporting Requirements",
+      "description": "Defines the scope of facilities and legal mandates requiring specific data collection on claims."
+    },
+    {
+      "text_snippet": "Additional signs and symptoms that may not be associated routinely with a disease process should be coded when present.",
+      "master_label": "Non-Integral Condition Coding",
+      "description": "Outlines the rule for coding symptoms that are not routinely part of a specific disease process."
+    }
+  ],
+  "delta_change_types": [
+    {
+      "name": "Coding Rule Clarification",
+      "description": "Used when a guideline is updated to provide clearer instructions on how to assign a specific code or combination of codes."
+    },
+    {
+      "name": "Code Assignment Restriction",
+      "description": "Used when a previously permissible coding practice is explicitly prohibited or restricted in the new version."
+    },
+    {
+      "name": "Documentation Requirement Expansion",
+      "description": "Used when the guidelines introduce new mandatory documentation elements required to support a specific code assignment."
+    },
+    {
+      "name": "Guideline Reversal",
+      "description": "Used when a new version explicitly contradicts or reverses a previous guideline, changing the correct coding action."
+    },
+    {
+      "name": "Guideline Continuity",
+      "description": "Used when a pair of documents shows no meaningful change in the coding rules or guidelines between versions."
+    }
+  ],
+  "delta_field_meaning": {
+    "requirements": "Mandatory conditions or documentation elements that must be met before a specific code can be assigned or a claim can be processed.",
+    "deprecated_items": "Coding practices, notes, or code assignments that are no longer permitted or have been superseded by new guidelines.",
+    "new_items": "Newly introduced coding rules, additional codes, or updated guidelines that must be followed in the current version."
+  },
+  "delta_few_shots": [
+    {
+      "topic": "Coding of Impending Conditions",
+      "version_a": "The guidelines state that impending or threatened conditions should be coded if the condition is documented as such, even if it has not yet occurred.",
+      "version_b": "The guidelines now clarify that impending conditions must be coded only if the documentation explicitly states the condition is imminent and supported by clinical criteria, whereas previously any mention was sufficient.",
+      "change_type": "Coding Rule Clarification",
+      "analysis": "The older version allowed a broader interpretation of 'impending' based on simple documentation. The newer version tightens this by requiring explicit clinical criteria and imminent status, reducing ambiguity in code assignment."
+    },
+    {
+      "topic": "Use of Unspecified Codes for Laterality",
+      "version_a": "If laterality is not documented, the unspecified code for the body part should be used as the default assignment.",
+      "version_b": "The guidelines now explicitly prohibit the use of unspecified codes for laterality if the condition is known to be unilateral; instead, the coder must query the provider for clarification before assigning any code.",
+      "change_type": "Guideline Reversal",
+      "analysis": "The previous guideline allowed a default fallback to unspecified codes when laterality was missing. The new guideline reverses this by mandating a provider query to ensure accuracy, preventing the assignment of potentially incorrect unspecified codes."
+    }
+  ],
+  "qna_few_shots": [
+    {
+      "q": "If a patient is admitted for respiratory failure but the documentation only mentions 'difficulty breathing' without specifying the cause, which code should be assigned?",
+      "a": "You should assign the code for the symptom (difficulty breathing) rather than the condition (respiratory failure) because the etiology is not documented. The guidelines require that signs and symptoms be coded when the underlying cause is not established in the medical record."
+    },
+    {
+      "q": "How do I determine if a condition is an integral part of a disease process versus a separate condition?",
+      "a": "You must review the Tabular List for 'Includes' notes under the primary disease code. If the symptom or condition is listed as an integral part of the disease, it is not coded separately. If it is not listed or is listed under a separate category, it should be coded as an additional condition."
+    }
+  ],
+  "evolution_few_shot": {
+    "topic": "Coding of Impending Conditions",
+    "foundation": "The older version established that impending or threatened conditions should be coded if documented as such, even if the condition has not yet occurred.",
+    "value_added": [
+      "Requirement for explicit clinical criteria to support the impending status",
+      "Mandate that the condition must be documented as imminent"
+    ]
+  },
+  "type_key": "icd_10_cm_october_2025_guidelines_0",
+  "source_files": [
+    "icd_10_cm_october_2025_guidelines_0.pdf"
+  ]
+}

@@ -1,0 +1,14 @@
+# Clinical Coding for Resource Utilization
+*Source: ICD-10-CM FY25 Guidelines October 1, 2024.pdf*
+
+**Feature:** Clinical Coding for Resource Utilization
+
+**Key Behaviors:**
+- Assign codes for conditions that require treatment or further investigation
+- Assign codes for conditions that prolong the length of stay
+- Assign codes for conditions that require resource utilization
+
+**Requirements / Properties:**
+- Condition must require treatment or further investigation
+- Condition must prolong the length of stay
+- Condition must require resource utilization

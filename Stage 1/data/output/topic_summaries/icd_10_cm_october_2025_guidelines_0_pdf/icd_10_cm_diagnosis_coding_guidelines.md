@@ -1,0 +1,13 @@
+# ICD-10-CM Diagnosis Coding Guidelines
+*Source: icd_10_cm_october_2025_guidelines_0.pdf*
+
+**Feature:** ICD-10-CM Diagnosis Coding Guidelines
+
+**Key Behaviors:**
+- List the ICD-10-CM code for the diagnosis chiefly responsible for services provided first.
+- List additional codes to describe any coexisting conditions.
+- The first-listed diagnosis may be a symptom if a diagnosis has not been established by the provider.
+
+**Requirements / Properties:**
+- The first-listed code must represent the condition chiefly responsible for the services provided.
+- Additional codes must accurately describe coexisting conditions present during the encounter.

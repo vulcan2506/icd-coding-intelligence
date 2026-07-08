@@ -1,0 +1,865 @@
+{
+  "parent": "Clinical Coding & Compliance",
+  "findings": [
+    {
+      "section": "ICD-10-CM Burn and Corrosion Coding Guidelines",
+      "change_type": "Administrative Update",
+      "summary": "The two versions present the exact same clinical logic for distinguishing thermal/electrical burns from chemical corrosions and classifying them by depth and site. Both explicitly mandate the use of categories T31 and T32 for unspecified sites or when additional data on body surface involvement is required for mortality evaluation. The only differences are minor phrasing variations in the 'New items' section, such as the specific mention of '20% or more' in the older version versus '20%+' in the newer, and slight rewording of the 'rule of nines' adjustment instructions, which do not alter the underlying coding rules.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): It is advisable to use category T31 as an additional code for reporting purposes when there is mention of a third-degree burn involving 20 percent or more of the body surface. -> icd (New Version): Advisory to use T31/T32 for evaluating burn mortality and reporting third-degree burns involving 20%+ of body surface.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Failing to adjust the 'rule of nines' percentages for infants, children, or patients with large buttocks/thighs/abdomens. -> icd (New Version): Failing to adjust 'rule of nines' percentages for pediatric or anatomically unique patients.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10 Pain Code Differentiation",
+      "change_type": "Coding Guideline Clarification",
+      "summary": "The older version established the baseline rules for distinguishing Central/Chronic pain syndromes from general pain and assigning codes for device-related pain using Chapter 19 and G89 categories. The newer version reinforces these rules with explicit 'Deprecated' warnings against using G89.0/G89.4 for general 'chronic pain' and adds specific instructions to avoid unspecified codes and to query providers for ambiguous documentation. While the core logic remains identical, the newer version provides stricter enforcement mechanisms and clearer prohibitions to reduce coder variance.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Establishes rules for assigning G89 codes for specific syndromes and device pain. -> icd (New Version): Explicitly deprecates the use of G89.0 or G89.4 for general 'chronic pain' without specific syndrome documentation and mandates querying providers for ambiguous cases.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): States that pain associated with devices is assigned to Chapter 19 with additional G89 codes. -> icd (New Version): Clarifies that coding for device-related pain requires the specific combination of Chapter 19 codes and G89.18 or G89.28, prohibiting the use of unspecified pain codes.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10 Combination Code Implementation",
+      "change_type": "Definition Expansion",
+      "summary": "The older version focused primarily on the general principle of not assigning additional codes for symptoms and the specific rule for poisonings (T36-T65). The newer version expands this scope by explicitly adding detailed sequencing rules for Hypertensive heart and chronic kidney disease (I13), requiring the use of category N18 as a secondary code and distinguishing between acute and chronic renal failure.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Focuses on general symptom combination codes and T36-T65 poisonings -> icd (New Version): Expands to include specific sequencing for I13 (Hypertensive heart and chronic kidney disease) requiring N18 secondary codes.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Mentions T36-T65 codes include substance and intent -> icd (New Version): Retains T36-T65 rules but adds explicit instruction to code acute renal failure separately from chronic kidney disease.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 9,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10 Category M81 Osteoporosis Coding",
+      "change_type": "Administrative Update",
+      "summary": "The older and newer versions present the exact same clinical logic, definitions, and sequencing requirements for Category M81 without any substantive changes to the coding rules. The text excerpts are identical, indicating that the update is purely administrative or a reiteration of existing guidelines rather than a modification of the feature itself.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Osteoporosis is a systemic condition where site is not a component of codes under category M81. -> icd (New Version): Osteoporosis is a systemic condition where site is not a component of codes under category M81.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Status code Z87.310 is mandatory for patients with a history of healed osteoporosis fractures. -> icd (New Version): Status code Z87.310 is mandatory for patients with a history of healed osteoporosis fractures.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10 Category O10 Coding Guidelines",
+      "change_type": "Administrative Update",
+      "summary": "The older and newer versions present the exact same clinical logic, including the requirement for secondary hypertension codes in O10 and the default assignment of congenital sepsis in P36. The text excerpts are identical, indicating that the 'new version' is likely a reformatting or administrative update of the existing FY25 guidelines rather than a substantive change in coding behavior. No specific rules regarding code assignment, restrictions, or definitions have been altered between the two texts.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Category O10 includes codes for hypertensive heart and hypertensive chronic kidney disease requiring secondary codes -> icd (New Version): Category O10 includes codes for hypertensive heart and hypertensive chronic kidney disease requiring secondary codes\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): P36 defaults to congenital sepsis if acquisition is unspecified -> icd (New Version): P36 defaults to congenital sepsis if acquisition is unspecified",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "Factitious Disorder Coding Guidelines",
+      "change_type": "Administrative Update",
+      "summary": "The older and newer versions contain verbatim identical text regarding the assignment of F68.1- and F68.A codes, the mandatory use of T74/T76 for victims, and the distinction between perpetrator and victim. There are no clinical logic changes, rule refinements, or behavioral deltas between the two provided chunks; they represent the same content likely duplicated across different document sections or versions without substantive alteration.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Assign code F68.1- for patients with documented factitious disorder imposed on self or Munchausen's syndrome. -> icd (New Version): Assign code F68.1- for patients with documented factitious disorder imposed on self or Munchausen's syndrome.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Assign code F68.A to the perpetrator's record for Munchausen's syndrome by proxy (MSBP) or factitious disorder imposed on another. -> icd (New Version): Assign code F68.A to the perpetrator's record for Munchausen's syndrome by proxy (MSBP) or factitious disorder imposed on another.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "Substance Use Disorder Remission Coding",
+      "change_type": "Administrative Update",
+      "summary": "The text content for the feature 'Substance Use Disorder Remission Coding' is identical in both the older FY25 Guidelines and the new icd version, including the specific logic for distinguishing mild versus moderate/severe disorders. The only variation lies in the 'Requirements' section, where the new version adds explicit instructions to document severity and remission status, which serves as an administrative clarification rather than a change in clinical logic. Since the core coding behavior and raw text excerpts are unchanged, this represents a maintenance update to the guideline documentation rather than a substantive rule change.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Requirements focus on explicit documentation support for clinical judgment. -> icd (New Version): Requirements explicitly mandate that disorder severity and remission status must be documented to determine classification.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Raw text excerpt lists specific code extensions (e.g., -.11, -.21, -.91). -> icd (New Version): Raw text excerpt lists the same specific code extensions (e.g., -.11, -.21, -.91).\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Behaviors state mild disorders are classified to substance abuse codes. -> icd (New Version): Behaviors state mild disorders are classified to substance abuse codes.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10 History Z Code Implementation",
+      "change_type": "Administrative Update",
+      "summary": "The two versions present nearly identical clinical logic and behavioral rules for assigning Personal and Family History Z codes, including the mandatory sequencing of the reason for encounter before history codes. The primary differences are administrative in nature, such as the specific Z code ranges listed in the 'New items' section (e.g., Z80-Z85 vs Z80-Z87) and minor variations in the deprecated list, rather than a fundamental shift in coding guidelines. The core requirement that history codes be used only for conditions no longer present or receiving active treatment remains consistent across both versions.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Explicit categorization includes Z80-Z87 for both personal and family history subgroups. -> icd (New Version): Explicit categorization specifies Z80-Z87 for personal history and Z80-Z85 for family history types.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Deprecated list includes 'Assigning unspecified history codes without clear documentation'. -> icd (New Version): Deprecated list includes 'Using unspecified history codes when specific Z80-Z85 codes are available and applicable'.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10 Coding for Retained Products of Conception",
+      "change_type": "Administrative Update",
+      "summary": "The older and newer versions contain verbatim identical text regarding the assignment of O03.4 and O07.4 for uncomplicated cases and the requirement to use complication codes when complications are present. There are no functional changes to the clinical logic, code definitions, or documentation requirements between the two versions. The only distinction is the metadata source (FY25 Guidelines vs. icd taxonomy), indicating a data synchronization rather than a guideline revision.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Assign O03.4 for subsequent encounters of retained products of conception following spontaneous abortion without complications. -> icd (New Version): Assign O03.4 for subsequent encounters of retained products of conception following spontaneous abortion without complications.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Apply these codes even if the patient was previously discharged with a diagnosis of complete abortion. -> icd (New Version): Apply these codes for subsequent encounters regardless of prior discharge diagnoses.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10 Category Z05 Newborn Evaluation Coding",
+      "change_type": "Administrative Update",
+      "summary": "The older and newer versions present the exact same text regarding the assignment of Z05 codes for healthy newborns where suspected conditions are ruled out. There are no changes in clinical logic, code assignment rules, or behavioral restrictions between the two versions. The only distinction is the metadata label 'Taxonomy description' which appears in the newer version but not the older, indicating a formatting or cataloging update rather than a guideline change.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): No explicit 'Taxonomy description' field present in the provided chunk. -> icd (New Version): Includes an explicit 'Taxonomy description' field summarizing the rule for healthy newborns evaluated for suspected conditions ruled out.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10-CM Coding Guidelines for Signs and Symptoms",
+      "change_type": "Administrative Update",
+      "summary": "The older version (Chunk 32) and the new version (Chunk 464) contain verbatim identical text for the feature 'ICD-10-CM Coding Guidelines for Signs and Symptoms'. There are no behavioral differences, logic changes, or scope expansions between the two excerpts provided. The only distinction is the metadata source (FY25 Guidelines vs. icd taxonomy), indicating a data synchronization or administrative update rather than a clinical guideline revision.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Signs and symptoms that are associated routinely with a disease process should not be assigned as additional codes, unless otherwise instructed by the classification. -> icd (New Version): Signs and symptoms that are associated routinely with a disease process should not be assigned as additional codes, unless otherwise instructed by the classification.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10-CM Chapter Usage Restrictions",
+      "change_type": "Administrative Update",
+      "summary": "The older version and the new version present identical text for the core behaviors regarding maternal, obstetric, and Chapter 16 code usage. The only variation is a minor phrasing adjustment in the 'Requirements' section for Chapter 16 codes, changing 'if the condition is still present' to 'at the time of coding to be used throughout the patient's life', which does not alter the clinical logic. This indicates an administrative update or formatting refinement rather than a substantive change in coding guidelines.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Chapter 16 codes require the condition to be still present to be used. -> icd (New Version): Chapter 16 codes require the condition to be present at the time of coding to be used throughout the patient's life.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10 Z-Code Exposure Classification",
+      "change_type": "Administrative Update",
+      "summary": "The older version and the new version present identical definitions for Category Z20 and Z77, including the rules for first-listed versus secondary usage. The only differences are minor phrasing adjustments in the 'Requirements' section (e.g., changing 'Documentation must specify' to 'Documentation must confirm') and the removal of specific examples like 'counseling' in the new version, which do not alter the clinical logic or code assignment rules. These changes represent administrative refinements to the guideline text rather than substantive updates to the coding methodology.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Documentation must specify the nature of the exposure (e.g., communicable disease vs. other hazard). -> icd (New Version): Documentation must confirm suspected exposure to a specific disease or hazard.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): The encounter must be related to the exposure (e.g., testing, counseling, or observation). -> icd (New Version): Exposure must be linked to close personal contact with an infected individual or presence in an epidemic area for Z20.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10 T86 Transplant Complication Coding",
+      "change_type": "Administrative Update",
+      "summary": "The older and newer versions present the exact same clinical logic, requirements, and raw text excerpts for T86 coding. There are no substantive changes to the coding rules, definitions, or sequencing guidelines between the two provided chunks. The only distinction is the metadata label identifying the source as 'icd (New Version)' versus the specific FY25 Guidelines date, indicating a versioning update rather than a content revision.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Defines T86 requirements with specific reference to guideline I.C.1.d.4 for sepsis sequencing. -> icd (New Version): Defines T86 requirements with specific reference to guideline I.C.1.d.4 for sepsis sequencing (identical content).\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): States pre-existing conditions are not coded as complications unless they affect organ function. -> icd (New Version): States pre-existing conditions are not coded as complications unless they affect organ function (identical content).",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10 Status Code Definitions",
+      "change_type": "Coding Guideline Clarification",
+      "summary": "The older version provided a general definition of status codes and basic sequencing rules, while the newer version refines these by explicitly defining 'Genetic carrier' (Z14) as carrying a gene without the disease and 'Genetic susceptibility' (Z15) as having a gene that increases risk. The newer version also clarifies the sequencing hierarchy for genetic counseling encounters (Z31.5) versus susceptibility codes, which was less explicit in the older text. Both versions maintain the core rule that status codes should not be combined with diagnosis codes that already include the status information, but the newer version provides more granular definitions to reduce coder variance.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Status codes indicate a patient is a carrier of a disease or has sequelae, with general sequencing rules. -> icd (New Version): Explicitly defines 'Genetic carrier' (Z14) as carrying a gene without the disease and 'Genetic susceptibility' (Z15) as having a gene that increases risk, with specific sequencing hierarchy for genetic counseling encounters.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Mentions BMI codes (Z68) require an associated reportable diagnosis and must not be assigned during pregnancy. -> icd (New Version): Focuses on the explicit definition of status codes covering carriers, sequelae, residuals, and prosthetic devices, with clarified sequencing for weaning encounters.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10 Poisoning Coding Guidelines",
+      "change_type": "Administrative Update",
+      "summary": "The older and newer versions present the exact same clinical logic for assigning poisoning codes, including the rule to default to accidental intent when unspecified and the requirement to code manifestations as additional codes. The only differences are minor formatting adjustments in the examples and a slight rephrasing of the drug interaction rule, which do not alter the underlying coding behavior. No new clinical restrictions, definitions, or reversals were introduced between the two versions.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Classifies drug interactions (including with alcohol) resulting in toxicity as poisoning. -> icd (New Version): Classifies toxicity resulting from the interaction between a nonprescribed drug and a correctly prescribed drug as poisoning.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Lists 'Error was made in drug prescription' as a separate example item. -> icd (New Version): Combines 'Error was made in drug prescription' and 'Errors made in drug prescription or in the administration...' into a single consolidated example item.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10-CM Prophylactic Surgery Coding",
+      "change_type": "Coding Guideline Clarification",
+      "summary": "The older version established the core rules for Z40 coding but did not explicitly list Z40.8 as a valid principal diagnosis option in its raw text excerpt. The newer version clarifies this by explicitly including subcategory Z40.8 (Encounter for other prophylactic surgery) alongside Z40.0 in the principal diagnosis selection instructions. Both versions maintain the strict prohibition against using Z40 for therapeutic removal of existing malignancies and the requirement to code concurrent malignancies at different sites, but the newer version expands the explicit scope of acceptable principal codes.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Principal code should be from category Z40, followed by risk factor codes. -> icd (New Version): Principal code should be from subcategory Z40.0 or Z40.8, followed by risk factor codes.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Z40.0 is used for malignant neoplasm risk factors. -> icd (New Version): Z40.0 is used for malignant neoplasm risk factors, while Z40.8 is explicitly added for other prophylactic surgeries.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10-CM Pressure Ulcer Classification",
+      "change_type": "Administrative Update",
+      "summary": "The older and newer versions present the exact same clinical logic for assigning L89 codes, requiring documentation of anatomical site and stage (1-4, deep tissue, unspecified, unstageable). There are no substantive changes to the coding rules, definitions, or requirements between the two versions. The text excerpts provided are identical, indicating this is a static guideline entry rather than a version with meaningful deltas.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Codes in category L89 must identify the site and stage of the pressure ulcer. -> icd (New Version): Codes in category L89 must identify the site and stage of the pressure ulcer.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Staging is designated by severity levels: stages 1-4, deep tissue pressure injury, unspecified stage, and unstageable. -> icd (New Version): Stages are designated by severity levels: 1-4, deep tissue pressure injury, unspecified stage, and unstageable.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10-CM P07 Category Implementation",
+      "change_type": "Administrative Update",
+      "summary": "The two versions present the exact same clinical logic and coding requirements for the P07 category, including the mandate to link historical newborn status to current health status. The text excerpts are identical, and the only variations are minor phrasing differences in the 'Requirements' and 'New items' lists which do not alter the actual coding rules. No new restrictions, definitions, or reversals of logic are present between the two versions.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Codes must be assigned only when the newborn status is affecting the patient's current health status. -> icd (New Version): Codes must be assigned only when the newborn status is affecting the patient's current health status.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): The condition must not be classified elsewhere in the ICD-10-CM classification system. -> icd (New Version): The condition must not be classified elsewhere in the ICD-10-CM classification.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10-CM Gestation Coding Rules",
+      "change_type": "Administrative Update",
+      "summary": "The older version (FY25 Guidelines) and the new version (icd) contain verbatim identical text regarding the definition of 'completed' weeks of gestation. Both explicitly state that if gestation is documented as 39 weeks and 6 days, the code for 39 weeks must be assigned without rounding up. There are no behavioral differences, logic changes, or scope expansions between the two provided excerpts.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Assign codes based on full completed weeks of gestation only, ignoring additional days. -> icd (New Version): Assign codes based on full completed weeks of gestation only, ignoring additional days.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10-CM Factors Influencing Health Status Codes",
+      "change_type": "Administrative Update",
+      "summary": "The older version and the new version present the exact same text regarding the purpose of Z00-Z99 codes for circumstances other than disease or injury. There are no behavioral changes, restrictions, or clarifications between the two excerpts provided. The only distinction is the label applied to the source text (FY25 Guidelines vs. icd), indicating a static definition rather than a clinical logic update.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Codes are provided to deal with encounters for circumstances other than a disease or injury. -> icd (New Version): Codes are provided to deal with encounters for circumstances other than a disease or injury.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Factors Influencing Health Status and Contact with Health Services codes (Z00-Z99) are used when circumstances other than disease or injury are recorded as diagnosis or problems. -> icd (New Version): Factors Influencing Health Status and Contact with Health Services codes (Z00-Z99) are used when circumstances other than disease or injury are recorded as diagnosis or problems.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10-CM Z Code Reporting Guidelines",
+      "change_type": "Administrative Update",
+      "summary": "The older and newer versions present the exact same text regarding Z code reporting, including the specific list of codes (Z59.0-, Z59.1, Z59.5, Z75.1, Z75.3, Z75.4, Z76.2, Z99.12) and the instruction to assign as many codes as necessary. There are no functional differences in the coding logic, only a potential administrative update in the metadata or document versioning.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Z codes may be assigned as appropriate to further explain reasons for healthcare services, including transfers between facilities. -> icd (New Version): Z codes may be assigned as appropriate to further explain reasons for healthcare services, including transfers between facilities.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "Leukemia and Myeloma Remission Coding",
+      "change_type": "Administrative Update",
+      "summary": "The two versions present the exact same clinical logic, code assignments (C90, Z85.6, Z85.79), and provider query requirements for ambiguous documentation. The only differences are minor phrasing variations in the 'Behaviors' and 'Requirements' sections (e.g., 'Mandatory inclusion' vs 'are required') and the addition of a 'New items' header in the newer version, which indicates an administrative formatting update rather than a change in clinical rules.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Mandatory inclusion of personal history codes Z85.6 and Z85.79 for past malignancies of lymphoid, hematopoietic, and related tissues. -> icd (New Version): Personal history codes (Z85.6, Z85.79) are required for past malignancies of lymphoid, hematopoietic, and related tissues.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): If remission status is ambiguous, provider clarification is a mandatory prerequisite for code assignment. -> icd (New Version): Mandatory provider query protocol for ambiguous remission status documentation.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "Presymptomatic Type 1 Diabetes Coding",
+      "change_type": "Coding Guideline Clarification",
+      "summary": "The older version established the rule that codes E10.A- are assigned for early-stage type 1 diabetes predating symptoms. The newer version retains this core logic but adds explicit constraints requiring clinical documentation to confirm the diagnosis prior to symptom onset and explicitly stating the condition must be identified as presymptomatic to utilize the code series. This represents a clarification that reinforces the specific documentation requirements to prevent misclassification of symptomatic cases.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Codes E10.A- are assigned for early-stage type 1 diabetes that predates the onset of symptoms. -> icd (New Version): Codes E10.A- are assigned for early-stage type 1 diabetes that predates the onset of symptoms; coding is restricted to cases where the diagnosis is confirmed before clinical symptoms appear.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Clinical documentation must confirm the diagnosis is early-stage type 1 diabetes. -> icd (New Version): Clinical documentation must explicitly confirm the diagnosis of Type 1 diabetes mellitus prior to symptom onset; the condition must be identified as presymptomatic to utilize the E10.A- code series.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "Unqualified Visual Loss Coding Logic",
+      "change_type": "Administrative Update",
+      "summary": "The older and newer versions present identical instructions for assigning H54.3, H54.6-, and H54.7 codes based on the number of eyes affected and the absence of a visual impairment category. There are no substantive changes to the clinical logic, code selection criteria, or documentation requirements between the two texts. The differences are limited to minor phrasing variations in the 'Requirements' section (e.g., 'distinguish' vs 'distinguish', 'apply' vs 'default to'), which do not alter the operational outcome.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Assign code H54.3 if blindness or low vision of both eyes is documented without a visual impairment category. -> icd (New Version): Assign code H54.3 if blindness or low vision of both eyes is documented without a visual impairment category.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Assign code H54.7 if visual loss is documented without information on whether one or both eyes are affected. -> icd (New Version): Assign code H54.7 if visual loss is documented without information on whether one or both eyes are affected.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "Fracture Coding Guidelines",
+      "change_type": "Administrative Update",
+      "summary": "The two versions present identical clinical logic regarding fracture coding, including default rules for open/closed status, displaced/non-displaced status, and the use of 7th characters. The only differences are minor phrasing adjustments in the 'Requirements' and 'New items' sections, such as the explicit mention of 'Gustilo classification type' in the new version versus a general reference to the classification in the older version, and slight rewording of the osteoporosis rule. These changes do not alter the clinical logic or code assignment rules but serve to clarify or standardize the administrative presentation of the guidelines.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Open fracture designations for the forearm, femur, and lower leg must be based on the Gustilo open fracture classification. -> icd (New Version): For open fractures of the forearm, femur, and lower leg, the Gustilo classification type must be used to determine the 7th character.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): A code from category M80 must be used for any patient with known osteoporosis who suffers a fracture, even if the patient had a minor fall or trauma. -> icd (New Version): A code from category M80 should be used for any patient with known osteoporosis who suffers a fracture, even if the patient had a minor fall or trauma.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10-CM CKD Classification Logic",
+      "change_type": "Administrative Update",
+      "summary": "The older version and the new version contain identical behavioral rules regarding CKD staging (N18.2, N18.30-N18.32, N18.4) and the mandatory assignment of N18.6 when ESRD is documented. The only distinction is a minor phrasing change in the requirements section where the older version states the 'CKD stage code must be suppressed' while the new version states the 'claim must use code N18.6 exclusively', which does not alter the clinical logic. The rule regarding the interpretation of 'and' in titles for tuberculosis remains unchanged in both texts.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): When ESRD is documented alongside a CKD stage, the CKD stage code must be suppressed in favor of N18.6. -> icd (New Version): When ESRD is documented alongside a CKD stage, the claim must use code N18.6 exclusively.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10-CM Myocardial Infarction Coding Guidelines",
+      "change_type": "Coding Guideline Clarification",
+      "summary": "The older version established the rule that I22 codes are restricted to Type 1 or unspecified AMIs, while explicitly directing Type 2 and Type 4/5 AMIs to specific I21.A1 and I21.A9 codes. The newer version reinforces this by explicitly stating that I21.A1 must be used for Type 2 AMIs even if described as NSTEMI or STEMI, and mandates that I21.0-I21.4 be used exclusively for Type 1 AMIs. Both versions agree on the prohibition of using I22 for non-Type 1/unspecified subsequent events, but the newer version provides stricter behavioral constraints regarding the specific application of I21.A1 to prevent misclassification of Type 2 events.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Do not assign code I22 for subsequent myocardial infarctions other than type 1 or unspecified; assign I21.A1 for Type 2 and I21.A9 for Type 4/5. -> icd (New Version): For subsequent type 2 AMI assign only code I21.A1; for subsequent type 4 or type 5 AMI, assign only code I21.A9; codes I21.0-I21.4 must only be assigned when clinical documentation confirms the event is a type 1 AMI.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Assign code I21.A1 for subsequent type 2 AMI and I21.A9 for subsequent type 4 or 5 AMI, avoiding I22 codes entirely. -> icd (New Version): If a type 2 AMI is described as NSTEMI or STEMI, only assign code I21.A1; codes I21.01-I21.4 should only be assigned for type 1 AMIs.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 9,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10-CM Code Specificity Requirements",
+      "change_type": "Administrative Update",
+      "summary": "The older version (FY25 Guidelines) and the new version (icd) contain nearly identical text regarding the requirement to use codes at the highest level of specificity and the invalidity of incomplete codes. The primary difference is the explicit addition in the new version prohibiting the reporting of categories or subcategories, which serves as a clarification of existing validity rules rather than a change in clinical logic. Both versions mandate the inclusion of the seventh character when applicable and define the three-character code as a valid only if not further subdivided.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Diagnosis codes must be reported at their highest number of characters available and to the highest level of specificity documented in the medical record. -> icd (New Version): Diagnosis codes must be reported at their highest number of characters available and to the highest level of specificity documented in the medical record; additionally, only specific codes are permissible, not categories or subcategories.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): A code is invalid if it has not been coded to the full number of characters required for that code. -> icd (New Version): A code is invalid if it has not been coded to the full number of characters required for that code, with an explicit enforcement that categories or subcategories are excluded from reporting.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "Type 1 STEMI/NSTEMI Coding Guidelines",
+      "change_type": "Administrative Update",
+      "summary": "The two versions present the exact same clinical logic for assigning ICD-10-CM codes I21.0-I21.4 for Type 1 AMI, including the specific rule that STEMI remains coded as such even if it converts to NSTEMI due to thrombolytic therapy. The text excerpts are identical, indicating that the 'new version' is likely a re-extraction or formatting update of the same FY25 Guidelines content rather than a substantive change in coding rules. No clinical definitions, timeframes, or code assignment restrictions have been altered between the provided chunks.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Subcategories I21.0-I21.2 and I21.3 are used for type 1 STEMI; I21.4 is used for type 1 NSTEMI. -> icd (New Version): Subcategories I21.0-I21.2 and I21.3 are used for type 1 STEMI; I21.4 is used for type 1 NSTEMI.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): If a type 1 STEMI converts to NSTEMI due to thrombolytic therapy, it is still coded as STEMI. -> icd (New Version): If a type 1 STEMI converts to NSTEMI due to thrombolytic therapy, it is still coded as STEMI.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10 Excludes1 Note Logic",
+      "change_type": "Administrative Update",
+      "summary": "The two versions present the exact same logic for Excludes1 notes, including the rule that mutually exclusive conditions cannot be coded together and the exception for unrelated conditions. Both versions mandate a provider query when the relationship between conditions is unclear and explicitly state that unrelated conditions may be assigned together if clinical justification exists. The raw text excerpts are identical, indicating no substantive change in the clinical coding rules between the older FY25 guidelines and the new version.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): An Excludes1 note indicates that the code excluded should never be used at the same time as the code above the Excludes1 note. -> icd (New Version): An Excludes1 note indicates that the code excluded should never be used at the same time as the code above the Excludes1 note.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): If it is not clear whether the two conditions involving an Excludes1 note are related or not, query the provider. -> icd (New Version): If it is not clear whether the two conditions involving an Excludes1 note are related or not, query the provider.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10 Code Subdivision and Validation Rules",
+      "change_type": "Administrative Update",
+      "summary": "The older version and the new version present identical rules regarding the prohibition of subdividing three-character codes and the requirement for full character counts. There are no behavioral differences, only a potential administrative update in the metadata or document structure, as the clinical logic remains unchanged.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): A three-character code is to be used only if it is not further subdivided. -> icd (New Version): A three-character code is to be used only if it is not further subdivided.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10 Code Inclusion and Index Assignment",
+      "change_type": "Administrative Update",
+      "summary": "The older version (FY25 Guidelines) and the new version (icd) present the exact same logic for assigning codes based on inclusion terms and Alphabetic Index entries. The text excerpts are virtually identical, indicating no substantive change in clinical logic or code assignment rules. The only differences are minor phrasing adjustments in the 'Requirements' section (e.g., adding 'valid for' or 'align with'), which reflect administrative updates to documentation rather than operational changes.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): The condition must match an inclusion term listed under the code. -> icd (New Version): The condition must match an inclusion term listed under the code.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Additional terms found only in the Alphabetic Index may also be assigned to a code. -> icd (New Version): Additional terms found only in the Alphabetic Index may also be assigned to a code.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10 Chapter 19 Character Requirements",
+      "change_type": "Administrative Update",
+      "summary": "The older version (FY25 Guidelines) and the new version (icd) contain verbatim identical text regarding the assignment of 7th characters based on active treatment status rather than provider history. Both versions explicitly define the usage of characters 'A', 'D', and 'S' and include the same example regarding T84.50XA. There are no functional differences in the clinical logic or code assignment rules between the two provided excerpts.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Assignment of the 7th character is based on whether the patient is undergoing active treatment, not whether the provider is seeing the patient for the first time. -> icd (New Version): Assignment of the 7th character is based on whether the patient is undergoing active treatment, not whether the provider is seeing the patient for the first time.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD Code Designation and NEC Index Logic",
+      "change_type": "Administrative Update",
+      "summary": "The provided text for both the older FY25 Guidelines and the new version is verbatim identical, containing no changes in behavior, requirements, or logic. Since the content is a static definition of NEC usage without any version-specific deltas, the change is classified as an administrative update reflecting a stable rule rather than a clinical logic shift.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Codes titled 'other' or 'other specified' are for use when the information in the medical record provides detail for which a specific code does not exist. -> icd (New Version): Codes titled 'other' or 'other specified' are for use when the information in the medical record provides detail for which a specific code does not exist.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10-CM Conventions and Instructional Notes",
+      "change_type": "Administrative Update",
+      "summary": "The older version (FY25 Guidelines) and the new version (icd) present the exact same text regarding conventions being general rules independent of specific guidelines. Both versions state that these conventions are incorporated within the Alphabetic Index and Tabular List as instructional notes. There is no change in the coding logic, scope, or requirements between the two excerpts provided. The only distinction is the source document identifier, indicating a static definition rather than a guideline evolution.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Conventions are general rules independent of guidelines, incorporated in the Alphabetic Index and Tabular List. -> icd (New Version): Conventions are general rules independent of guidelines, incorporated in the Alphabetic Index and Tabular List.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10-CM Combination Code Sequencing",
+      "change_type": "Administrative Update",
+      "summary": "The older version and the new version contain identical text regarding the sequencing rules for atherosclerotic heart disease with angina pectoris and the assumption of causal relationships. There are no functional differences in the coding logic, requirements, or new items between the two provided excerpts. The only distinction is the metadata label (FY25 Guidelines vs. icd New Version), indicating a static guideline update rather than a change in clinical rules.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): When using combination codes for atherosclerotic heart disease with angina pectoris, it is not necessary to use an additional code for angina pectoris. -> icd (New Version): When using combination codes for atherosclerotic heart disease with angina pectoris, it is not necessary to use an additional code for angina pectoris.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): A causal relationship can be assumed in a patient with both atherosclerosis and angina pectoris, unless the documentation indicates the angina is due to something other than the atherosclerosis. -> icd (New Version): A causal relationship can be assumed in a patient with both atherosclerosis and angina pectoris, unless the documentation indicates the angina is due to something other than the atherosclerosis.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10-CM Coding Syntax Definitions",
+      "change_type": "Definition Expansion",
+      "summary": "The older version provided a comprehensive list of syntax rules for brackets, parentheses, and colons but omitted definitions for specific abbreviations found in the Tabular List. The new version expands this scope by explicitly defining 'Not elsewhere classifiable' and 'Not otherwise specified' alongside the existing syntax rules. This addition ensures coders understand the semantic meaning of these specific abbreviations within the coding framework.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Focuses on syntax symbols (brackets, parentheses, colons) and precedence rules -> icd (New Version): Includes syntax symbols plus explicit definitions for 'Not elsewhere classifiable' and 'Not otherwise specified' abbreviations.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Mentions 'other specified' only implicitly via context -> icd (New Version): Explicitly states 'Not elsewhere classifiable' represents 'other specified' for conditions where a specific code is unavailable.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10-CM Code Structure and Subdivision",
+      "change_type": "Administrative Update",
+      "summary": "The older version and the new version present the exact same core definition: codes are 3-7 characters long, starting with a 3-character category heading. The new version adds minor phrasing nuances like 'if the category allows' and 'valid according to official guidelines,' but these do not alter the fundamental clinical logic or assignment rules. The raw text excerpts are identical, confirming no substantive change in the guideline content for this specific feature.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Additional characters must be used to achieve the highest level of specificity available for the condition. -> icd (New Version): Additional characters must be used if the category allows for further subdivision.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): The code must align with the specific subdivision rules defined for the category. -> icd (New Version): All characters in the code must be valid according to the ICD-10-CM official guidelines.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10-CM Code Selection Workflow",
+      "change_type": "Administrative Update",
+      "summary": "The older version (FY25 Guidelines) and the new version (icd) present the exact same instructions regarding the workflow of using the Alphabetic Index followed by the Tabular List. Both versions explicitly state that the Index does not always provide the full code and that verification of laterality and 7th characters must occur in the Tabular List. The text excerpts are identical, indicating that this is a static guideline without any logical changes, restrictions, or clarifications between the two data points.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Locate the diagnosis term in the Alphabetic Index first, then verify the code in the Tabular List. -> icd (New Version): Locate the diagnosis term in the Alphabetic Index first, then verify the code in the Tabular List.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): A dash (-) at the end of an Alphabetic Index entry indicates that additional characters are required. -> icd (New Version): A dash (-) at the end of an Alphabetic Index entry indicates that additional characters are required.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10-CM Causal Relationship Guidelines",
+      "change_type": "Administrative Update",
+      "summary": "The older version (FY25 Guidelines) and the new version (icd) contain virtually identical text regarding the presumption of causal relationships for terms like 'with' or 'in'. The new version appears to be a slightly truncated or reformatted copy of the older guidelines without introducing new clinical logic, restrictions, or clarifications. Since the behavioral rules and requirements remain unchanged, this represents an administrative update or data extraction variance rather than a substantive guideline change.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): The classification presumes a causal relationship between conditions linked by 'with' or 'in' even without explicit provider documentation. -> icd (New Version): The classification presumes a causal relationship between conditions linked by 'with' or 'in' even without explicit provider documentation.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Requires explicit provider documentation to link conditions when the classification does not specifically link them via relational terms. -> icd (New Version): Requires explicit provider documentation to link conditions when the classification does not specifically link them via relational terms.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10-CM 7th Character Data Validation",
+      "change_type": "Administrative Update",
+      "summary": "The older version (FY25 Guidelines) and the new version (icd) contain exactly the same text regarding 7th character validation, including the requirement for the placeholder 'X' and the mandatory nature of these characters. There are no behavioral differences, rule changes, or clarifications between the two provided excerpts; they are duplicates. Consequently, this represents an administrative update where the content remains static despite the version change.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): The 7th character must always be the 7th character in the data field. -> icd (New Version): The 7th character must always be the 7th character in the data field.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): A placeholder X must be used to fill in empty characters if a code requiring a 7th character is not 6 characters long. -> icd (New Version): A placeholder X must be used to fill in empty characters if a code requiring a 7th character is not 6 characters long.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10-CM Tabular List Structure",
+      "change_type": "Administrative Update",
+      "summary": "The two versions present the exact same definitions for category (3 characters), subcategory (4 or 5 characters), and code (3-7 characters) structures without any logical or behavioral changes. The text excerpts are virtually identical, indicating that this is a static structural definition rather than a guideline update. Any minor differences in the provided profiles are purely formatting artifacts and do not represent a change in clinical logic or reporting requirements.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Categories are strictly 3 characters and serve as the highest level of subdivision. -> icd (New Version): All categories must be exactly 3 characters long.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Codes with applicable 7th characters are still referred to as codes, not subcategories. -> icd (New Version): Codes with applicable 7th characters are still referred to as codes, not subcategories.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10-CM Placeholder Character Implementation",
+      "change_type": "Administrative Update",
+      "summary": "The older version establishes the mandatory use of 'X' in categories T36-T50 to ensure code validity and support future expansion. The newer version reiterates this exact requirement without altering the clinical logic or assignment rules, merely reinforcing the structural necessity for automated processing. Both versions agree that omitting the placeholder renders the code invalid, indicating no substantive change in the guideline's operational behavior.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): The placeholder 'X' is mandatory at specific codes, such as those in categories T36-T50, to ensure validity. -> icd (New Version): The 'X' is required at poisoning, adverse effect, and underdosing codes (categories T36-T50) where a placeholder exists.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Failure to include the placeholder 'X' where required renders the code invalid. -> icd (New Version): A code containing a placeholder must include the 'X' to be considered valid.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10-CM Excludes Notes Definitions",
+      "change_type": "Administrative Update",
+      "summary": "The older version (Chunk 18) and the new version (Chunk 450) contain verbatim identical text regarding the two types of excludes notes and their independence. There are no behavioral deltas, clarifications, or restrictions introduced in the new version; the only difference is the metadata label 'Apply the correct definition' versus 'Apply the distinct definition', which is a trivial semantic variation without clinical impact.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): The ICD-10-CM has two types of excludes notes. Each type of note has a different definition for use, but they are all similar in that they indicate that codes excluded from each other are independent of each other. -> icd (New Version): The ICD-10-CM has two types of excludes notes. Each type of note has a different definition for use, but they are all similar in that they indicate that codes excluded from each other are independent of each other.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10-CM Default Code Assignment",
+      "change_type": "Administrative Update",
+      "summary": "The older version and the new version contain identical text and behavioral rules for assigning default codes when a condition is documented without qualifiers. There are no clinical logic changes, restrictions, or clarifications between the two provided excerpts; they represent the same guideline content. The only distinction is the metadata label (Chunk 26 vs Chunk 458), which indicates a data versioning or administrative update rather than a substantive change in the coding rule itself.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): A code listed next to a main term in the ICD-10-CM Alphabetic Index is referred to as a default code. -> icd (New Version): A code listed next to a main term in the ICD-10-CM Alphabetic Index is referred to as a default code.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "Symptom and Sign Code Reporting Guidelines",
+      "change_type": "Administrative Update",
+      "summary": "The core clinical logic regarding the acceptability of symptom codes remains unchanged between the two versions, as both explicitly state that codes are acceptable only when a definitive diagnosis has not been established. The primary difference lies in the presentation of the data: the 'New Version' includes metadata tags such as 'Deprecated' practices and 'New items' (like the explicit reference to Section I.B.18), whereas the 'Older' version presents only the raw behavioral rules. Additionally, the 'New Version' adds a specific requirement for documentation to explicitly indicate the unconfirmed status, which is implied but not stated as a hard requirement in the older text.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Establishes that symptom codes are acceptable when a diagnosis is unconfirmed without listing deprecated practices. -> icd (New Version): Establishes the same rule but explicitly lists 'Deprecated' practices (e.g., assuming all Chapter 18 codes are diagnoses) and 'New items' (e.g., explicit reference to Section I.B.18).\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): States symptom codes are acceptable when a diagnosis is unconfirmed. -> icd (New Version): Adds a specific requirement that 'Documentation must explicitly indicate that the diagnosis remains unconfirmed' to validate the use of symptom codes.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10-CM Principal Diagnosis Sequencing",
+      "change_type": "Coding Guideline Clarification",
+      "summary": "The older version established the general rule that underlying etiology codes must be sequenced first, followed by manifestation codes, relying on instructional notes like 'code first' and 'use additional code'. The newer version retains these core rules but adds specific operational requirements, such as mandating a provider query if the relationship between etiology and manifestation is not documented and explicitly requiring the presence of specific instructional notes to validate the sequencing. This shift moves the guideline from a descriptive rule to a prescriptive validation process.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Underlying etiology conditions must be sequenced first, followed by manifestation codes when a 'code first' note is present. -> icd (New Version): Underlying etiology conditions must be sequenced first, followed by manifestation codes when a combination exists, with an explicit requirement to query for clarification if the relationship is not documented.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): 'Code first' and 'Use additional code' notes serve as sequencing rules. -> icd (New Version): The 'use additional code' note must be present at the etiology code to validate the sequencing, and the 'code first' note must be present at the manifestation code to validate the sequencing.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "FY 2025 ICD-10-CM Coding Guidelines",
+      "change_type": "Administrative Update",
+      "summary": "The two chunks describe the exact same clinical rules for FY 2025, including the handling of overlapping lesions, ectopic tissue, and the hierarchy of the Neoplasm Table. The only difference is a metadata error in the second chunk where the fiscal year is mislabeled as 2026 instead of 2025, and the effective date is shifted to October 1, 2025, which does not alter the actual coding logic or behavior described.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Fiscal Year 2025 (October 1, 2024 - September 30, 2025) -> icd (New Version): Fiscal Year 2026 (October 1, 2025 - September 30, 2026)\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Mentions 'April 2024, FY 2024 version' as the previous iteration -> icd (New Version): Mentions 'April 2025, FY 2025 version' as the previous iteration",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 9,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10-CM Diagnosis Code Reporting",
+      "change_type": "Administrative Update",
+      "summary": "The older version (FY25 Guidelines) and the new version (icd) contain verbatim identical text regarding the restriction that each unique diagnosis code may be reported only once per encounter. Both versions explicitly state that this rule applies to bilateral conditions without distinct laterality codes and to cases where different conditions share the same code. Furthermore, both versions mandate that documentation must include specific diagnoses alongside symptoms, problems, or reasons for the encounter to ensure accurate reporting. There are no functional or behavioral differences between the two texts provided.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Each unique ICD-10-CM diagnosis code may be reported only once for an encounter. -> icd (New Version): Each unique ICD-10-CM diagnosis code may be reported only once for an encounter.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10-CM Diagnosis Coding Guidelines",
+      "change_type": "Coding Guideline Clarification",
+      "summary": "The older version explicitly defines the protocol for 'borderline' diagnoses, instructing coders to treat them as confirmed unless a specific index entry exists, and mandates queries for unclear documentation. The newer version snippet focuses strictly on the general hierarchy of listing the chief reason for encounter first and adding coexisting conditions, omitting the specific 'borderline' logic. This represents a narrowing of the provided text scope rather than a logical contradiction, as the newer text is a subset of the broader guidelines found in the older version.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Code borderline diagnoses as confirmed unless a specific index entry exists, and query for clarification if documentation is unclear. -> icd (New Version): No specific instruction regarding borderline diagnoses; focuses only on listing the chief reason for encounter first.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Explicitly states no distinction is made between inpatient and outpatient settings for borderline conditions. -> icd (New Version): Does not mention care setting distinctions or borderline conditions.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 8,
+      "confidence": "high"
+    },
+    {
+      "section": "Z02 Encounter Coding Guidelines",
+      "change_type": "Administrative Update",
+      "summary": "The older and newer versions contain identical text regarding the use of Z codes for administrative examinations versus diagnostic or treatment purposes. Both versions mandate that discovered conditions be coded as additional codes and specify the rules for 'with' versus 'without' abnormal findings based on available information. The 'New items' and 'Deprecated' lists in the newer version appear to be metadata tags rather than actual changes to the clinical logic, as the core behaviors and requirements listed in the profiles are verbatim matches.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Codes are used for routine examinations for administrative purposes (e.g., pre-employment physical) and not for diagnosis or treatment. -> icd (New Version): Codes are used for routine examinations like general check-ups or administrative purposes such as pre-employment physicals.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): If a diagnosis is discovered during a routine exam, it must be coded as an additional code. -> icd (New Version): If a diagnosis or condition is discovered during a routine exam, it must be coded as an additional code.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10 Follow-Up Code Implementation",
+      "change_type": "Administrative Update",
+      "summary": "The core clinical logic, including the definition of follow-up codes, sequencing rules, and recurrence handling, remains identical between the older FY25 Guidelines and the new version. The primary difference is an administrative update in the new version where specific Z08/Z09 code definitions are presented in a structured JSON format rather than as raw text or separate objects. Additionally, the new version explicitly adds 'Using follow-up codes when the condition has not been fully treated' to the deprecated list, refining the negative constraints without altering the positive assignment rules.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Follow-up codes are described in raw text with Z08/Z09 listed as separate JSON objects -> icd (New Version): Follow-up codes are described in raw text with Z08/Z09 definitions consolidated into a single structured JSON object.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Deprecated list includes 'Using aftercare codes to explain completed treatment surveillance' -> icd (New Version): Deprecated list replaces this with 'Using follow-up codes when the condition has not been fully treated' to clarify the healing status requirement.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10 POA Reporting Logic",
+      "change_type": "Administrative Update",
+      "summary": "The two versions present the exact same logic for assigning POA flags, including the rule to leave the field blank for exempt codes, the assignment of 'Y' for conditions present prior to admission, and the handling of suspected diagnoses. The only differences are minor phrasing variations in the 'Requirements' section (e.g., 'very limited' vs 'limited') and the omission of a specific sentence regarding chronic conditions with acute exacerbations in the new version, which does not alter the core clinical logic. These changes represent administrative updates to the text rather than substantive shifts in coding behavior.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): The 'U' code should not be routinely assigned and is reserved for very limited circumstances where documentation is unclear. -> icd (New Version): The 'U' flag should not be routinely assigned and is reserved for limited circumstances where documentation is unclear.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Assign 'Y' for a single code identifying both a chronic condition and an acute exacerbation if the code contains multiple clinical concepts. -> icd (New Version): This specific instruction regarding chronic conditions and acute exacerbations is omitted in the new version.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10-CM Section 21 Factors and Screening",
+      "change_type": "Coding Guideline Clarification",
+      "summary": "The older version provided broad instructions to code factors only when they significantly affect care and to avoid coding positive screening results without a confirmed diagnosis. The newer version clarifies these rules by explicitly restricting screening codes to cases where a specific screening procedure is performed, removing the ambiguity regarding asymptomatic patients who did not undergo a test. Additionally, the newer version tightens the requirement for documentation to explicitly state the specific condition being screened for, reducing coder variance in determining the intent of the encounter.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Assign screening codes only when the patient is asymptomatic and the procedure is performed for the purpose of early detection of a disease or condition. -> icd (New Version): Assign screening codes only when the patient is undergoing a screening procedure for a specific condition.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Do not code screening results as positive unless the patient has been diagnosed with the condition; use appropriate disease codes instead. -> icd (New Version): Deprecated: Using screening codes as primary diagnoses for symptomatic encounters.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Combine factor codes with relevant screening codes if both conditions are documented as the reason for the encounter. -> icd (New Version): Documentation must explicitly state the factor influencing health status or the specific condition being screened for.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 9,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10-CM Diagnosis Code Assignment Logic",
+      "change_type": "Administrative Update",
+      "summary": "The older version and the new version present the exact same behavioral rules, examples, and requirements for determining 'Y' or 'N' flags. There are no substantive changes to the clinical logic, code assignment rules, or specific examples provided in the text. The only differences are minor formatting variations, such as the use of commas in the new version's introductory clause and the capitalization of 'e.g.' versus 'e.g.', which do not alter the meaning or application of the guideline.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): When the same ICD-10-CM diagnosis code applies to two or more conditions during the same encounter (e.g. two separate conditions classified to the same ICD-10-CM diagnosis code): -> icd (New Version): When the same ICD-10-CM diagnosis code applies to two or more conditions during the same encounter (e.g., two separate conditions classified to the same ICD-10-CM diagnosis code):\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Assign 'Y' if all conditions represented by the single ICD-10-CM code were present on admission (e.g. bilateral unspecified age-related cataracts). -> icd (New Version): Assign 'Y' if all conditions represented by the single ICD-10-CM code were present on admission (e.g., bilateral unspecified age-related cataracts).\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Assign 'N' if any of the conditions represented by the single ICD-10-CM code was not present on admission (e.g. traumatic secondary and recurrent hemorrhage and seroma is assigned to a single code T79.2, but only one of the conditions was present on admission). -> icd (New Version): Assign 'N' if any of the conditions represented by the single ICD-10-CM code was not present on admission (e.g. traumatic secondary and recurrent hemorrhage and seroma is assigned to a single code T79.2, but only one of the conditions was present on admission).",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10-CM Dementia Classification Guidelines",
+      "change_type": "Administrative Update",
+      "summary": "The older version (FY25 Guidelines) and the new version (icd) contain identical text regarding the classification of dementia categories F01, F02, and F03 based on etiology and severity. Both versions mandate assigning the highest severity code if the condition progresses during an inpatient stay and require provider clinical judgment. There are no functional differences in the coding logic, documentation requirements, or specific instructions between the two provided excerpts.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Classify dementia (categories F01, F02, and F03) based on etiology and severity (unspecified, mild, moderate, or severe). -> icd (New Version): Classify dementia (categories F01, F02, and F03) based on etiology and severity (unspecified, mild, moderate, or severe).\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): If a patient is admitted to an inpatient acute care hospital or other inpatient facility setting with dementia at one severity level and it progresses to a higher severity level, assign one code for the highest severity level reported during the stay. -> icd (New Version): If a patient is admitted to an inpatient acute care hospital or other inpatient facility setting with dementia at one severity level and it progresses to a higher severity level, assign one code for the highest severity level reported during the stay.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "Outpatient ICD-10-CM Coding Guidelines",
+      "change_type": "Administrative Update",
+      "summary": "The two versions present identical content regarding the application of Section I guidelines, the interchangeability of 'encounter' and 'visit', and the exclusion of UHDDS definitions and inconclusive diagnosis coding for outpatients. There are no substantive changes to the clinical logic, code assignment rules, or specific behaviors between the older FY25 guidelines and the new version. The differences are purely administrative, reflecting the same text being approved for use in both contexts without modification.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Guidelines in Section I must be applied to outpatient services. -> icd (New Version): Guidelines in Section I must be applied to outpatient services.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): UHDDS definition of principal diagnosis does not apply to outpatient services. -> icd (New Version): UHDDS definition of principal diagnosis does not apply to outpatient services.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "COVID-19 Acute Respiratory Failure Coding",
+      "change_type": "Administrative Update",
+      "summary": "The older version explicitly instructs coders to assign code J96.0- to specify acute respiratory failure when present with COVID-19. The newer version maintains this exact requirement but presents the instruction with slightly different phrasing and formatting, removing the explicit 'specify' verb while retaining the mandatory pairing logic. No clinical logic or code assignment rules have changed, only the presentation of the guideline.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): For acute respiratory failure due to COVID-19, assign code U07.1, and code J96.0-, Acute respiratory failure. -> icd (New Version): Acute respiratory failure For acute respiratory failure due to COVID-19, assign code U07.1, and code J96.0-, Acute respiratory failure.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "COVID-19 Diagnosis Coding Guidelines",
+      "change_type": "Coding Guideline Clarification",
+      "summary": "The older version required a positive test result to classify an asymptomatic individual as having the infection and implied a higher burden of proof for the U07.1 code. The newer version clarifies that code U07.1 can be assigned based solely on provider documentation of a confirmed diagnosis, explicitly removing the requirement for a positive test result. Additionally, the newer version strictly defines that terms like 'suspected' or 'probable' preclude the use of U07.1, mandating symptom codes instead, whereas the older version was less explicit about the specific terminology exclusions for the U07.1 code.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Positive testing results are required to classify asymptomatic individuals as having the COVID-19 infection. -> icd (New Version): Code U07.1 is assigned for confirmed COVID-19 based on provider documentation without requiring a positive test result.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Implied reliance on test results for confirmation. -> icd (New Version): Explicitly states that if the provider documents 'suspected', 'possible', 'probable', or 'inconclusive' COVID-19, code U07.1 must not be assigned; instead, code the signs and symptoms.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 9,
+      "confidence": "high"
+    },
+    {
+      "section": "COVID-19 Follow-Up Evaluation Coding",
+      "change_type": "Weak overlap",
+      "summary": "The older version provides specific instructions for assigning codes Z09 and Z86.16 to follow-up visits after resolved COVID-19 infections with negative test results. The newer version restricts its scope to the assignment of code Z11.52 for screening encounters, including preoperative testing, without mentioning follow-up protocols. Consequently, the chunks describe adjacent but non-overlapping clinical scenarios within the same disease context.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Assign codes Z09 and Z86.16 for follow-up visits after resolved COVID-19 infection with negative tests. -> icd (New Version): Assign code Z11.52 for encounters involving screening for COVID-19.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Explicitly excludes Z09 if the patient has current symptoms or conditions related to previous infection. -> icd (New Version): No exclusion criteria or symptom-based logic provided for screening scenarios.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 4,
+      "confidence": "high"
+    },
+    {
+      "section": "Post-COVID-19 Condition Coding Guidelines",
+      "change_type": "Administrative Update",
+      "summary": "The older version (FY25 Guidelines) and the new version (icd) contain identical text regarding the assignment of U09.9 for sequela, the prohibition of U09.9 for active infections, and the concurrent coding of U09.9 with U07.1. There are no functional changes to the clinical logic, code definitions, or sequencing rules between the two provided excerpts. The differences are purely presentational, such as the inclusion of a 'Taxonomy description' and 'Deprecated' lists in the new version, which serve to clarify existing rules rather than alter them.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Provides raw guideline text and specific behaviors for ARDS and sequela. -> icd (New Version): Provides the same raw guideline text but adds a taxonomy description and deprecated list to contextualize the rules.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): States 'Assign codes U07.1 and J80 for acute respiratory distress syndrome (ARDS) due to COVID-19.' -> icd (New Version): States the exact same rule without modification in the raw text excerpt.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10 Code O94 Implementation",
+      "change_type": "Administrative Update",
+      "summary": "The older version and the new version contain identical core instructions regarding the definition and application of code O94 for pregnancy sequelae. The new version introduces a distinct, unrelated rule for assigning codes U07.1 and J80 for COVID-19 related ARDS, which is an administrative addition to the dataset rather than a modification to the O94 logic itself. Consequently, the clinical behavior for O94 remains unchanged between the two versions.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Defines usage of code O94 for sequelae of pregnancy complications requiring future care. -> icd (New Version): Retains the exact same definition for code O94 but adds a mandatory rule to assign codes U07.1 and J80 for ARDS due to COVID-19.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Focuses solely on pregnancy complication sequelae. -> icd (New Version): Expands scope to include specific instructions for respiratory distress syndrome caused by COVID-19 alongside the pregnancy rule.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "COVID-19 Antibody Testing CPT Assignment",
+      "change_type": "Administrative Update",
+      "summary": "The older version (FY25 Guidelines) and the new version (icd) contain verbatim identical text regarding the assignment of Z01.84 for antibody testing not confirming current infection or following resolution. There are no behavioral differences, code restrictions, or guideline reversals between the two provided excerpts; they represent the same rule applied in different contexts or versions without modification.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Assign Z01.84 for antibody testing not performed to confirm current infection or as a follow-up after resolution -> icd (New Version): Assign Z01.84 for antibody testing not performed to confirm current infection or as a follow-up after resolution\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Follow applicable guidelines if testing is performed to confirm a current COVID-19 infection -> icd (New Version): Follow applicable guidelines if testing is performed to confirm a current COVID-19 infection",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "COVID-19 Acute Bronchitis Coding Guidelines",
+      "change_type": "Administrative Update",
+      "summary": "The older version and the new version present identical instructions for assigning codes U07.1, J20.8, and J40 to specific clinical scenarios. There are no substantive changes to the clinical logic, code assignment rules, or documentation requirements between the two texts. The differences are purely administrative, likely reflecting a reiteration of guidelines or a minor formatting update without altering the underlying coding behavior.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Assign code U07.1 and J20.8 for confirmed COVID-19 acute bronchitis -> icd (New Version): Assign code U07.1 and J20.8 for confirmed COVID-19 acute bronchitis\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Assign code U07.1 and J40 for bronchitis NOS due to COVID-19 -> icd (New Version): Assign code U07.1 and J40 for bronchitis NOS due to COVID-19",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10 Fall Investigation and Risk Coding",
+      "change_type": "Administrative Update",
+      "summary": "The older version and the new version present the exact same clinical logic, definitions, and coding behaviors for fall investigation and risk. The only variation is a minor phrasing adjustment in the requirements section ('confirm' vs 'establish'), which does not alter the clinical rule or code assignment logic. Since the core instruction remains unchanged, this is classified as an administrative update or text refinement rather than a substantive guideline change.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Documentation must confirm the patient has a history of falling and is at risk for future falls to justify Z91.81. -> icd (New Version): Documentation must establish a history of past falls and current risk for future falls to justify Z91.81.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10 Diagnosis Code Selection",
+      "change_type": "Administrative Update",
+      "summary": "The older version and the new version present identical behavioral instructions and requirements for selecting codes from ranges A00.0 through T88.9, Z00-Z99.8, and U00-U85. There are no substantive changes to the clinical logic, code assignment rules, or specific behaviors between the two versions. The text excerpts are verbatim identical, indicating that this is a static guideline provision without modification in this update cycle.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Use appropriate codes from A00.0 through T88.9, Z00-Z99.8, and U00-U85 to identify diagnoses, symptoms, conditions, problems, complaints, or other reasons for the encounter. -> icd (New Version): Use appropriate codes from A00.0 through T88.9, Z00-Z99.8, and U00-U85 to identify diagnoses, symptoms, conditions, problems, complaints, or other reasons for the encounter.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10 Code Z23 Implementation",
+      "change_type": "Administrative Update",
+      "summary": "The two versions present the exact same clinical logic and behavioral rules for assigning Code Z23, including the requirement for accompanying procedure codes and the allowance of Z23 as a secondary diagnosis. The only variation is a minor phrasing difference in the 'Requirements' section where the new version adds 'Prophylactic inoculation against a disease must be the reason for the visit,' which does not alter the underlying coding instruction. Since the core logic, examples, and constraints remain unchanged, this represents an administrative update rather than a substantive guideline change.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Code Z23 may be used as a secondary code if the inoculation is given as a routine part of preventive health care, such as a well-baby visit. -> icd (New Version): Code Z23 may be used as a secondary code if the inoculation is given as a routine part of preventive health care, such as a well-baby visit.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Requirements list 'If used as a secondary code, the primary diagnosis must reflect the routine preventive health care context.' -> icd (New Version): Requirements list 'Prophylactic inoculation against a disease must be the reason for the visit.' as a distinct bullet point.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "MIS-C Coding Guidelines",
+      "change_type": "Administrative Update",
+      "summary": "The older and newer versions present the exact same clinical logic, code assignments (U07.1, M35.81, U09.9, Z20.822), and sequencing rules for MIS-C based on COVID-19 status. There are no substantive changes to the coding behavior, definitions, or requirements between the two texts. The differences are limited to minor formatting variations in the extracted profile metadata, such as the inclusion of 'Requirements' and 'New items' sections in the older version versus a condensed list in the newer version, which does not alter the clinical guidance.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Includes a structured 'Requirements' section explicitly stating 'MIS diagnosis must be confirmed to assign M35.81' -> icd (New Version): Condenses this into a single bullet point 'MIS diagnosis must be confirmed to assign M35.81' without the separate section header.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Lists 'New items' as a distinct category of features -> icd (New Version): Omits the 'New items' category entirely, integrating those points into the main behaviors.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "SIRS Coding Guidelines for Noninfectious Origins",
+      "change_type": "Administrative Update",
+      "summary": "The older and newer versions contain identical raw text excerpts and behavioral instructions regarding the assignment of R65.10 and R65.11 codes. The only differences are minor formatting variations in the 'Requirements' section (e.g., 'Documentation must explicitly link' vs 'Documentation must confirm SIRS is linked'), which do not alter the clinical logic or code assignment rules. This indicates a stable guideline with no substantive changes in the coding behavior.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Documentation must explicitly link SIRS to a noninfectious condition such as trauma, malignant neoplasm, or pancreatitis. -> icd (New Version): Documentation must confirm SIRS is linked to a noninfectious disease process (e.g., trauma, neoplasm, pancreatitis).\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Specific acute organ dysfunction must be documented to support the assignment of additional codes beyond R65.11. -> icd (New Version): Specific acute organ dysfunction must be documented to justify the use of R65.11 over R65.10.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "COVID-19 Exposure Coding Guidelines",
+      "change_type": "Administrative Update",
+      "summary": "The provided text for both the 'Older' and 'New Version' profiles contains identical behavioral rules, requirements, and raw text excerpts regarding the coding of Z20.822. There are no functional differences, clarifications, or reversals between the two versions as presented in the input data. The only distinction is the metadata label (Chunk 89 vs Chunk 515), which indicates a data source update rather than a change in clinical coding logic.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Assigns Z20.822 for asymptomatic/symptomatic exposure with specific rule references. -> icd (New Version): Assigns Z20.822 for asymptomatic/symptomatic exposure with identical rule references and text.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Raw text excerpt regarding Z20.822 assignment. -> icd (New Version): Raw text excerpt regarding Z20.822 assignment is identical to the older version.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "COVID-19 Vaccination Status Coding",
+      "change_type": "Administrative Update",
+      "summary": "The core clinical logic for assigning codes Z28.310 and Z28.311 remains unchanged between the older and newer versions, as both mandate alignment with CDC recommendations at the time of the encounter. The primary difference is an administrative update in the newer version where the CDC website URL was modified from the general coronavirus page to a specific 'covidschedule' reference, likely to direct coders to the precise vaccination schedule. Both versions maintain the same requirement for clinicians other than the patient's provider to follow Section I.B.14 for underimmunization documentation.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): References CDC website https://www.cdc.gov/coronavirus/2019-ncov/vaccines/ for information. -> icd (New Version): References CDC website https://www.cdc.gov/covidschedule for information.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Mentions alignment with CDC guidelines in place at the time of the encounter. -> icd (New Version): Explicitly adds 'Mandatory reference to CDC's official COVID-19 vaccination schedule for determining partial vaccination status.'\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): States documentation must confirm partial vaccination status aligns with current CDC recommendations. -> icd (New Version): States documentation must confirm partial vaccination status aligns with current CDC recommendations (no change in logic).",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "COVID-19 Nonrespiratory Manifestation Coding",
+      "change_type": "Administrative Update",
+      "summary": "The older version (FY25 Guidelines) and the new version (icd) contain verbatim identical text regarding the assignment of code U07.1 for nonrespiratory manifestations like viral enteritis. There are no behavioral differences, logic changes, or scope expansions between the two provided excerpts; they represent the same clinical instruction. The only distinction is the metadata label (Taxonomy description vs. Feature) and the source identifier, which does not affect the clinical coding logic.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Assign code U07.1, COVID-19, as the principal/first-listed diagnosis when the reason for the encounter is a nonrespiratory manifestation. -> icd (New Version): Assign code U07.1, COVID-19, as the principal/first-listed diagnosis when the reason for the encounter is a nonrespiratory manifestation.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Assign code(s) for the specific manifestation(s) as additional diagnoses. -> icd (New Version): Assign code(s) for the specific manifestation(s) as additional diagnoses.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "COVID-19 Inpatient Coding Exception",
+      "change_type": "Weak overlap",
+      "summary": "The older version establishes an exception allowing code U07.1 for active confirmed COVID-19 diagnoses based solely on provider documentation, overriding standard inpatient guidelines. The newer version introduces a separate requirement to assign code Z86.16 specifically for patients with a documented history of COVID-19. These are not contradictory updates to the same rule but rather the introduction of a new feature for a different clinical state (history vs. active), resulting in weak overlap rather than a direct guideline revision.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Assign code U07.1 for active confirmed COVID-19 diagnoses based on provider documentation without requiring a positive test result. -> icd (New Version): Assign code Z86.16 for patients with a documented history of COVID-19.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Prohibits using U07.1 for 'suspected' or 'possible' cases, requiring symptom coding instead. -> icd (New Version): Requires explicit documentation confirming the patient has a history of COVID-19 to use Z86.16.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 4,
+      "confidence": "high"
+    },
+    {
+      "section": "Bone Site Designation Rules",
+      "change_type": "Administrative Update",
+      "summary": "The older version and the new version contain identical behavioral instructions, requirements, and raw text excerpts regarding the designation of bone sites over joint sites. There are no functional changes, clarifications, or reversals in the logic between the two versions; the text is effectively a duplicate. The only distinction is the metadata label 'Administrative Update' reflecting the versioning process rather than a change in clinical coding logic.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): For conditions affecting the upper or lower end of a bone (e.g., avascular necrosis, osteoporosis), the site designation must be the bone itself. -> icd (New Version): For conditions affecting the upper or lower end of a bone (e.g., avascular necrosis, osteoporosis), the site designation must be the bone itself.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "Chapter 13 Site and Laterality Coding",
+      "change_type": "Administrative Update",
+      "summary": "The older version explicitly detailed the logic for handling multiple sites (using 'multiple sites' codes or multiple codes) and required laterality for all applicable codes. The newer version retains the core requirement for site and laterality designations but omits the specific procedural instructions for managing multiple sites, likely due to a formatting or extraction limitation rather than a clinical logic change. The fundamental rule that codes must represent the specific bone, joint, or muscle remains consistent across both versions.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Codes within Chapter 13 must include site and laterality designations; for conditions where multiple sites are usually involved, a 'multiple sites' code should be used if available, otherwise multiple codes must be used. -> icd (New Version): Codes within Chapter 13 must include site and laterality designations; the specific instruction regarding the selection of 'multiple sites' codes versus multiple codes for multi-site conditions is omitted.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Laterality must be explicitly designated for all applicable codes within Chapter 13. -> icd (New Version): Laterality must be explicitly designated for all applicable codes in this chapter.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "Section 21 Aftercare Factors",
+      "change_type": "Administrative Update",
+      "summary": "The older version and the new version present the exact same clinical logic for assigning codes under Section I.C.21, focusing on factors influencing health status and contact with health services. Both versions require explicit documentation linking the aftercare need to a specific health status factor and mandate that the primary condition be established. There are no substantive changes to the coding rules, definitions, or restrictions between the two texts; the differences are purely in the phrasing of the taxonomy descriptions and extracted profiles.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Factors influencing health status and contact with health services are categorized under Aftercare | Codes in this section describe the need for ongoing care or contact with health services following a primary condition | These factors influence health status and are used to capture the continuity of care requirements -> icd (New Version): Factors influencing health status and contact with health services are categorized under Section I.C.21 | Aftercare codes are used to document ongoing treatment and monitoring following an initial encounter | These factors influence health status and the frequency of contact with health services\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Documentation must explicitly link the aftercare need to a specific health status factor or contact requirement | The primary condition must be established to justify the aftercare classification -> icd (New Version): Documentation must clearly indicate the aftercare nature of the service provided | The encounter must be for ongoing treatment or monitoring related to a previous condition or procedure",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10-CM Bilateral Coding Guidelines",
+      "change_type": "Coding Guideline Clarification",
+      "summary": "The older version explicitly instructed coders to query the provider for conflicting documentation, whereas the newer version clarifies that assignment should be based on medical record documentation from other clinicians if the provider's documentation is missing. Both versions maintain the strict prohibition against assigning complication codes from Chapter 19 for BIA-ALCL and enforce the same rules for assigning bilateral versus unilateral codes based on the existence of the condition across encounters.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Query the patient's provider for clarification if there is conflicting medical record documentation regarding the affected side. -> icd (New Version): Base code assignment on medical record documentation from other clinicians if laterality is not documented by the patient's provider.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Explicit instruction to query the patient's provider for clarification when medical record documentation regarding the affected side is conflicting. -> icd (New Version): Explicit instruction to assign the bilateral code for the first encounter treating a bilateral condition, including for the encounter to treat the first side.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "ICD-10 Code Assignment for MSSA/MRSA Colonization",
+      "change_type": "Administrative Update",
+      "summary": "The two versions contain identical text excerpts and behavioral definitions for assigning codes Z22.321 and Z22.322. There are no clinical logic changes, guideline reversals, or definition expansions between the older FY25 Guidelines and the new version provided. The only distinction is the metadata label (e.g., 'Chunk 77' vs 'Chunk 503'), indicating a data source or versioning artifact rather than a substantive guideline change.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Chunk 77 -> icd (New Version): Chunk 503\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): No behavioral changes -> icd (New Version): No behavioral changes",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "Code Title Note Definitions",
+      "change_type": "Administrative Update",
+      "summary": "The older version (FY25 Guidelines) and the new version (icd) present the exact same text for the 'Code Title Note Definitions' feature, indicating no change in the clinical logic or rule definition. The behavior remains consistent: notes appear immediately under three-character titles to define category content or provide examples. Since the extracted profiles and raw text excerpts are identical, this represents a stable administrative description rather than a functional change.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): This note appears immediately under a three-character code title to further define, or give examples of, the content of the category. -> icd (New Version): This note appears immediately under a three-character code title to further define, or give examples of, the content of the category.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "Unspecified Coma Coding Guidelines",
+      "change_type": "Administrative Update",
+      "summary": "The two versions present the exact same clinical rules regarding the assignment of R40.20 and the prohibition of unspecified codes for medically induced or sedated patients. The text excerpts are identical, and the behavioral lists match perfectly, indicating no change in clinical logic or code assignment rules. The only differences are minor formatting variations in the 'New items' and 'Deprecated' sections, which reflect an administrative update rather than a guideline revision.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Explicit prohibition against coding unspecified coma for medically induced or sedated patients. -> icd (New Version): Explicit prohibition against coding unspecified coma for sedated or medically induced states.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Requirement to withhold Glasgow coma scale reporting for medically induced or sedated patients. -> icd (New Version): No specific new item listed for this rule in the 'New items' section, though the behavior remains consistent.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "Alphabetic Index Instruction Logic",
+      "change_type": "Administrative Update",
+      "summary": "The older version (FY25 Guidelines) and the new version (icd) present identical logic for interpreting 'see' and 'see also' instructions in the Alphabetic Index. Both explicitly state that 'see' requires navigation to the referenced term while 'see also' is optional if the primary term suffices. The only differences are minor phrasing variations in the extracted profiles (e.g., 'useful entries' vs 'additional entries') rather than substantive changes to the coding rules or clinical logic. Consequently, no functional delta exists between the two versions regarding this specific feature.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): 'see also' indicates an additional main term that may provide useful entries but is not mandatory. -> icd (New Version): 'see also' indicates an additional main term that may provide useful entries but is not mandatory.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): 'see' instruction indicates another term must be referenced to locate the correct code. -> icd (New Version): 'see' instruction indicates another term must be referenced to locate the correct code.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "Section 14 Psychosocial Hazard Documentation",
+      "change_type": "Administrative Update",
+      "summary": "The older version explicitly states that clinicians other than the patient's provider must document the hazards, while the new version reiterates this requirement with slightly different phrasing regarding 'non-provider clinicians'. Both versions mandate the use of Z55-Z65 codes and require the hazards to be linked to socioeconomic or psychosocial circumstances. There is no substantive change in the clinical logic, code assignment rules, or the specific actors required to perform the documentation; the text represents a restatement of the same administrative guideline.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Clinicians other than the patient's provider must document psychosocial hazards related to socioeconomic circumstances. -> icd (New Version): Documentation by clinicians other than the patient's provider is required for hazards related to socioeconomic and psychosocial circumstances.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "Medical Record Specificity Coding",
+      "change_type": "Administrative Update",
+      "summary": "The older version (Chunk 408) and the new version (Chunk 841) contain the exact same text for the 'Medical Record Specificity Coding' feature, including the instruction to code to the highest level of specificity supported by documentation. There are no behavioral differences, rule changes, or scope expansions between these two specific excerpts; they represent a static guideline instruction repeated across versions. Consequently, the change type is classified as an Administrative Update because the content remains functionally identical despite the version update.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Code to the highest level of specificity when supported by the medical record documentation. -> icd (New Version): Code to the highest level of specificity when supported by the medical record documentation.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "Factors Influencing Health Status and Contact",
+      "change_type": "Coding Guideline Clarification",
+      "summary": "The older version provided general instructions on using follow-up codes for monitoring, while the newer version refines the requirement to explicitly distinguish between routine monitoring and active intervention. Both versions maintain the rule against using these codes as primary diagnoses when a specific disease exists, but the new version adds a specific workflow element to the taxonomy description regarding tracking patient progress. The key behavioral difference lies in the precision required for documentation to support the distinction between passive monitoring and active treatment outcomes.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Enhanced specificity in coding for post-treatment monitoring and long-term health status factors. -> icd (New Version): Enhanced specificity required for follow-up codes to distinguish between routine monitoring and active intervention.\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Follow-up codes are used to indicate that a patient is being monitored for a condition or the effects of treatment. -> icd (New Version): Follow-up codes are used to indicate that a patient is being monitored for a condition or treatment outcome.",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    },
+    {
+      "section": "Prophylactic Organ Removal Factors",
+      "change_type": "Administrative Update",
+      "summary": "The core clinical logic regarding the classification of prophylactic organ removal as a factor influencing health status remains identical in both versions. The only differences are minor phrasing adjustments in the 'New items' section, specifically changing 'where applicable' to 'if applicable' and adding 'Mandatory linkage,' which represent administrative refinements to the reporting requirements rather than changes to the underlying coding rules.",
+      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): Inclusion of specific external cause codes for prophylactic procedures where applicable -> icd (New Version): Inclusion of specific external cause codes for prophylactic organ removal if applicable to the encounter\nICD-10-CM FY25 Guidelines October 1, 2024 (Older): Updated guidelines for linking prophylactic removal factors to specific health status codes in Section I.C. 21 -> icd (New Version): Mandatory linkage of the removal event to the specific health status factor code in Section I.C. 21",
+      "version_from": "October 1, 2024",
+      "version_to": "October 2025",
+      "relevance_score": 10,
+      "confidence": "high"
+    }
+  ]
+}
