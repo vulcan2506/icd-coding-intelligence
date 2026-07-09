@@ -128,3 +128,60 @@ CONFIDENCE_THRESHOLD = 0.30
 # default until a real query demonstrates the ladder resolves something the
 # plain router+rerank path can't — flip to True to re-enable it.
 ENABLE_CONFIDENCE_LADDER = False
+
+# ── Adaptive Evidence Escalation (planner.py) ───────────────────────────────
+# Detailed Mode's gap-driven expansion loop, on top of merged_all. As of
+# 2026-07-10: the planner's gap-ASSESSMENT runs on every Detailed Mode query
+# (not gated by confidence) — its decomposition is meant to inform answer
+# structure (redis_cache._generate_answer's scaffold), not just gate
+# retrieval. What confidence still gates is FETCHING more evidence: the
+# extended multi-hop loop only actually runs if the assessment says evidence
+# is incomplete OR the raw confidence score is still low (planner._needs_
+# expansion — now a per-hop escalation decision, not a pre-call gate). Once
+# fetching triggers, each hop re-reads the evidence gathered SO FAR and
+# either says evidence is enough or proposes up to PLANNER_SUBQUERIES_PER_HOP
+# {concept, query} gaps, each re-routed FRESH against its own text (not
+# scoped to the original query's parent) so a hop can reach topics the
+# original route never surfaced. Bounded by PLANNER_MAX_HOPS hops AND a
+# deterministic score-gain backstop (PLANNER_SCORE_EPSILON) — termination
+# never rests solely on the LLM's own "enough_evidence" self-report. Only
+# gaps that actually returned evidence get named to the answer generator
+# (result["_filled_concepts"]) — a gap whose query came back empty is never
+# surfaced, so the model is never invited to write about something it has no
+# retrieved support for.
+#
+# Evaluated 2026-07-10 against this codebase's "measure before keeping" rule
+# (project_healthrules_pipeline memory) on the 53-query HealthRules golden
+# set (41 queries with keyword ground truth), under the PRIOR (confidence-
+# gated-call) version of this trigger: escalated on 7/41 (17%) — confirmed
+# fetching stays an exception, not a default. Of those 7: 1 measured a real
+# Precision@5 improvement (0.8->1.0), 6 were unchanged, 0 regressed.
+# Spot-checked generated answers for the improved case and several
+# ICD-corpus escalations — grounded, on-topic, no observed drift. Cost is
+# real but contained: ~6-14s per escalated query vs ~0.2-0.6s baseline.
+# Kept ON based on this — unlike the reverted "grandparent-summary merging"
+# precedent, this measured a small but real, non-negative benefit on the
+# FETCH decision. The now-always-on ASSESSMENT call is new since that eval
+# (adds one LLM round-trip to every Detailed Mode query, not just the 17%)
+# and its own benefit (answer richness/structure, not retrieval metrics)
+# hasn't been separately measured yet — re-verify if retrieval/reranking
+# changes upstream, or if a broader eval shows regressions on either axis.
+PLANNER_ENABLED             = True
+PLANNER_MAX_HOPS            = 2
+PLANNER_SUBQUERIES_PER_HOP  = 3
+PLANNER_CHILDREN_TOP_N      = 3
+
+# Cross-encoder score (same raw logit scale as _top_rerank_score, NOT the
+# 0-ish scale of CONFIDENCE_THRESHOLD) above which a candidate sub-query is
+# treated as already-covered by the current evidence bundle and dropped
+# before spending a retrieval round on it. Set conservatively high so it
+# only catches near-duplicates, not just "related" — untuned, needs a real
+# value from the deep_eval.py pass alongside PLANNER_ENABLED.
+PLANNER_NOVELTY_THRESHOLD   = 5.0
+
+# Deterministic backstop: stop looping if a hop's rerank top-score gain over
+# the previous hop falls below this. Keeps termination from resting solely
+# on the planner LLM's own "enough_evidence" judgment — a model that keeps
+# saying "not yet" can't loop to PLANNER_MAX_HOPS for zero measured gain.
+# Untuned, same caveat as PLANNER_NOVELTY_THRESHOLD.
+PLANNER_SCORE_EPSILON       = 0.1
