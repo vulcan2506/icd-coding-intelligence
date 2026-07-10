@@ -4,11 +4,11 @@
 **Feature:** External Cause Code Application for Burns and Corrosions
 
 **Key Behaviors:**
-- Assign external cause codes to identify the source of the burn or corrosion.
-- Assign external cause codes to identify the intent of the burn or corrosion.
-- Assign external cause codes to identify the place where the burn or corrosion occurred.
+- Use external cause codes to identify the source of the burn or corrosion.
+- Use external cause codes to identify the intent of the burn or corrosion.
+- Use external cause codes to identify the place where the burn or corrosion occurred.
 
-**Requirements / Properties:**
-- External cause codes must be used to document the source of the injury.
-- External cause codes must be used to document the intent of the injury.
-- External cause codes must be used to document the location of the injury.
+**Mandatory Coding Criteria:**
+- External cause code must be assigned to identify the source of the injury.
+- External cause code must be assigned to identify the intent of the injury.
+- External cause code must be assigned to identify the place of occurrence.

@@ -4,15 +4,13 @@
 **Feature:** Trimester Coding Guidelines
 
 **Key Behaviors:**
-- Assignment of the final character for trimester should be based on the provider's documentation of the trimester (or number of weeks) for the current admission/encounter.
-- The provider's documentation of the number of weeks may be used to assign the appropriate code identifying the trimester.
-- Whenever delivery occurs during the current admission, and there is an 'in childbirth' option for the obstetric complication being coded, the 'in childbirth' code should be assigned.
-- When the classification does not provide an obstetric code with an 'in childbirth' option, it is appropriate to assign a code describing the current trimester.
-- The 'unspecified trimester' code should rarely be used, such as when the documentation in the record is insufficient to determine the trimester and it is not possible to obtain clarification.
+- Final character indicating trimester is assigned based on provider documentation of trimester or number of weeks for the current admission.
+- Assignment applies to pre-existing conditions as well as those developing during or due to pregnancy.
+- If delivery occurs during the current admission and an 'in childbirth' option exists, that code is assigned; otherwise, the current trimester code is used.
+- The 'unspecified trimester' code should rarely be used, only when documentation is insufficient and clarification is not possible.
+- Certain codes have characters for only specific trimesters because the condition does not occur in all trimesters.
 
-**Requirements / Properties:**
-- Assignment must be based on provider documentation of the trimester or number of weeks for the current admission/encounter.
-- The 'in childbirth' code must be assigned if delivery occurs during the current admission and an option exists.
-- A code describing the current trimester must be assigned if no 'in childbirth' option is available in the classification.
-- The 'unspecified trimester' code is only valid when documentation is insufficient and clarification cannot be obtained.
-- Codes without a trimester component are used when the condition always occurs in a specific trimester or the concept is not applicable.
+**Mandatory Coding Criteria:**
+- Provider must document the trimester or the number of weeks for the current admission/encounter.
+- Code selection must align with the specific trimester timeframe indicated at the beginning of Chapter 15.
+- If a condition always occurs in a specific trimester or trimester is not applicable, the final character is not used.

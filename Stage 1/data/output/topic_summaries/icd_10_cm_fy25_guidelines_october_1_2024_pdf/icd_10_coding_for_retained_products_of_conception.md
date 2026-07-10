@@ -4,15 +4,14 @@
 **Feature:** Coding for Retained Products of Conception
 
 **Key Behaviors:**
-- Assign O03.4 for subsequent encounters of retained products of conception following spontaneous abortion without complications.
-- Assign O07.4 for subsequent encounters of retained products of conception following elective termination of pregnancy without complications.
-- Assign appropriate complication codes (O03.-, O04.-, O07.-) instead of O03.4 or O07.4 if a specific complication is present.
+- Assign O03.4 for subsequent encounters of incomplete spontaneous abortion without complication.
+- Assign O07.4 for subsequent encounters of failed attempted termination of pregnancy without complication.
 - Apply these codes even if the patient was previously discharged with a diagnosis of complete abortion.
-- Do not use O03.4 or O07.4 when a specific complication associated with the abortion or termination exists.
+- Assign specific complication codes (O03.-, O04.-, O07.-) instead of O03.4 or O07.4 if complications are present.
+- Use these codes for subsequent encounters following spontaneous abortion or elective termination.
 
-**Requirements / Properties:**
-- Documentation must confirm the encounter is subsequent to a spontaneous abortion or elective termination of pregnancy.
-- Documentation must confirm the absence of complications to utilize O03.4 or O07.4.
-- If complications are present, documentation must specify the complication to assign the correct O03.-, O04.-, or O07.- code.
-- Previous discharge diagnosis of complete abortion does not preclude coding for retained products of conception in subsequent encounters.
-- The specific complication code must be assigned in preference to O03.4 or O07.4 when complications are documented.
+**Mandatory Coding Criteria:**
+- Condition must be retained products of conception following spontaneous abortion or elective termination.
+- Encounter must be subsequent to the initial event.
+- No complications must be present to use O03.4 or O07.4.
+- If complications exist, the appropriate complication code must be assigned instead.

@@ -156,6 +156,13 @@ CRITICAL RULES:
 - Use exact property names where mentioned (e.g. WORKBASKET_RULE_OPTIMIZATION_ENABLE).
 - If a list has no items write [].
 - Complete the closing braces — never leave the JSON unfinished.
+- Only include an item in "deprecated_items" if the text EXPLICITLY states it \
+is removed, discontinued, replaced, or no longer permitted going forward. \
+Only include an item in "new_items" if the text EXPLICITLY frames it as newly \
+introduced or added. Standing/current guidance that simply describes correct \
+vs. incorrect practice (with no explicit before/after framing) is NOT a \
+deprecation or a new item — leave both lists empty rather than inventing an \
+entry just to have something to report. See EXAMPLE D.
 
 Output this exact structure with real values:
 
@@ -267,6 +274,35 @@ OUTPUT:
   ]
 }}
 
+EXAMPLE D — Stable standing guidance (no release-note framing)
+TEXT: Assign the code for the specific condition only when documentation \
+confirms the diagnosis. If documentation does not specify severity, assign \
+the code for unspecified severity. If it is unclear whether the condition is \
+new or a continuation of a prior episode, query the documenting clinician. \
+Do not assign a code for a condition that has fully resolved before the \
+encounter began.
+
+OUTPUT:
+{{
+  "feature_name": "Condition Severity and Continuation Coding Standard",
+  "key_behaviors": [
+    "Assign the specific-condition code only when documentation confirms the diagnosis",
+    "Assign the unspecified-severity code when severity is not documented",
+    "Query the documenting clinician when it is unclear whether a condition is new or continuing",
+    "Do not assign a code for a condition fully resolved before the encounter began"
+  ],
+  "requirements": [
+    "Documentation must confirm the diagnosis before the specific code is assigned",
+    "Documentation must clarify new-vs-continuing status when ambiguous"
+  ],
+  "deprecated_items": [],
+  "new_items": []
+}}
+This text describes standing rules for how to apply codes correctly — it \
+never says an earlier rule was removed or that a rule is newly introduced, \
+so both lists stay empty even though the profile still has plenty of real \
+behaviors/requirements to report.
+
 ### ACTUAL TASK ###
 TOPIC: {topic}
 TEXT:
@@ -299,6 +335,11 @@ Max 5 items per list. Close all braces.
 Rules:
 - Add a fact ONLY if it is GENUINELY MISSING from the initial profile.
 - Do NOT repeat facts already captured (even if worded differently).
+- additional_deprecated/additional_new_items: only add an item if the text \
+EXPLICITLY states something was removed/discontinued/no-longer-permitted, or \
+EXPLICITLY introduces something as new/added. Do not add an item just because \
+it describes standing/current guidance — that belongs in additional_behaviors \
+or additional_requirements instead.
 - If nothing is missing, write [] for every key.
 - No text before or after the JSON. Close all braces.
 
@@ -429,6 +470,57 @@ def _get_gapfill_prompt_template(profile: Optional[dict]) -> str:
         import context_profiler
         context_profiler.save_prompt(type_key, "delta_gapfill", template)
     return template
+
+
+# ── Dynamic section headers ──────────────────────────────────────────────────
+# _render_profile's "Requirements / Properties" / "Deprecated in this version"
+# / "New in this version" headers were hardcoded software-release strings
+# regardless of domain — even a well domain-adapted delta_field_meaning hint
+# still rendered under a literal "Deprecated in this version:" heading. Same
+# saved > dynamic > static pattern as _get_holistic_prompt_template above.
+
+_STATIC_FIELD_LABELS = {
+    "requirements":     "Requirements / Properties",
+    "deprecated_items": "Deprecated in this version",
+    "new_items":        "New in this version",
+}
+
+
+def get_delta_field_labels(profile: Optional[dict]) -> Dict[str, str]:
+    """Domain-appropriate section headings for requirements/deprecated_items/
+    new_items, merged over the static defaults per-key so a partially-filled
+    saved/dynamic source still improves whichever keys it defines."""
+    labels = dict(_STATIC_FIELD_LABELS)
+    if not profile:
+        return labels
+
+    type_key = profile.get("type_key", "")
+    if type_key:
+        import context_profiler
+        saved = context_profiler.load_prompt(type_key, "delta_field_labels")
+        if saved:
+            for line in saved.splitlines():
+                if ":" not in line:
+                    continue
+                key, _, value = line.partition(":")
+                key, value = key.strip(), value.strip()
+                if key in labels and value:
+                    labels[key] = value
+            return labels
+
+    dynamic = profile.get("delta_field_labels") or {}
+    if not dynamic:
+        return labels
+    for key, value in dynamic.items():
+        if key in labels and isinstance(value, str) and value.strip():
+            labels[key] = value.strip()
+
+    if type_key:
+        import context_profiler
+        content = "\n".join(f"{k}: {v}" for k, v in labels.items())
+        context_profiler.save_prompt(type_key, "delta_field_labels", content)
+
+    return labels
 
 
 def _build_dynamic_change_section(profile: Optional[dict]) -> Optional[str]:
@@ -1056,8 +1148,9 @@ TYPE_EMOJI = {
 CONF_BADGE = {"high": "🟢 High", "medium": "🟡 Medium", "low": "🔴 Low"}
 
 
-def _render_profile(p: BehavioralProfile) -> List[str]:
+def _render_profile(p: BehavioralProfile, field_labels: Optional[Dict[str, str]] = None) -> List[str]:
     """Render a profile as clean markdown bullets — no strikethrough."""
+    labels = field_labels or _STATIC_FIELD_LABELS
     lines = [f"**Feature:** {p.feature_name}\n"]
 
     if p.key_behaviors:
@@ -1066,17 +1159,17 @@ def _render_profile(p: BehavioralProfile) -> List[str]:
         lines.append("")
 
     if p.requirements:
-        lines.append("**Requirements / Properties:**")
+        lines.append(f"**{labels['requirements']}:**")
         lines.extend(f"- {r}" for r in p.requirements)
         lines.append("")
 
     if p.deprecated_items:
-        lines.append("**Deprecated in this version:**")
+        lines.append(f"**{labels['deprecated_items']}:**")
         lines.extend(f"- {d}" for d in p.deprecated_items)
         lines.append("")
 
     if p.new_items:
-        lines.append("**New in this version:**")
+        lines.append(f"**{labels['new_items']}:**")
         lines.extend(f"- {n}" for n in p.new_items)
         lines.append("")
 
@@ -1095,6 +1188,7 @@ def _render_topic(idx: int, job: Dict) -> List[str]:
     )
     label_A = f"{job['vA']} (Older)"
     label_B = f"{job['vB']} (New Version)"
+    field_labels = get_delta_field_labels(job.get("_profile"))
 
     md = []
     md.append(f"### {idx}. {job['topic']}")
@@ -1109,7 +1203,7 @@ def _render_topic(idx: int, job: Dict) -> List[str]:
         md.append(f"> {line}" if line.strip() else ">")
     md.append("")
     md.append("**Extracted Profile:**")
-    md.extend(_render_profile(job["profile_A"]))
+    md.extend(_render_profile(job["profile_A"], field_labels))
 
     md.append("---")
 
@@ -1120,7 +1214,7 @@ def _render_topic(idx: int, job: Dict) -> List[str]:
         md.append(f"> {line}" if line.strip() else ">")
     md.append("")
     md.append("**Extracted Profile:**")
-    md.extend(_render_profile(job["profile_B"]))
+    md.extend(_render_profile(job["profile_B"], field_labels))
 
     md.append("---")
 

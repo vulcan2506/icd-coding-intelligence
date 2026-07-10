@@ -5,5 +5,11 @@
 
 **Key Behaviors:**
 - No ICD-10-CM diagnosis code is assigned for pressure ulcers documented as completely healed at the time of admission
-- The rule applies specifically to patients admitted with pressure ulcers where the healing status is confirmed
-- Claims are processed without coding if the documentation explicitly states the ulcer is healed upon admission
+- Documentation must explicitly state the pressure ulcer is healed to trigger this rule
+- This rule applies specifically to patients admitted with the condition
+- Absence of a code indicates the condition is not active at admission
+- Coding guidelines prohibit assigning codes for resolved conditions at the start of an encounter
+
+**Mandatory Coding Criteria:**
+- Clinical documentation must confirm the pressure ulcer is completely healed at admission
+- No code assignment is permitted if the documentation states the ulcer is healed

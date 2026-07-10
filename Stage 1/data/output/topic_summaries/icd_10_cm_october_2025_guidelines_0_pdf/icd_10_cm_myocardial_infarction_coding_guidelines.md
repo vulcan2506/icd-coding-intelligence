@@ -6,21 +6,13 @@
 **Key Behaviors:**
 - Type 1 myocardial infarctions are assigned to codes I21.0-I21.4.
 - Type 2 myocardial infarction is assigned to code I21.A1 with the underlying cause coded first if applicable.
-- Codes I21.0-I21.4 should only be assigned for type 1 AMIs.
-- Acute myocardial infarctions type 3, 4a, 4b, 4c and 5 are assigned to code I21.A9.
-- The 'Code also' and 'Code first' notes must be followed for complications and postprocedural myocardial infarctions.
+- Code I24.89 must not be assigned for demand ischemia in Type 2 AMI.
+- If a Type 2 AMI is described as NSTEMI or STEMI, only assign code I21.A1.
+- Acute myocardial infarctions types 3, 4a, 4b, 4c, and 5 are assigned to code I21.A9.
 
-**Requirements / Properties:**
-- Type 2 AMI must have the underlying cause coded first if applicable.
-- Code I21.A1 must be used if a type 2 AMI is described as NSTEMI or STEMI.
-- Code I24.89 must not be assigned for demand ischemia in the context of type 2 AMI.
-- Complications and postprocedural myocardial infarctions must adhere to 'Code also' and 'Code first' notes.
-- Codes I21.0-I21.4 are mandatory only for Type 1 AMIs.
-
-**Deprecated in this version:**
-- Assigning code I24.89 for demand ischemia in Type 2 AMI cases.
-- Using codes I21.0-I21.4 for Type 2, 3, 4, or 5 AMIs.
-
-**New in this version:**
-- Specific assignment of code I21.A1 for Type 2 myocardial infarction.
-- Specific assignment of code I21.A9 for Types 3, 4a, 4b, 4c, and 5 myocardial infarctions.
+**Mandatory Coding Criteria:**
+- For Type 2 MI, the underlying cause must be coded first if applicable.
+- Codes I21.0-I21.4 should only be assigned for Type 1 AMIs.
+- The 'Code also' and 'Code first' notes must be followed for complications and postprocedural MI.
+- Type 2 AMI documentation must specify if it is NSTEMI or STEMI to ensure correct coding to I21.A1.
+- Postprocedural myocardial infarctions during or following cardiac surgery require adherence to specific coding notes.

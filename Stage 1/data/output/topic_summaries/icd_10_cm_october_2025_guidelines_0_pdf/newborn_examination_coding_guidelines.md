@@ -5,19 +5,14 @@
 
 **Key Behaviors:**
 - Code all clinically significant conditions noted on routine newborn examination
-- Assign prematurity codes only if explicitly documented by the provider
-- Assign two codes from category P07 when both birth weight and gestational age are available
-- Sequence the birth weight code before the gestational age code in category P07
-- Code conditions based on criteria requiring clinical evaluation, treatment, or implications for future health care needs
+- Assign prematurity codes only if explicitly documented
+- Base P05 and P07 code assignments on recorded birth weight and estimated gestational age
+- Assign two P07 codes when both birth weight and gestational age are available
+- Sequence birth weight code before gestational age code in P07 assignments
 
-**Requirements / Properties:**
-- Conditions must require clinical evaluation, therapeutic treatment, or diagnostic procedures to be coded
-- Conditions must require extended length of hospital stay, increased nursing care, or monitoring to be coded
-- Conditions must have implications for future health care needs to be coded
-- Prematurity codes require explicit documentation of the condition
-- Category P07 codes must be based on recorded birth weight and estimated gestational age
-
-**New in this version:**
-- Explicit requirement to code conditions with implications for future health care needs
-- Mandatory sequencing of birth weight code before gestational age code in category P07
-- Specific instruction to assign two codes from category P07 when both birth weight and gestational age are available
+**Mandatory Coding Criteria:**
+- Condition must require clinical evaluation, therapeutic treatment, or diagnostic procedures
+- Condition must require extended length of hospital stay
+- Condition must require increased nursing care and/or monitoring
+- Condition must have implications for future health care needs
+- Prematurity must be explicitly documented by the provider

@@ -8,6 +8,6 @@
 - The 'code also' note does not provide sequencing direction.
 - Sequencing depends on the circumstances of the encounter.
 
-**Requirements / Properties:**
+**Mandatory Coding Criteria:**
 - Two codes must be assigned to fully describe the condition when a 'code also' note is present.
 - The coder must evaluate the specific circumstances of the encounter to determine code order.

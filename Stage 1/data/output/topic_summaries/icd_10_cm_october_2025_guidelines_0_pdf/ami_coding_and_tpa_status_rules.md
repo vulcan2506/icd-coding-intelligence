@@ -5,8 +5,8 @@
 
 **Key Behaviors:**
 - If an AMI is documented as nontransmural or subendocardial but the site is provided, it is still coded as a subendocardial AMI.
-- Coding status post administration of tPA in a different facility within the last 24 hours requires reference to Section I.C.21.3.
+- Coding status post administration of tPA in a different facility within the last 24 hours is addressed in Section I.C.21.3.
 
-**Requirements / Properties:**
-- Documentation must specify the site of the AMI to determine if it is coded as subendocardial despite being labeled nontransmural.
-- Administrative review of Section I.C.21.3 is mandatory for cases involving tPA administration in a different facility within the last 24 hours.
+**Mandatory Coding Criteria:**
+- Site must be provided to code nontransmural or subendocardial AMI as subendocardial AMI.
+- Reference Section I.C.21.3 for tPA administration status within 24 hours.

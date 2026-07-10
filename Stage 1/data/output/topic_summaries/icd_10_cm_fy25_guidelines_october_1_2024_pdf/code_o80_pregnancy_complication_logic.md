@@ -1,9 +1,13 @@
 # Code O80 Pregnancy Complication Logic
 *Source: ICD-10-CM FY25 Guidelines October 1, 2024.pdf*
 
-**Feature:** Code O80 Pregnancy Complication Logic
+**Feature:** O80 Pregnancy Complication Coding Logic
 
 **Key Behaviors:**
-- Allows assignment of Code O80 if a pregnancy complication occurred at any point during the pregnancy
-- Permits Code O80 assignment even if the complication is not present at the time of admission for delivery
-- Distinguishes between historical pregnancy complications and current active conditions at delivery
+- Code O80 is assigned when a patient experienced a complication during pregnancy
+- The complication must not be present at the time of admission for delivery
+- The complication history must be documented to support the O80 assignment
+
+**Mandatory Coding Criteria:**
+- Documentation must confirm the complication occurred during the pregnancy period
+- Documentation must confirm the complication is resolved or absent at delivery admission

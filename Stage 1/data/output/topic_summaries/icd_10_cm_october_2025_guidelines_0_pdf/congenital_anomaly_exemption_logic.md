@@ -4,10 +4,11 @@
 **Feature:** Congenital Anomaly Exemption Logic
 
 **Key Behaviors:**
-- Assign 'Y' for congenital conditions and anomalies except for categories Q00Q99
-- Categories Q00Q99 (Congenital anomalies) are on the exempt list and do not receive 'Y' assignment
+- Assign 'Y' for congenital conditions and anomalies except for categories Q00-Q99
+- Categories Q00-Q99 are on the exempt list and do not receive 'Y' assignment
 - Congenital conditions are always considered present on admission
 
-**Requirements / Properties:**
-- The condition must be a congenital anomaly or condition to be evaluated for 'Y' assignment
-- The specific ICD-10-CM category must not fall within Q00Q99 to be eligible for 'Y' assignment
+**Mandatory Coding Criteria:**
+- Condition must be a congenital anomaly or condition
+- Condition must not fall within categories Q00-Q99
+- Condition must be documented as present on admission

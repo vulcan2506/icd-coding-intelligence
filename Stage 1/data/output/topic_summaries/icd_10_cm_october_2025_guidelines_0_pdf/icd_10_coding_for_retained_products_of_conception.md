@@ -4,13 +4,11 @@
 **Feature:** Coding for Retained Products of Conception
 
 **Key Behaviors:**
-- Assign O03.4 for subsequent encounters of retained products of conception following spontaneous abortion without complications.
-- Assign O07.4 for subsequent encounters of retained products of conception following elective termination of pregnancy without complications.
-- Assign appropriate complication codes (O03.-, O04.-, O07.-) if a specific complication exists alongside retained products of conception.
-- Do not assign O03.4 or O07.4 if a specific complication is present, even if the patient was previously discharged with a complete abortion diagnosis.
-- Apply these codes for subsequent encounters regardless of prior discharge diagnoses.
+- Assign O03.4 for incomplete spontaneous abortion without complication in subsequent encounters.
+- Assign O07.4 for failed attempted termination of pregnancy without complication in subsequent encounters.
+- Assign appropriate complication codes (O03.-, O04.-, O07.-) instead of O03.4 or O07.4 if complications are present.
 
-**Requirements / Properties:**
-- Documentation must confirm the encounter is subsequent to a spontaneous abortion or elective termination of pregnancy.
-- Documentation must confirm the absence of complications to use O03.4 or O07.4.
-- If complications are documented, the specific complication code must be assigned instead of the uncomplicated codes.
+**Mandatory Coding Criteria:**
+- Condition must be retained products of conception following spontaneous abortion or elective termination.
+- Encounter must be subsequent to the initial event.
+- No complications must be present to use O03.4 or O07.4.

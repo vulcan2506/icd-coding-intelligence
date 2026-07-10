@@ -1,13 +1,12 @@
 # ICD-10 Code Subdivision and Validation Rules
 *Source: icd_10_cm_october_2025_guidelines_0.pdf*
 
-**Feature:** ICD-10 Code Subdivision and Validation Rules
+**Feature:** ICD-10 Code Subdivision and Validation
 
 **Key Behaviors:**
-- A three-character code is to be used only if it is not further subdivided.
-- A code is invalid if it has not been coded to the full number of characters required for that code.
-- The 7th character must be included if applicable to the code.
+- Three-character codes must be used only when no further subdivision exists.
+- Codes must be assigned to the full number of characters required for that specific code.
 
-**Requirements / Properties:**
-- Codes must be assigned to the maximum number of characters defined for that specific code.
-- Three-character codes are mandatory only when no further subdivision exists for the condition.
+**Mandatory Coding Criteria:**
+- The 7th character must be included if applicable to the code.
+- A code is considered invalid if it lacks the required number of characters.

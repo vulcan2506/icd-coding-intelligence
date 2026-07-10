@@ -8,7 +8,7 @@
 - Follow the principal diagnosis with code(s) for the specific HIV-related illness(es).
 - Assign codes O98.7- and Z21 for patients with asymptomatic HIV infection status admitted during pregnancy, childbirth, or puerperium.
 
-**Requirements / Properties:**
+**Mandatory Coding Criteria:**
 - Patient must be admitted during pregnancy, childbirth, or the puerperium.
-- Admission must be because of an HIV-related illness or asymptomatic HIV infection status.
-- Principal diagnosis must be selected from subcategory O98.7-.
+- Admission must be because of an HIV-related illness for O98.7- principal diagnosis.
+- Documentation must indicate asymptomatic HIV infection status for Z21 assignment.

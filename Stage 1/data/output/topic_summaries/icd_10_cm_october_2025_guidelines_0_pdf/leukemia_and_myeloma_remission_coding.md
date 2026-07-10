@@ -4,14 +4,11 @@
 **Feature:** Leukemia and Myeloma Remission Coding
 
 **Key Behaviors:**
-- Assign specific remission status codes for leukemia and multiple myeloma based on documented achievement of remission.
-- Utilize personal history codes Z85.6 and Z85.79 when the current condition is not active.
-- Query the provider for clarification if documentation is unclear regarding whether remission has been achieved.
+- Assign specific codes indicating whether leukemia has achieved remission
+- Use Z85.6 for personal history of leukemia
+- Use Z85.79 for personal history of other malignant neoplasms of lymphoid, hematopoietic and related tissues
+- Query the provider if documentation is unclear regarding remission status
 
-**Requirements / Properties:**
-- Clinical documentation must explicitly state whether the leukemia or myeloma has achieved remission.
-- Codes must be selected from the specific categories for leukemia and category C90 for multiple myeloma.
-- Personal history codes (Z85.6, Z85.79) are required for past malignancies of lymphoid, hematopoietic, and related tissues.
-
-**New in this version:**
-- Mandatory provider query protocol for ambiguous remission status documentation.
+**Mandatory Coding Criteria:**
+- Documentation must clearly indicate whether the leukemia has achieved remission
+- Provider must be queried if remission status is unclear in the documentation

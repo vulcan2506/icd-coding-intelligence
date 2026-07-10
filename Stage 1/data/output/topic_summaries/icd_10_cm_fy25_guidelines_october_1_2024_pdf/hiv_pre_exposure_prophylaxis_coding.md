@@ -5,11 +5,8 @@
 
 **Key Behaviors:**
 - Assign code Z29.81 for encounters involving administration of pre-exposure prophylaxis medication for HIV.
-- Code any identified risk factors for HIV in addition to the primary prophylaxis code.
+- Code any documented risk factors for HIV in addition to the primary encounter code.
 
-**Requirements / Properties:**
-- Patient must be seen for the administration of pre-exposure prophylaxis medication.
-- Documentation must indicate the intent is to prevent HIV infection in people at risk.
-
-**New in this version:**
-- Use of code Z29.81 specifically for HIV pre-exposure prophylaxis encounters.
+**Mandatory Coding Criteria:**
+- Patient must be seen for administration of pre-exposure prophylaxis medication for HIV.
+- PrEP is intended to prevent infection in people at risk for getting HIV through sex or injection drug use.

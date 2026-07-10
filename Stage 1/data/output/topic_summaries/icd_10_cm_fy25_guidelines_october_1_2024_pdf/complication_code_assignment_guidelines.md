@@ -10,7 +10,7 @@
 - Query the provider for clarification if the documentation is not clear as to the relationship between the condition and the care or procedure.
 - Conditions must have a cause-and-effect relationship with care and be clinically significant to be classified as complications.
 
-**Requirements / Properties:**
+**Mandatory Coding Criteria:**
 - There must be a cause-and-effect relationship between the care provided and the condition.
 - The documentation must support that the condition is clinically significant.
-- The condition must not be expected or an integral part of the disease process.
+- Documentation must indicate the relationship between the condition and the care or procedure unless otherwise instructed by the classification.

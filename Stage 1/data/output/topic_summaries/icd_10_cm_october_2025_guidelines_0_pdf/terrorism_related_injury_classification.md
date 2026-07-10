@@ -4,12 +4,11 @@
 **Feature:** Terrorism-Related Injury Classification
 
 **Key Behaviors:**
-- When the cause of an injury is suspected to be the result of terrorism, a code from category Y38 should not be assigned.
-- Suspected terrorism cases should be classified as assault.
+- Do not assign codes from category Y38 when the cause of an injury is suspected to be terrorism
+- Classify suspected terrorism-related injuries as assault
 
-**Requirements / Properties:**
-- Documentation must indicate a suspicion of terrorism as the cause of the injury.
-- The assigned code must reflect an assault classification rather than a terrorism-specific external cause code.
+**Mandatory Coding Criteria:**
+- The cause of the injury must be suspected to be the result of terrorism
 
-**Deprecated in this version:**
-- Assigning codes from category Y38 for injuries where terrorism is suspected.
+**Superseded Guidance:**
+- Assignment of codes from category Y38 for suspected terrorism-related injuries

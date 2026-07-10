@@ -6,17 +6,10 @@
 **Key Behaviors:**
 - Medical conditions due to substance use, abuse, and dependence are not classified as substance-induced disorders.
 - Assign the diagnosis code for the medical condition as directed by the Alphabetical Index along with the appropriate psychoactive substance use, abuse or dependence code.
-- Do not assign a code for substance dependence with other substance-induced disorder when a specific code for the medical condition exists.
+- Do not assign a code for substance dependence with other substance-induced disorder when a specific code exists for the medical condition.
 
-**Requirements / Properties:**
+**Mandatory Coding Criteria:**
 - The medical condition must be explicitly linked to the substance use, abuse, or dependence.
-- The specific medical condition code must be selected from the appropriate subcategory in the Alphabetic Index.
-- The substance use, abuse, or dependence code must be selected from the corresponding subcategory (e.g., F10-F19).
-
-**Deprecated in this version:**
-- Assigning a code for substance dependence with other substance-induced disorder (e.g., F10.288) when a specific code for the medical condition exists.
-- Classifying medical conditions due to substance use, abuse, and dependence as substance-induced disorders.
-
-**New in this version:**
-- Requirement to assign the diagnosis code for the medical condition as directed by the Alphabetical Index.
-- Mandatory pairing of the specific medical condition code with the appropriate psychoactive substance use, abuse or dependence code.
+- The specific medical condition code must be selected from the appropriate subcategory (e.g., K85.2 for alcohol-induced acute pancreatitis).
+- The substance use/abuse/dependence code must be selected from the appropriate subcategory (e.g., F10.2 for alcohol dependence).
+- The combination must avoid using a generic 'with other substance-induced disorder' code if a specific code for the condition exists.

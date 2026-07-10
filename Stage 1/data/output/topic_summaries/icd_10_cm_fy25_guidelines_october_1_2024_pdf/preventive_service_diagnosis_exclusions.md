@@ -4,17 +4,13 @@
 **Feature:** Preventive Service Diagnosis Exclusions
 
 **Key Behaviors:**
-- Excludes Z00 encounters for general examinations from preventive service diagnosis codes
-- Excludes Z00.6 encounters from the general examination exclusion rule
-- Excludes Z01 encounters for other special examinations from preventive service diagnosis codes
-- Excludes Z02 encounters for administrative examinations from preventive service diagnosis codes
-- Exclusions apply to principal/first-listed diagnoses unless multiple encounters on the same day have combined medical records
+- Exclude Z00 Encounter for general examination without complaint, suspected or reported diagnosis from principal/first-listed diagnosis
+- Exclude Z00.6 from the exclusion list for Z00 encounters
+- Exclude Z01 Encounter for other special examination without complaint, suspected or reported diagnosis from principal/first-listed diagnosis
+- Exclude Z02 Encounter for administrative examination from principal/first-listed diagnosis
+- Apply exclusions only when there are multiple encounters on the same day and the medical records for the encounters are combined
 
-**Requirements / Properties:**
-- System must identify principal/first-listed diagnosis codes on claims
-- System must detect multiple encounters on the same day to determine if records are combined
-
-**New in this version:**
-- Exclusion logic for Z00 series codes (excluding Z00.6)
-- Exclusion logic for Z01 series codes
-- Exclusion logic for Z02 series codes
+**Mandatory Coding Criteria:**
+- Verify if multiple encounters occurred on the same day
+- Confirm if medical records for the encounters are combined
+- If records are combined, exclude Z00, Z01, and Z02 codes from the principal/first-listed diagnosis assignment

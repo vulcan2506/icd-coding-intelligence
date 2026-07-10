@@ -8,7 +8,7 @@
 - Assign codes for conditions that prolong the length of stay
 - Assign codes for conditions that require resource utilization
 
-**Requirements / Properties:**
+**Mandatory Coding Criteria:**
 - Condition must require treatment or further investigation
 - Condition must prolong the length of stay
 - Condition must require resource utilization

@@ -4,9 +4,10 @@
 **Feature:** Liveborn Fetus Encounter Coding
 
 **Key Behaviors:**
-- Assign code Z33.2 for encounters involving an attempted termination of pregnancy that results in a liveborn fetus.
-- Assign a code from category Z37 to document the outcome of delivery for the liveborn fetus.
+- Assign code Z33.2 for attempted termination of pregnancy resulting in a liveborn fetus
+- Assign a code from category Z37 for the outcome of delivery
 
-**Requirements / Properties:**
-- Documentation must confirm the pregnancy was terminated (attempted) and resulted in a liveborn fetus.
-- Both the termination encounter code and the delivery outcome code must be assigned together.
+**Mandatory Coding Criteria:**
+- The condition must be an attempted termination of pregnancy
+- The fetus must be liveborn
+- Both Z33.2 and a Z37 code must be assigned

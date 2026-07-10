@@ -5,9 +5,8 @@
 
 **Key Behaviors:**
 - Factors influencing health status and contact with health services are categorized under Aftercare
-- Codes in this section describe the need for ongoing care or contact with health services following a primary condition
-- These factors influence health status and are used to capture the continuity of care requirements
+- These factors are referenced in Section I.C.21 of the guidelines
 
-**Requirements / Properties:**
-- Documentation must explicitly link the aftercare need to a specific health status factor or contact requirement
-- The primary condition must be established to justify the aftercare classification
+**Mandatory Coding Criteria:**
+- Diagnosis must fall under factors influencing health status and contact with health services
+- Condition must be classified as Aftercare per Section I.C.21

@@ -4,20 +4,16 @@
 **Feature:** HIV Admission Coding Protocol
 
 **Key Behaviors:**
-- Unrelated conditions (e.g., traumatic injury) are coded as the principal diagnosis for HIV patients
-- HIV-related conditions are sequenced after the principal diagnosis using code B20
-- Patients with any known prior HIV-related illness must always be assigned code B20 on every subsequent admission
-- Code B20 takes precedence over R75 or Z21 for patients with a history of HIV illness
-- Code B20 is required for all subsequent encounters once an HIV-related illness has been established
+- Assign the unrelated condition code as the principal diagnosis when a patient with HIV is admitted for an unrelated condition
+- List B20 followed by additional codes for all reported HIV-related conditions as secondary diagnoses
+- Assign code B20 to any patient with a known prior diagnosis of an HIV-related illness on every subsequent admission or encounter
+- Never assign code R75 or Z21 to patients previously diagnosed with any HIV illness (B20)
+- Ensure B20 is used consistently for all patients with established HIV-related illness history
 
-**Requirements / Properties:**
-- Principal diagnosis must reflect the unrelated condition if admitted for it
-- Code B20 must be included as a secondary diagnosis for all HIV-related conditions
-- Codes R75 and Z21 must not be assigned to patients with a history of HIV illness
+**Mandatory Coding Criteria:**
+- Documentation must confirm the unrelated condition is the primary reason for admission to select it as principal diagnosis
+- All HIV-related conditions must be documented to justify secondary B20 and additional codes
+- Patient history must confirm prior HIV-related illness diagnosis to mandate B20 assignment
 
-**Deprecated in this version:**
-- Assignment of R75 or Z21 to patients with a history of HIV illness
-- Omission of B20 on subsequent admissions for patients with prior HIV-related illness
-
-**New in this version:**
-- Mandatory use of code B20 for all subsequent admissions involving HIV-related illness
+**Superseded Guidance:**
+- Assignment of R75 or Z21 to patients with a known prior diagnosis of HIV-related illness (B20)

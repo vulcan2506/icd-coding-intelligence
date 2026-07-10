@@ -4,9 +4,10 @@
 **Feature:** Sequela Code Reporting Guidelines
 
 **Key Behaviors:**
-- Sequela are reported using the external cause code with the 7th character 'S'
-- The 'S' character indicates a late effect or sequela resulting from a previous injury
-- These codes must be applied to any report of a late effect or sequela
+- Report sequela using the external cause code with the 7th character 'S'
+- Apply these codes to any report of a late effect resulting from a previous injury
+- Ensure the 7th character is explicitly set to 'S' for sequela reporting
 
-**Requirements / Properties:**
-- External cause codes must be assigned with the 7th character 'S' for sequela reporting
+**Mandatory Coding Criteria:**
+- External cause code must include the 7th character 'S' to indicate sequela
+- Documentation must confirm the condition is a late effect of a previous injury

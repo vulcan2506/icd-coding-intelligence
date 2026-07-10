@@ -5,9 +5,10 @@
 
 **Key Behaviors:**
 - Follow the Alphabetic Index guidance when coding syndromes.
-- In the absence of Alphabetic Index guidance, assign codes for the documented manifestations of the syndrome.
-- Additional codes for manifestations that are not an integral part of the disease process may also be assigned when the condition does not have a unique code.
+- Assign codes for documented manifestations of the syndrome in the absence of Alphabetic Index guidance.
+- Additional codes for manifestations not integral to the disease process may be assigned when the condition lacks a unique code.
 
-**Requirements / Properties:**
-- Documentation must explicitly state the syndrome to utilize Alphabetic Index guidance.
-- If no Alphabetic Index guidance exists, documented manifestations must be coded.
+**Mandatory Coding Criteria:**
+- Condition must have documented manifestations if no Alphabetic Index guidance exists.
+- Manifestations must not be an integral part of the disease process to qualify for additional codes.
+- Condition must not have a unique code for additional manifestation codes to be assigned.

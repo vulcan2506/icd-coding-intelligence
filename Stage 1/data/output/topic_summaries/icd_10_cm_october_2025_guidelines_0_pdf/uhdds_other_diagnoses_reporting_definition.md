@@ -4,15 +4,18 @@
 **Feature:** UHDDS Other Diagnoses Reporting Definition
 
 **Key Behaviors:**
-- Additional clinically significant conditions affecting patient care must require clinical evaluation, therapeutic treatment, diagnostic procedures, extended length of stay, or increased nursing care/monitoring.
-- Diagnoses coexisting at admission, developing subsequently, or affecting treatment/length of stay must be included.
-- Diagnoses relating to earlier episodes with no bearing on the current hospital stay must be excluded.
-- Definitions apply to inpatients in acute care, short-term, long-term care, psychiatric, home health, rehab, nursing home, and hospice settings.
+- Report additional clinically significant conditions affecting patient care requiring evaluation, treatment, procedures, extended stay, or increased nursing care.
+- Include all conditions coexisting at admission or developing subsequently that affect treatment or length of stay.
+- Exclude diagnoses relating to earlier episodes with no bearing on the current hospital stay.
+- Apply definitions to inpatients in acute care, short-term, long-term care, psychiatric, home health, rehab, nursing homes, and hospice settings.
 - Provider is responsible for listing diagnoses in the patient record when ICD-10-CM Index or Tabular List provide no direction.
 
-**Requirements / Properties:**
-- Condition must impact patient care via evaluation, treatment, procedures, stay length, or nursing intensity.
-- Condition must exist at admission, develop during stay, or influence current treatment/length of stay.
-- Condition must have a direct bearing on the current hospital stay (no earlier episode exclusions).
-- Applicability extends to all non-outpatient settings including hospice and home health.
-- Provider must explicitly list diagnoses in the record if coding guidelines are silent.
+**Mandatory Coding Criteria:**
+- Condition must require clinical evaluation, therapeutic treatment, or diagnostic procedures.
+- Condition must require extended length of hospital stay.
+- Condition must require increased nursing care and/or monitoring.
+- Condition must coexist at time of admission or develop subsequently.
+- Condition must affect treatment received and/or length of stay.
+
+**Superseded Guidance:**
+- UHDDS definitions originally applied only to inpatients in acute care, short-term, long-term care, and psychiatric hospital settings before being expanded to include home health agencies, rehab facilities, nursing homes, and hospice services.

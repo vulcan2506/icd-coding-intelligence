@@ -4,5 +4,9 @@
 **Feature:** External Cause Code Usage Restrictions
 
 **Key Behaviors:**
-- An external cause code can never be a principal (first-listed) diagnosis.
-- A sequela external cause code should never be used with a related current nature of injury code.
+- External cause codes are prohibited from being assigned as the principal (first-listed) diagnosis.
+- Sequela external cause codes must not be used in conjunction with a related current nature of injury code.
+
+**Mandatory Coding Criteria:**
+- External cause codes must be assigned as secondary codes only.
+- Sequela external cause codes and current nature of injury codes must be mutually exclusive.

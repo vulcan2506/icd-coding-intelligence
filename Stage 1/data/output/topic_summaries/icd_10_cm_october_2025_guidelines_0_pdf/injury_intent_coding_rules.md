@@ -7,6 +7,6 @@
 - Code intent as accidental if unknown or unspecified
 - All transport accident categories assume accidental intent
 
-**Requirements / Properties:**
+**Mandatory Coding Criteria:**
 - Intent must be documented as accident, self-harm, or assault to deviate from default
-- Unknown or unspecified intent defaults to accidental coding
+- Default to accidental intent when cause of injury intent is unknown

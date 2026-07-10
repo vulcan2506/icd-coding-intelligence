@@ -6,27 +6,13 @@
 **Key Behaviors:**
 - Assign B20 as principal diagnosis for HIV-related condition admissions, followed by additional HIV-related condition codes.
 - Assign D59.31 followed by B20 if admission is for hemolytic-uremic syndrome associated with HIV disease.
-- Code unrelated conditions (e.g., traumatic injury) as principal diagnosis with B20 as secondary.
-- Report B20 as secondary diagnosis for unrelated admissions regardless of new or previous HIV diagnosis.
-- Assign Z21 for asymptomatic HIV status when only 'HIV positive' is documented without symptoms or illness.
+- Code the unrelated condition as principal diagnosis if patient with HIV disease is admitted for an unrelated condition (e.g., traumatic injury).
+- Report B20 as a secondary diagnosis if patient with HIV disease is admitted for an unrelated diagnosis.
+- Assign Z21 for asymptomatic HIV infection status when 'HIV positive' is documented without symptoms or HIV-related illness.
 
-**Requirements / Properties:**
-- Documentation must confirm the condition is HIV-related to assign B20 as principal diagnosis.
-- Documentation must specify hemolytic-uremic syndrome associated with HIV to assign D59.31.
-- Documentation must confirm the condition is unrelated to HIV to assign the unrelated condition as principal.
-- Documentation must confirm absence of symptoms or HIV-related illness to assign Z21.
-- Coding must not be influenced by whether the patient is newly diagnosed or has a previous HIV diagnosis.
-
-**Deprecated in this version:**
-- Assigning B20 as principal diagnosis for unrelated conditions.
-- Using HIV diagnosis status to determine principal diagnosis when an unrelated condition is the reason for admission.
-- Assigning B20 as principal diagnosis for hemolytic-uremic syndrome associated with HIV disease.
-- Using new diagnosis status to alter principal diagnosis sequencing.
-- Assigning symptom-based HIV codes when only 'HIV positive' is documented without illness.
-
-**New in this version:**
-- Explicit exception for hemolytic-uremic syndrome requiring D59.31 before B20.
-- Mandatory assignment of Z21 for asymptomatic status with specific terminology.
-- Clarification that unrelated condition coding takes precedence over HIV status for principal diagnosis.
-- Guidance that new diagnosis status does not affect principal diagnosis sequencing.
-- Requirement to code all reported HIV-related conditions as additional diagnoses when B20 is principal.
+**Mandatory Coding Criteria:**
+- Documentation must indicate the condition is an HIV-related condition to assign B20 as principal diagnosis.
+- Documentation must specify hemolytic-uremic syndrome associated with HIV disease to assign D59.31 as principal diagnosis.
+- Documentation must confirm the admission reason is unrelated to HIV disease to assign the unrelated condition code as principal diagnosis.
+- Documentation must confirm the absence of symptoms or HIV-related illness to assign Z21 for asymptomatic status.
+- Sequencing decision for newly diagnosed HIV disease admissions is irrelevant to the coding of HIV conditions.

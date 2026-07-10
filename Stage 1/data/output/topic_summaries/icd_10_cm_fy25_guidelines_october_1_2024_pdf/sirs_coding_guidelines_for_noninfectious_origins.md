@@ -1,19 +1,14 @@
 # SIRS Coding Guidelines for Noninfectious Origins
 *Source: ICD-10-CM FY25 Guidelines October 1, 2024.pdf*
 
-**Feature:** SIRS Coding Guidelines for Noninfectious Origins
+**Feature:** SIRS Coding for Noninfectious Origins
 
 **Key Behaviors:**
-- Assign code for the underlying noninfectious condition followed by R65.10 or R65.11 when SIRS is documented with a noninfectious cause and no subsequent infection.
-- Assign specific acute organ dysfunction codes in addition to R65.11 if acute organ dysfunction is documented alongside SIRS of noninfectious origin.
-- Query the provider if acute organ dysfunction is documented but its association with SIRS versus another condition cannot be determined.
+- Assign code for underlying noninfectious condition followed by R65.10 or R65.11 when SIRS is documented with no subsequent infection.
+- Assign specific organ dysfunction codes in addition to R65.11 if acute organ dysfunction is documented.
+- Query the provider if acute organ dysfunction cannot be determined to be associated with SIRS or due to another condition.
 
-**Requirements / Properties:**
-- Documentation must explicitly link SIRS to a noninfectious condition such as trauma, malignant neoplasm, or pancreatitis.
-- Documentation must confirm the absence of any subsequent infection to justify the use of noninfectious SIRS codes.
-- Specific acute organ dysfunction must be documented to support the assignment of additional codes beyond R65.11.
-
-**New in this version:**
-- Mandatory use of code R65.10 for SIRS of noninfectious origin without acute organ dysfunction.
-- Mandatory use of code R65.11 for SIRS of noninfectious origin with acute organ dysfunction.
-- Requirement to assign specific organ dysfunction codes in addition to R65.11 when dysfunction is documented.
+**Mandatory Coding Criteria:**
+- SIRS must be documented with a noninfectious condition (e.g., trauma, malignant neoplasm, pancreatitis).
+- No subsequent infection must be documented to use R65.10 or R65.11.
+- Acute organ dysfunction must be explicitly documented to assign R65.11 and additional organ codes.

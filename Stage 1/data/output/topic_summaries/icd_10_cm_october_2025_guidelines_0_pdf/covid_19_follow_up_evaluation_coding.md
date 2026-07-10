@@ -4,9 +4,7 @@
 **Feature:** COVID-19 Screening and Preoperative Testing Coding
 
 **Key Behaviors:**
-- Assign code Z11.52 for encounters involving screening for COVID-19
-- Apply Z11.52 to preoperative testing scenarios for COVID-19
+- Assign code Z11.52 for encounters involving screening for COVID-19, including preoperative testing.
 
-**Requirements / Properties:**
-- The encounter must be for the purpose of screening for COVID-19
-- Documentation must confirm the screening nature of the visit
+**Mandatory Coding Criteria:**
+- The encounter must be for the purpose of screening for COVID-19.

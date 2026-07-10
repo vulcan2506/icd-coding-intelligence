@@ -5,10 +5,10 @@
 
 **Key Behaviors:**
 - Use an additional code from Chapter 1 to identify the organism when the primary infection code does not include the organism.
-- Select codes from category B95 (Streptococcus, Staphylococcus, and Enterococcus), B96 (Other bacterial agents), or B97 (Viral agents) as additional codes.
-- Apply the additional organism code only when the instructional note at the infection code advises that an additional organism code is required.
+- Select codes from categories B95, B96, or B97 based on the specific type of bacterial or viral agent identified.
+- Follow the instructional note found at the infection code advising that an additional organism code is required.
 
-**Requirements / Properties:**
+**Mandatory Coding Criteria:**
 - The infection must be classified in a chapter other than Chapter 1.
-- No organism must be identified as part of the primary infection code.
-- An instructional note at the infection code must explicitly advise that an additional organism code is required.
+- No organism is identified as part of the primary infection code.
+- The specific organism must be documented to justify the assignment of an additional code from categories B95, B96, or B97.

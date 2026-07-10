@@ -5,30 +5,14 @@
 
 **Key Behaviors:**
 - In episodes without delivery, sequence the principal complication necessitating the encounter first.
-- If multiple complications are treated or monitored, any may be sequenced first.
-- When delivery occurs, sequence the condition prompting admission as principal diagnosis.
-- For cesarean delivery, sequence the condition resulting in the procedure if it prompted admission.
-- If admission reason is unrelated to cesarean indication, sequence the admission reason condition first.
-- When multiple conditions prompt admission during delivery, sequence the one most related to the delivery as the principal diagnosis.
-- Assign codes for any complication of the delivery as additional diagnoses when delivery occurs.
+- If multiple complications are treated or monitored in non-delivery episodes, any may be sequenced first.
+- When delivery occurs during admission, sequence the condition prompting admission as principal diagnosis.
+- If multiple conditions prompted admission during delivery, sequence the one most related to delivery first.
+- Assign delivery complication codes as additional diagnoses, not principal, when delivery occurs.
 
-**Requirements / Properties:**
-- Documentation must identify the specific complication necessitating the encounter in non-delivery episodes.
-- Documentation must clarify which condition prompted admission when multiple conditions exist.
-- Clinical records must distinguish between conditions related to delivery versus unrelated admission reasons.
-- All treated or monitored complications must be documented to justify sequencing priority.
-- Cesarean delivery indications must be explicitly linked to the admission reason in the medical record.
-
-**Deprecated in this version:**
-- Sequencing delivery codes as principal diagnosis when no delivery occurred.
-- Prioritizing unrelated admission conditions over delivery-related complications in cesarean cases.
-- Assigning unspecified principal diagnoses when multiple treated complications exist.
-- Coding complications as principal diagnosis without documentation of necessity.
-- Ignoring the distinction between admission reason and delivery indication in sequencing.
-
-**New in this version:**
-- Mandatory sequencing of admission-prompting conditions over delivery codes when delivery occurs.
-- Explicit requirement to code cesarean delivery complications as additional diagnoses.
-- Updated logic for selecting principal diagnosis based on admission reason versus delivery indication.
-- Enhanced documentation standards for multiple concurrent pregnancy complications.
-- Clarified rules for non-delivery episodes requiring principal complication sequencing.
+**Mandatory Coding Criteria:**
+- Principal diagnosis must correspond to the complication necessitating the encounter if no delivery occurs.
+- All treated or monitored complications in non-delivery episodes are eligible for principal sequencing.
+- Principal diagnosis must be the condition prompting admission when delivery occurs.
+- The condition most related to delivery must be selected if multiple conditions prompted admission.
+- Cesarean delivery principal diagnosis must be the condition resulting in the procedure if it prompted admission.

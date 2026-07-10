@@ -5,8 +5,8 @@
 
 **Key Behaviors:**
 - Code I21.9 is the default for unspecified acute myocardial infarction or unspecified type.
-- If only type 1 STEMI or transmural MI without the site is documented, assign code I21.3.
+- Assign code I21.3 if only type 1 STEMI or transmural MI without the site is documented.
 
-**Requirements / Properties:**
-- Documentation must specify the type of myocardial infarction to avoid defaulting to I21.9.
-- Site of infarction must be documented to assign a more specific code than I21.3.
+**Mandatory Coding Criteria:**
+- Documentation must specify the type of myocardial infarction (e.g., type 1 STEMI) or the site to avoid defaulting to I21.9.
+- If the site is not documented, code I21.3 must be used for type 1 STEMI or transmural MI.

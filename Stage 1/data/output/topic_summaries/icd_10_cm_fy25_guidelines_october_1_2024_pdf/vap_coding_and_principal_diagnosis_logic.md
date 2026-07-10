@@ -4,10 +4,10 @@
 **Feature:** VAP Coding and Principal Diagnosis Logic
 
 **Key Behaviors:**
-- Principal diagnosis is assigned the pneumonia code (J12-J18) diagnosed at the time of admission if the patient is admitted with pneumonia.
-- Ventilator associated pneumonia (J95.851) is assigned as an additional diagnosis only if the provider documents its presence.
-- The development of VAP after admission does not change the principal diagnosis from the initial pneumonia code.
+- Principal diagnosis is assigned the pneumonia code diagnosed at the time of admission (categories J12-J18) if the patient is admitted with pneumonia and subsequently develops VAP.
+- Code J95.851 (Ventilator associated pneumonia) is assigned as an additional diagnosis when VAP is documented alongside the admission pneumonia.
 
-**Requirements / Properties:**
-- Provider must document the presence of ventilator associated pneumonia to assign code J95.851.
-- Principal diagnosis must reflect the condition diagnosed at the time of admission.
+**Mandatory Coding Criteria:**
+- Pneumonia must be diagnosed at the time of admission.
+- VAP must be documented by the provider as present.
+- Principal diagnosis must be selected from categories J12-J18 for the admission pneumonia.

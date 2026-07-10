@@ -9,6 +9,6 @@
 - Do not use a code from category Z38 at a receiving hospital if the newborn is transferred from another institution.
 - Use a code from category Z38 only on the newborn record, not on the mother's record.
 
-**Requirements / Properties:**
+**Mandatory Coding Criteria:**
 - The code must be assigned at the time of birth.
 - The code must be used exclusively on the newborn's medical record.

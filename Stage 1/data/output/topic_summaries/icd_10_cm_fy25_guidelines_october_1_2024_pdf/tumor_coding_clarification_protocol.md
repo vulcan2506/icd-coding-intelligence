@@ -4,10 +4,9 @@
 **Feature:** Tumor Coding Clarification Protocol
 
 **Key Behaviors:**
-- Coder must query the provider if documentation is unclear regarding the status of multiple tumors in the same organ.
-- Multiple malignant tumors in the same organ may represent different primaries or metastatic disease depending on the site.
-- Correct ICD-10-CM codes must be assigned based on the clarified status of each tumor.
+- Assign codes for multiple malignant tumors in the same organ based on whether they represent different primaries or metastatic disease.
+- Query the provider if documentation regarding tumor status is unclear to ensure correct code assignment.
 
-**Requirements / Properties:**
-- Documentation must clearly define the status of each tumor to distinguish between primary and metastatic disease.
-- Provider query is mandatory when the clinical record does not specify the relationship between multiple tumors in the same organ.
+**Mandatory Coding Criteria:**
+- Documentation must clearly distinguish between different primaries and metastatic disease for multiple tumors in the same organ.
+- Provider query is required when the status of each tumor is unclear.

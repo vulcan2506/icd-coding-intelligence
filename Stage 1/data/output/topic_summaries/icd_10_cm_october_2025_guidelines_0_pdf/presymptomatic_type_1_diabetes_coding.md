@@ -5,8 +5,7 @@
 
 **Key Behaviors:**
 - Codes E10.A- are assigned for early-stage type 1 diabetes that predates the onset of symptoms.
-- Coding is restricted to cases where the diagnosis is confirmed before clinical symptoms appear.
 
-**Requirements / Properties:**
-- Clinical documentation must explicitly confirm the diagnosis of Type 1 diabetes mellitus prior to symptom onset.
-- The condition must be identified as presymptomatic to utilize the E10.A- code series.
+**Mandatory Coding Criteria:**
+- Diagnosis must be early-stage type 1 diabetes
+- Condition must predates the onset of symptoms

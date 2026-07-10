@@ -10,7 +10,7 @@
 - No 7th characters are used for Y92 codes.
 - Do not use place of occurrence code Y92.9 if the place is not stated or is not applicable.
 
-**Requirements / Properties:**
+**Mandatory Coding Criteria:**
 - Y92 codes must be assigned as secondary codes following other external cause codes.
-- The code must identify the specific location of the patient at the time of the injury or condition.
-- Assignment is mandatory only at the initial encounter unless a new injury occurs during hospitalization.
+- Assignment is restricted to the initial encounter for treatment unless a new injury occurs during hospitalization.
+- The place of occurrence must be stated and applicable; otherwise, Y92.9 is prohibited.

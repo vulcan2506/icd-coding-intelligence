@@ -4,9 +4,9 @@
 **Feature:** Hypertensive Cerebrovascular Coding Protocol
 
 **Key Behaviors:**
-- First assign the appropriate code from categories I60-I69
-- Followed by the appropriate hypertension code
+- Assign appropriate code from categories I60-I69 first
+- Follow with the appropriate hypertension code
 
-**Requirements / Properties:**
-- Documentation must identify the specific cerebrovascular disease category (I60-I69)
-- Documentation must identify the presence of hypertension
+**Mandatory Coding Criteria:**
+- Condition must be hypertensive cerebrovascular disease
+- Code from I60-I69 must be assigned before hypertension code

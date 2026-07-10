@@ -62,16 +62,71 @@ def store_toc(source_doc: str, toc_text: str):
 # TYPE KEY DERIVATION
 # ══════════════════════════════════════════════════════════════════════════════
 
+_MONTH_NAMES = (
+    r"january|february|march|april|may|june|july|august|"
+    r"september|october|november|december"
+)  # local copy — avoids coupling context_profiler (an early pipeline stage)
+   # to delta_analyzer's heavier pydantic/langchain-based module for a
+   # 12-item constant.
+
+
 def _derive_type_key(filename: str) -> str:
     """
-    Strip version prefix to get document type.
+    Strip version signal to get a shared document type key, so different
+    versions of the same document collapse to one profile.
+
+    Layer 1 (original): strip a leading numeric version prefix.
     '25.2_HR_Payer_Release_Notes.pdf'  →  'HR_Payer_Release_Notes'
     '26.1_HR_Payer_Release_Notes.pdf'  →  'HR_Payer_Release_Notes'
-    'Clinical_Trial_Report_v3.pdf'     →  'Clinical_Trial_Report_v3'
+
+    Layer 2 (added): if layer 1 found no numeric prefix, also strip embedded
+    FY/month/year/trailing-index tokens — filenames like the ICD-10-CM
+    corpus ("ICD-10-CM FY25 Guidelines October 1, 2024" /
+    "icd_10_cm_october_2025_guidelines_0") don't start with a bare version
+    number, so layer 1 alone leaves each version as its own unrelated type,
+    fragmenting the profile/prompt-caching machinery that assumes one type
+    per document family.
+
+    Layer 2 only activates when it actually finds a version-shaped token —
+    'Clinical_Trial_Report_v3.pdf' has none of FY/month-name/4-digit-year/
+    trailing-index, so it returns unchanged from today's behavior, same as
+    'HR_Payer_Release_Notes' above (no token found there either — the
+    numeric prefix was already consumed by layer 1). This guarantees any
+    filename layer 1 already resolves correctly keeps producing the exact
+    same type_key string as before (type_key is used as a literal cache
+    filename, so changing an already-working case would orphan existing
+    caches).
+
+    Known accepted tradeoff: a hypothetical "25.2_HR_Payer_Release_Notes_2"
+    would trigger the trailing-index rule and get case-folded to
+    "hr_payer_release_notes" — a casing change vs. today. Neither the ICD
+    nor the HealthRules corpus currently has this filename shape.
     """
     stem = Path(filename).stem
     stripped = re.sub(r'^\d+[\.\d]*[_\s-]+', '', stem)
-    return stripped if stripped else stem
+    stripped = stripped if stripped else stem
+
+    # Real spaces (not just underscore/dash) so \b-anchored token regexes
+    # below can match inside underscore/dash-joined stems — underscore is a
+    # \w character, so \b never fires on either side of it otherwise.
+    spaced = re.sub(r'[_\-]+', ' ', stripped)
+
+    tokenless = spaced
+    found_token = False
+    for pattern in (
+        r'\bFY\.?\s?\d{2,4}\b',
+        rf'\b(?:{_MONTH_NAMES})\b(?:\s+\d{{1,2}}(?:st|nd|rd|th)?\b,?)?',
+        r'\b(?:19|20)\d{2}\b',
+        r'(?<=\s)\d+\Z',   # trailing bare numeric index/export-artifact, e.g. "..._0"
+    ):
+        tokenless, n = re.subn(pattern, ' ', tokenless, flags=re.IGNORECASE)
+        found_token = found_token or n > 0
+
+    if not found_token:
+        return stripped   # no version signal detected — unchanged from today
+
+    normalized = re.sub(r'[^a-z0-9]+', '_', tokenless.lower()).strip('_')
+    return normalized or stripped
 
 
 
@@ -186,6 +241,11 @@ Output ONLY a JSON object — no markdown, no preamble.  Close all braces.
     "deprecated_items": "<what 'removed or superseded' means for THIS domain>",
     "new_items": "<what 'newly introduced' means for THIS domain>"
   }},
+  "delta_field_labels": {{
+    "requirements": "<a SHORT (2-4 word) section heading for a list of requirement/prerequisite items in THIS domain, no markdown, no trailing colon — e.g. 'Coding Prerequisites' for medical coding or 'Requirements / Properties' for software>",
+    "deprecated_items": "<a SHORT (2-4 word) heading for a list of removed/superseded items in THIS domain — e.g. 'Superseded Guidance' for medical coding; do NOT use a software-deprecation phrase unless the domain IS software>",
+    "new_items": "<a SHORT (2-4 word) heading for a list of newly introduced items in THIS domain — e.g. 'Newly Introduced Guidance'>"
+  }},
   "delta_few_shots": [
     {{
       "topic": "<short illustrative topic name plausible for this domain — invented, not from the samples>",
@@ -234,6 +294,10 @@ RULES:
   change types, so one worked example (not a contrasting pair) is enough.
 - key_terminology: 5-10 most important acronyms/abbreviations found.
 - entity_types: the recurring nouns/concepts that chunk labels should reference.
+- delta_field_labels values must be plain short phrases suitable as a bold
+  markdown section heading (no leading verb, no trailing colon/punctuation) —
+  these render directly in generated reports, so they must read naturally to
+  a domain practitioner, not a software engineer, unless the domain IS software.
 - Output ONLY JSON.  No text before or after.  Close all braces."""
 
 
@@ -392,6 +456,7 @@ _DEFAULT_PROFILE = {
     "labeling_few_shots": [],
     "delta_change_types": [],
     "delta_field_meaning": {},
+    "delta_field_labels": {},
     "delta_few_shots": [],
     "qna_few_shots": [],
     "evolution_few_shot": {},
@@ -465,11 +530,14 @@ def build_profiles(chunks: List[Dict]) -> Dict[str, dict]:
 
         try:
             # Bumped from 750 -> 1600 for delta_change_types/delta_field_meaning/
-            # delta_few_shots/qna_few_shots, then -> 2200 for evolution_few_shot —
-            # each addition pushed truncation further into the (most important,
-            # most domain-specific) later fields; a real ICD profile hit exactly
-            # this truncation at 1600 once evolution_few_shot was added.
-            raw = llm_client.generate(prompt, max_tokens=2200, enable_thinking=False)
+            # delta_few_shots/qna_few_shots, then -> 2200 for evolution_few_shot,
+            # then -> 2400 for delta_field_labels — each addition pushed
+            # truncation further into the (most important, most domain-specific)
+            # later fields; a real ICD profile hit exactly this truncation at
+            # 1600 once evolution_few_shot was added. delta_field_labels is
+            # placed right after delta_field_meaning in the schema (not at the
+            # end) so it survives even if a later field still gets clipped.
+            raw = llm_client.generate(prompt, max_tokens=2400, enable_thinking=False)
             profile = _extract_json(raw)
 
             if not profile or "domain" not in profile:

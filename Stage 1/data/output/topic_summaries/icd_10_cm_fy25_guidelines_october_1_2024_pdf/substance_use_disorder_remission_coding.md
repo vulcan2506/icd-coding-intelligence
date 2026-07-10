@@ -8,7 +8,7 @@
 - Mild substance use disorders in early or sustained remission are classified to the appropriate codes for substance abuse in remission.
 - Moderate or severe substance use disorders in early or sustained remission are classified to the appropriate codes for substance dependence in remission.
 
-**Requirements / Properties:**
-- Provider documentation must explicitly support the clinical judgment that the disorder is in remission.
-- Classification must distinguish between mild (substance abuse) and moderate/severe (substance dependence) severity levels.
-- Codes must utilize the specific remission extensions (e.g., -.11, -.21, -.91) for categories F10-F19.
+**Mandatory Coding Criteria:**
+- Provider must document the condition as being in remission.
+- Provider must exercise clinical judgment to determine the severity level (mild, moderate, or severe).
+- Codes must be selected from categories F10-F19 with specific extensions (e.g., -.11, -.21, -.91).

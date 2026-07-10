@@ -6,11 +6,11 @@
 **Key Behaviors:**
 - Code assignment is based on the provider's documentation of the relationship between the condition and the care or procedure.
 - The guideline extends to any complications of care, regardless of the chapter the code is located in.
-- It is not necessary for the provider to explicitly document the term 'complication' if the condition alters the course of surgery.
+- Not all conditions occurring during or following medical care are classified as complications; a cause-and-effect relationship must exist.
+- Documentation must support that the condition is clinically significant.
 - Query the provider for clarification if the documentation is not clear as to the relationship between the condition and the care or procedure.
-- Conditions must have a cause-and-effect relationship with care and be clinically significant to be classified as complications.
 
-**Requirements / Properties:**
+**Mandatory Coding Criteria:**
 - There must be a cause-and-effect relationship between the care provided and the condition.
 - The documentation must support that the condition is clinically significant.
-- The condition must not be an expected outcome or an integral part of the disease process.
+- The provider's documentation must establish the relationship between the condition and the care or procedure.

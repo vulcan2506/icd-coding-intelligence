@@ -4,7 +4,7 @@
 **Feature:** Undetermined Intent External Cause Coding
 
 **Key Behaviors:**
-- External cause codes for events of undetermined intent are only assigned if the documentation explicitly states that the intent cannot be determined.
+- External cause codes for events of undetermined intent are only assigned if the documentation explicitly specifies that the intent cannot be determined.
 
-**Requirements / Properties:**
-- Documentation must explicitly specify that the intent cannot be determined.
+**Mandatory Coding Criteria:**
+- Documentation must explicitly state that intent cannot be determined.

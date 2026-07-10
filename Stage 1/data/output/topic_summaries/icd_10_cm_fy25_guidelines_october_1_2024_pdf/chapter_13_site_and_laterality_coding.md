@@ -4,11 +4,15 @@
 **Feature:** Chapter 13 Site and Laterality Coding
 
 **Key Behaviors:**
-- Codes within Chapter 13 must include site and laterality designations representing the bone, joint, or muscle involved.
-- For conditions where multiple sites are usually involved (e.g., osteoarthritis), a 'multiple sites' code should be used if available.
-- If no multiple site code is provided for a condition involving more than one site, multiple codes must be used to indicate the different sites involved.
+- Codes within Chapter 13 generally include site and laterality designations.
+- The site designation represents the specific bone, joint, or muscle involved.
+- A 'multiple sites' code is used when more than one bone, joint, or muscle is usually involved (e.g., osteoarthritis).
+- Multiple codes must be used to indicate different sites involved when no multiple site code is provided for a category.
+- Coding must distinguish between the bone, joint, or muscle component of the condition.
 
-**Requirements / Properties:**
-- Site designation must accurately reflect the specific bone, joint, or muscle involved in the condition.
-- Laterality must be explicitly designated for all applicable codes within Chapter 13.
-- Multiple site codes must be selected from available options when a single code covers multiple sites.
+**Mandatory Coding Criteria:**
+- The diagnosis must specify the bone, joint, or muscle involved to assign the correct site code.
+- If a condition typically involves multiple sites and a multiple site code exists, that single code must be used instead of multiple codes.
+- If a condition involves multiple sites and no multiple site code is available, multiple codes must be assigned to cover all involved sites.
+- Laterality designations must be applied where available in the code set to distinguish left, right, or bilateral involvement.
+- Site specificity is required for accurate classification within Chapter 13 categories.

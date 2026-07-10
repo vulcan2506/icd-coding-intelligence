@@ -8,13 +8,9 @@
 - Assign Z51.0, Z51.11, or Z51.12 as first-listed diagnosis when admission is chiefly for chemotherapy, immunotherapy, or external beam radiation
 - Assign multiple Z51 codes in any sequence if a patient receives more than one therapy during the same admission
 - Assign malignancy code as secondary diagnosis when the encounter is chiefly for antineoplastic therapy administration
-- Sequence malignancy code as principal diagnosis for brachytherapy insertions and exclude Z51.0 in these cases
+- Sequence malignancy code as principal diagnosis for brachytherapy insertion/implantation and exclude Z51.0
 
-**Requirements / Properties:**
-- Determine if surgical removal and adjunct therapy occur within the same episode of care to select principal diagnosis type
-- Identify the chief reason for admission to distinguish between neoplasm removal (neoplasm code principal) and therapy administration (Z51 code principal)
-
-**New in this version:**
-- Z51.0 Encounter for antineoplastic radiation therapy
-- Z51.11 Encounter for antineoplastic chemotherapy
-- Z51.12 Encounter for antineoplastic immunotherapy
+**Mandatory Coding Criteria:**
+- Documentation must confirm the surgical removal and subsequent adjunct treatment for the same episode
+- Documentation must specify the primary or secondary site of the neoplasm
+- Documentation must clarify the chief reason for admission to distinguish between therapy administration and surgical removal

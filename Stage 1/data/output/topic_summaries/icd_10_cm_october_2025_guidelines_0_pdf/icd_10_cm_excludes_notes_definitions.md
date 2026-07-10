@@ -4,10 +4,8 @@
 **Feature:** ICD-10-CM Excludes Notes Definitions
 
 **Key Behaviors:**
-- The ICD-10-CM has two types of excludes notes.
-- Each type of note has a different definition for use.
-- Excluded codes are independent of each other.
-
-**Requirements / Properties:**
-- Identify the specific type of excludes note present in the code set.
-- Apply the correct definition corresponding to the note type.
+- Excludes notes indicate that codes excluded from each other are independent of each other.
+- There are two distinct types of excludes notes in ICD-10-CM.
+- Each type of excludes note has a specific definition for use.
+- One type of excludes note represents a 'Not Included' relationship where the excluded code is a subset of the included code.
+- The other type of excludes note represents a 'Rule Out' relationship where the codes are mutually exclusive conditions.

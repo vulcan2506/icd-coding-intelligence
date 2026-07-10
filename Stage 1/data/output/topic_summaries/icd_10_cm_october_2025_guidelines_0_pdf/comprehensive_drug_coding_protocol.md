@@ -5,11 +5,10 @@
 
 **Key Behaviors:**
 - Use as many codes as necessary to describe completely all drugs, medicinal or biological substances.
-- Assign the appropriate code for the nature of the adverse effect followed by the appropriate code for the adverse effect of the drug (T36-T50).
-- The code for the drug should have a 5th or 6th character '5' to indicate an adverse effect.
-- Examples of the nature of an adverse effect include tachycardia, delirium, gastrointestinal hemorrhaging, vomiting, hypokalemia, hepatitis, renal failure, or respiratory failure.
+- Assign appropriate code for the nature of the adverse effect followed by the appropriate code for the adverse effect of the drug (T36-T50) when correctly prescribed and properly administered.
+- Ensure the code for the drug includes a 5th or 6th character '5' to indicate adverse effect.
 
-**Requirements / Properties:**
-- Adverse effect must be correctly prescribed and properly administered.
-- Documentation must specify the nature of the adverse effect (e.g., tachycardia, renal failure).
-- The drug code must include the 5th or 6th character '5' to denote an adverse effect.
+**Mandatory Coding Criteria:**
+- Condition must be correctly prescribed and properly administered.
+- Documentation must specify the nature of the adverse effect (e.g., tachycardia, delirium, gastrointestinal hemorrhaging, vomiting, hypokalemia, hepatitis, renal failure, or respiratory failure).
+- Adverse effect code must be sequenced before the drug code.

@@ -8,6 +8,6 @@
 - The default code represents the condition most commonly associated with the main term or the unspecified code for the condition.
 - If a condition is documented without additional information (e.g., acute or chronic), the default code should be assigned.
 
-**Requirements / Properties:**
-- The condition must be documented in the medical record.
-- No additional qualifying information (such as acuity or chronicity) should be present in the documentation.
+**Mandatory Coding Criteria:**
+- Condition must be documented in the medical record.
+- No additional specific information (such as acute or chronic) should be present for the default code to be the appropriate choice.

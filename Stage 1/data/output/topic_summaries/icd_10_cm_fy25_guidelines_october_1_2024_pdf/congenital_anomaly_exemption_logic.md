@@ -8,6 +8,7 @@
 - Categories Q00-Q99 are on the exempt list and do not receive 'Y' assignment
 - Congenital conditions are always considered present on admission
 
-**Requirements / Properties:**
-- The condition must be a congenital anomaly to be evaluated for exemption logic
-- The specific ICD-10-CM category must be outside the Q00-Q99 range to be coded with 'Y'
+**Mandatory Coding Criteria:**
+- Condition must be a congenital anomaly or condition
+- Condition must not fall within categories Q00-Q99
+- Condition must be documented as present on admission

@@ -4,9 +4,10 @@
 **Feature:** Diabetes in Pregnancy Coding Protocol
 
 **Key Behaviors:**
-- Pregnant patients who are diabetic should be assigned a code from category O24 first
-- Followed by the appropriate diabetes code(s) (E08-E13) from Chapter 4
+- Assign category O24 code first for pregnant patients with diabetes
+- Follow with appropriate diabetes code(s) from Chapter 4 (E08-E13)
 
-**Requirements / Properties:**
-- Patient must be pregnant to qualify for category O24 codes
-- Diabetes mellitus must be documented as a complicating factor in the pregnancy
+**Mandatory Coding Criteria:**
+- Patient must be pregnant
+- Patient must have diabetes mellitus
+- Category O24 code must be sequenced before E08-E13 codes

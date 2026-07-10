@@ -4,20 +4,10 @@
 **Feature:** O9A Sequencing for Toxic Effects
 
 **Key Behaviors:**
-- Code from subcategory O9A.2 must be sequenced first
-- Followed by the appropriate injury, poisoning, toxic effect, adverse effect, or underdosing code
-- Additional codes specifying the condition caused by the poisoning or toxic effect must follow
+- Code from subcategory O9A.2 (Injury, poisoning and certain other consequences of external causes complicating pregnancy, childbirth, and the puerperium) must be sequenced first.
+- Follow the O9A.2 code with the appropriate injury, poisoning, toxic effect, adverse effect, or underdosing code.
+- Include additional code(s) specifying the condition caused by the poisoning, toxic effect, adverse effect, or underdosing.
 
-**Requirements / Properties:**
-- Documentation must identify the specific injury, poisoning, or toxic effect complicating pregnancy, childbirth, or the puerperium
-- The condition must be a direct consequence of an external cause or medication administration
-- Laterality and specific agent details must be documented to support the secondary codes
-
-**Deprecated in this version:**
-- Sequencing the underlying pregnancy condition before the toxic effect code
-- Omitting the specific injury or poisoning code when the toxic effect is documented
-- Using unspecified codes for the external cause without clinical verification
-
-**New in this version:**
-- Mandatory inclusion of the specific external cause code to link the toxic effect to its origin
-- Requirement to code adverse effects and underdosing as distinct entities following the O9A.2 code
+**Mandatory Coding Criteria:**
+- The condition must be documented as complicating pregnancy, childbirth, or the puerperium.
+- The specific type of toxic effect (injury, poisoning, adverse effect, or underdosing) must be identified to select the correct secondary code.

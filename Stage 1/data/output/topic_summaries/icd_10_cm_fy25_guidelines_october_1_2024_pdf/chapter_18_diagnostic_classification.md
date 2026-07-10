@@ -4,9 +4,10 @@
 **Feature:** Chapter 18 Diagnostic Classification
 
 **Key Behaviors:**
-- Includes symptoms, signs, abnormal results of clinical or other investigative procedures, and ill-defined conditions regarding which no diagnosis classifiable elsewhere is recorded.
-- Signs and symptoms that point to a specific diagnosis have been assigned to a category in other chapters of the classification.
+- Includes symptoms, signs, abnormal results of clinical or other investigative procedures, and ill-defined conditions
+- Records conditions regarding which no diagnosis classifiable elsewhere is recorded
+- Excludes signs and symptoms that point to a specific diagnosis
 
-**Requirements / Properties:**
-- No diagnosis classifiable elsewhere is recorded for the condition.
-- The condition must be recorded as a symptom, sign, abnormal result, or ill-defined condition.
+**Mandatory Coding Criteria:**
+- No diagnosis classifiable elsewhere is recorded
+- Condition must be a symptom, sign, abnormal result, or ill-defined condition

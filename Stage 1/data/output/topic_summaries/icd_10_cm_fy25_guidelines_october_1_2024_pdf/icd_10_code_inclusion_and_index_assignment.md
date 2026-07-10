@@ -4,15 +4,13 @@
 **Feature:** ICD-10 Code Inclusion and Index Assignment
 
 **Key Behaviors:**
-- List of terms included under some codes serve as conditions for which that code is to be used.
-- Inclusion terms may be synonyms of the code title or lists of conditions for 'other specified' codes.
+- List of terms included under some codes are the conditions for which that code is to be used.
+- Inclusion terms may be synonyms of the code title.
+- In the case of 'other specified' codes, terms are a list of various conditions assigned to that code.
 - Inclusion terms are not necessarily exhaustive.
 - Additional terms found only in the Alphabetic Index may also be assigned to a code.
-- Codes are assigned based on the presence of inclusion terms or Alphabetic Index terms.
 
-**Requirements / Properties:**
-- The condition must match an inclusion term listed under the code.
-- The condition must match a synonym of the code title.
-- The condition must match a term listed for an 'other specified' code.
-- The condition must be found in the Alphabetic Index as an additional term.
-- The code must be valid for the specific condition listed in the inclusion terms.
+**Mandatory Coding Criteria:**
+- Terms must be included under a code to be used for that condition.
+- For 'other specified' codes, terms must match the list of conditions assigned to that code.
+- Assignment is permitted for additional terms found only in the Alphabetic Index.

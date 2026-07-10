@@ -5,24 +5,14 @@
 
 **Key Behaviors:**
 - Assign codes from combination category I13 when hypertension is present with both heart and chronic kidney disease.
-- Do not assign additional codes for symptoms included in a combination code.
-- Use the appropriate code from category N18 as a secondary code with a code from category I13 to identify the stage of chronic kidney disease.
-- Code acute renal failure and chronic kidney disease separately, sequencing according to the circumstances of the admission/encounter.
+- Do not assign codes from categories I11 or I12 if a code from I13 is applicable for the same conditions.
+- Do not assign an additional code for symptoms when a combination code already identifies the definitive diagnosis and common symptoms.
 - No additional external cause code is required for poisonings, toxic effects, adverse effects, and underdosing codes in categories T36-T65.
+- Assign an additional code from category I50 to identify the type of heart failure if present alongside I13 codes.
 
-**Requirements / Properties:**
-- Hypertension must be documented with both heart disease and chronic kidney disease to use category I13.
-- If heart failure is present, an additional code from category I50 must be assigned to identify the type of heart failure.
-- The Includes note at I13 specifies that conditions included at I11 and I12 are included together in I13.
-- For patients with both acute renal failure and chronic kidney disease, both conditions must be coded.
-- Codes in categories T36-T65 must include the substance taken as well as the intent.
-
-**Deprecated in this version:**
-- Assigning codes from I11 or I12 separately when a patient has hypertension, heart disease, and chronic kidney disease.
-- Assigning an additional code for the symptom when a combination code identifies both the definitive diagnosis and common symptoms.
-- Assigning an additional external cause code for poisonings, toxic effects, adverse effects, and underdosing codes in categories T36-T65.
-
-**New in this version:**
-- Category I13 is a combination code that includes hypertension, heart disease, and chronic kidney disease.
-- Category N18 codes are used as secondary codes with category I13 to identify the stage of chronic kidney disease.
-- Categories T36-T65 are combination codes that include the substance taken as well as the intent.
+**Mandatory Coding Criteria:**
+- Hypertension must be documented with both heart disease and chronic kidney disease to use I13.
+- The appropriate code from category N18 must be used as a secondary code with a code from category I13 to identify the stage of chronic kidney disease.
+- For patients with both acute renal failure and chronic kidney disease, acute renal failure must also be coded.
+- Acute renal failure and chronic kidney disease codes must be sequenced according to the circumstances of the admission or encounter.
+- The Includes note at I13 must be referenced to confirm that conditions included at I11 and I12 are included together in I13.

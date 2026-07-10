@@ -4,15 +4,13 @@
 **Feature:** Sepsis Coding Guidelines and Exclusions
 
 **Key Behaviors:**
-- Assign code A41.9 for unspecified sepsis when infection type or organism is not specified
-- Require documentation of severe sepsis or associated acute organ dysfunction before assigning R65.2 codes
-- Query provider if negative or inconclusive blood cultures are present but clinical evidence of sepsis exists
-- Query provider if the term 'urosepsis' is used, as it is nonspecific and has no default code
-- Do not assign severe sepsis codes if acute organ dysfunction is clearly related to a condition other than sepsis
-- Assign code A41.9 for unspecified sepsis when the type of infection or causal organism is not further specified
+- Assign code A41.9 for sepsis when the underlying systemic infection or causal organism is not specified
+- Do not assign a code from subcategory R65.2 (Severe sepsis) unless severe sepsis or associated acute organ dysfunction is explicitly documented
+- Query the provider if blood cultures are negative or inconclusive but clinical evidence of sepsis exists
+- Query the provider if the term 'urosepsis' is used, as it is nonspecific and has no default code
+- Do not assign a severe sepsis code if acute organ dysfunction is related to a medical condition other than sepsis
 
-**Requirements / Properties:**
-- Provider query required for negative/inconclusive blood cultures with clinical sepsis evidence
-- Provider query required for the term 'urosepsis' to clarify diagnosis
-- Provider query required if relationship between sepsis and acute organ dysfunction is unclear
-- Query the provider if the term 'urosepsis' is used to clarify the diagnosis
+**Mandatory Coding Criteria:**
+- Documentation must confirm the underlying systemic infection for sepsis coding
+- Documentation must explicitly state severe sepsis or acute organ dysfunction to justify R65.2 codes
+- Provider query is required when documentation is unclear regarding the relationship between organ dysfunction and sepsis

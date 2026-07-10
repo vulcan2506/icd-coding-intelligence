@@ -1,14 +1,15 @@
 # ICD-10-CM Dementia Classification Guidelines
 *Source: icd_10_cm_october_2025_guidelines_0.pdf*
 
-**Feature:** ICD-10-CM Dementia Classification Guidelines
+**Feature:** ICD-10-CM Dementia Classification
 
 **Key Behaviors:**
-- Classify dementia (categories F01, F02, and F03) based on etiology and severity (unspecified, mild, moderate, or severe).
-- Assign codes only on the basis of provider documentation unless otherwise instructed by the classification.
-- If documentation lacks severity information, assign the code for unspecified severity.
-- If dementia severity progresses during an inpatient stay, assign one code for the highest severity level reported.
+- Classify dementia (categories F01, F02, and F03) based on etiology and severity.
+- Assign codes only on the basis of provider documentation unless otherwise instructed.
+- Assign unspecified severity code if documentation lacks severity information.
+- Assign one code for the highest severity level if dementia progresses during an inpatient stay.
 
-**Requirements / Properties:**
-- Provider clinical judgment is required for selecting the appropriate severity level.
-- Codes must be assigned strictly based on provider documentation as defined in the Official Guidelines for Coding and Reporting.
+**Mandatory Coding Criteria:**
+- Provider must document the specific severity level (unspecified, mild, moderate, or severe).
+- If severity is not documented, assign the code for unspecified severity.
+- For inpatient stays with progression, code the highest severity level reported during the stay.

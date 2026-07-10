@@ -4,29 +4,15 @@
 **Feature:** ICD-10-CM Bilateral Coding Guidelines
 
 **Key Behaviors:**
-- Assign separate codes for left and right sides if no bilateral code is provided and the condition is bilateral.
-- Assign the unspecified side code only if the side is not identified in the medical record.
-- Assign the bilateral code for the first encounter treating a bilateral condition, even if only one side is treated.
-- Assign the appropriate unilateral code for subsequent encounters where the condition no longer exists on the previously treated side.
-- Query the patient's provider for clarification if there is conflicting medical record documentation regarding the affected side.
+- Assign separate left and right codes if no bilateral code exists and the condition is bilateral.
+- Assign unspecified side codes only when documentation is insufficient and clarification is impossible.
+- Use bilateral codes for encounters treating the first side of a bilateral condition, even if the second side was treated separately.
+- Switch to unilateral codes for subsequent encounters if the condition no longer exists on the previously treated side.
+- Do not assign complication codes from Chapter 19 for Breast implant associated anaplastic large cell lymphoma (BIA-ALCL).
 
-**Requirements / Properties:**
-- The condition must be documented as bilateral to assign a bilateral code when available.
-- Documentation must specify the affected side (left, right, or bilateral) to avoid using unspecified codes.
-- For BIA-ALCL, assign code C84.7A or C84.7B and do not assign a complication code from chapter 19.
-- If the treatment on the first side did not completely resolve the condition, the bilateral code remains appropriate for subsequent encounters.
-- Unspecified side codes should rarely be used and only when clarification is impossible.
-
-**Deprecated in this version:**
-- Assigning a bilateral code for a subsequent encounter when the condition no longer exists on the previously treated side.
-- Using unspecified side codes when the side can be determined from the medical record or by querying the provider.
-- Assigning a complication code from chapter 19 for Breast implant associated anaplastic large cell lymphoma (BIA-ALCL).
-- Failing to assign separate codes for left and right sides when no bilateral code is provided for a bilateral condition.
-- Relying solely on unspecified codes without attempting to obtain clarification from the provider.
-
-**New in this version:**
-- Specific codes C84.7A and C84.7B for Anaplastic large cell lymphoma, ALK-negative, breast (BIA-ALCL) and in remission.
-- Explicit instruction to query the patient's provider for clarification when medical record documentation regarding the affected side is conflicting.
-- Guidance that the bilateral code is appropriate for the first encounter treating a bilateral condition, even if only one side is treated.
-- Clarification that the bilateral code would not be assigned for a subsequent encounter if the condition no longer exists on the previously treated site.
-- Requirement to assign separate codes for left and right sides if no bilateral code is provided and the condition is bilateral.
+**Mandatory Coding Criteria:**
+- Bilateral codes must be assigned only when the condition exists on both sides at the time of the encounter.
+- Unilateral codes are required for subsequent encounters where the condition has resolved on one side.
+- Provider query is mandatory when medical records contain conflicting documentation regarding the affected side.
+- Unspecified side codes should be used rarely, strictly when documentation is insufficient and clarification cannot be obtained.
+- For BIA-ALCL, assign specific lymphoma codes (C84.7A or C84.7B) instead of complication codes from Chapter 19.

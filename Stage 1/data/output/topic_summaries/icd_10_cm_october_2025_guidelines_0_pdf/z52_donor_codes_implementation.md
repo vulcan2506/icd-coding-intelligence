@@ -8,10 +8,6 @@
 - These codes apply to individuals donating for others as well as for self-donations.
 - Codes in category Z52 are not used to identify cadaveric donations.
 
-**Requirements / Properties:**
+**Mandatory Coding Criteria:**
 - The donor must be a living individual.
 - The donation must involve blood or other body tissue.
-- The donor must be donating for another individual or for themselves.
-
-**Deprecated in this version:**
-- Using Z52 codes to identify cadaveric donations.

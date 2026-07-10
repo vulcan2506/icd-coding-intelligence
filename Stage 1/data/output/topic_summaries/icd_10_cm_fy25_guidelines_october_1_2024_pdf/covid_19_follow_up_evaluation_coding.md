@@ -4,25 +4,11 @@
 **Feature:** COVID-19 Follow-Up Evaluation Coding
 
 **Key Behaviors:**
-- Assign code Z09 for follow-up examinations after completed treatment for conditions other than malignant neoplasm when COVID-19 infection has resolved.
-- Assign code Z86.16 for personal history of COVID-19 in conjunction with follow-up visits.
-- Ensure COVID-19 test results are negative for individuals without residual symptoms or conditions.
-- Do not assign Z09 if the patient has current symptoms or conditions related to a previous COVID-19 infection.
-- Refer to guideline I.C.1.g.1.m for follow-up visits involving symptoms or conditions related to previous COVID-19 infection.
+- Assign code Z11.52 for screening for COVID-19, including preoperative testing.
+- Assign code Z86.16 for patients with a history of COVID-19.
+- Assign codes Z09 and Z86.16 for follow-up visits after COVID-19 infection has resolved with no residual symptoms and negative test results.
 
-**Requirements / Properties:**
-- Documentation must confirm that the COVID-19 infection has resolved.
-- Documentation must confirm the absence of residual symptoms or conditions.
-- Documentation must confirm negative COVID-19 test results.
-- The visit must be specifically for follow-up evaluation after completed treatment.
-- The patient must not have current symptoms or conditions related to the previous infection.
-
-**Deprecated in this version:**
-- Coding Z11.52 for follow-up visits after infection resolution.
-- Assigning unspecified codes when specific follow-up guidelines (Z09, Z86.16) apply.
-- Coding follow-up visits with residual symptoms using general encounter codes instead of symptom-specific guidelines.
-
-**New in this version:**
-- Use of code Z86.16 specifically for personal history of COVID-19 in follow-up contexts.
-- Mandatory combination of Z09 and Z86.16 for resolved cases with negative tests.
-- Explicit exclusion criteria requiring negative test results and no residual symptoms for Z09 assignment.
+**Mandatory Coding Criteria:**
+- For follow-up visits after resolution, the patient must have no residual symptoms or conditions.
+- For follow-up visits after resolution, COVID-19 test results must be negative.
+- For follow-up visits with residual symptoms or conditions, refer to guideline I.C.1.g.1.m.

@@ -5,7 +5,8 @@
 
 **Key Behaviors:**
 - No external cause code from Chapter 20 is needed if the external cause and intent are included in a code from another chapter
-- Codes such as T36.0X1- (Poisoning by penicillins, accidental) inherently include the external cause and intent, making separate Chapter 20 codes redundant
+- Codes such as T36.0X1- (Poisoning by penicillins, accidental) inherently include the external cause and intent
 
-**Requirements / Properties:**
-- The code from another chapter must explicitly include both the external cause and the intent of the event
+**Mandatory Coding Criteria:**
+- The external cause must be explicitly included in the code from another chapter
+- The intent must be explicitly included in the code from another chapter

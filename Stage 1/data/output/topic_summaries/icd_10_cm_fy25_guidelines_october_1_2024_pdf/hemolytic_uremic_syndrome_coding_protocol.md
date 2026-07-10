@@ -4,6 +4,10 @@
 **Feature:** Hemolytic-Uremic Syndrome Coding Protocol
 
 **Key Behaviors:**
-- Assign code D59.31 as the principal diagnosis when hemolytic-uremic syndrome is associated with sepsis
-- Codes for the underlying systemic infection must be assigned as secondary diagnoses
-- Codes for any other conditions, such as severe sepsis, must be assigned as secondary diagnoses
+- Assign code D59.31 as the principal diagnosis when admission is for hemolytic-uremic syndrome associated with sepsis
+- Assign codes for the underlying systemic infection as secondary diagnoses
+- Assign codes for any other conditions, such as severe sepsis, as secondary diagnoses
+
+**Mandatory Coding Criteria:**
+- Principal diagnosis must be D59.31 for infection-associated cases
+- Underlying infection and comorbidities must be coded as secondary diagnoses

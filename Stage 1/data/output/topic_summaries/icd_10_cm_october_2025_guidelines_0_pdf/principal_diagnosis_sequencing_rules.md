@@ -4,14 +4,12 @@
 **Feature:** Principal Diagnosis Sequencing Rules
 
 **Key Behaviors:**
-- When two or more diagnoses equally meet criteria for principal diagnosis without specific sequencing direction, any one may be sequenced first.
-- Sequence the condition that occasioned the admission after study, even if treatment was not carried out due to unforeseen circumstances.
-- When admission is for treatment of a complication resulting from surgery or other medical care, the complication code is sequenced as the principal diagnosis.
+- Any one of multiple equally qualifying diagnoses may be sequenced first when no specific sequencing direction is provided.
+- The condition occasioning the admission after study is sequenced as principal, even if treatment was not carried out due to unforeseen circumstances.
+- Complications resulting from surgery or other medical care are sequenced as the principal diagnosis.
 
-**Requirements / Properties:**
-- Diagnoses must equally meet criteria for principal diagnosis based on circumstances of admission, diagnostic workup, and/or therapy provided.
-- Sequencing direction must be absent in the Alphabetic Index, Tabular List, or other coding guidelines for the 'any one' rule to apply.
-- The complication code must be classified to the T80-T88 series for it to be sequenced as the principal diagnosis.
-
-**New in this version:**
-- Requirement to assign an additional code for the specific complication if the T80-T88 series code lacks necessary specificity.
+**Mandatory Coding Criteria:**
+- Diagnoses must equally meet criteria for principal diagnosis based on admission circumstances, workup, and therapy.
+- No specific sequencing direction must be available in the Alphabetic Index, Tabular List, or other coding guidelines.
+- The complication code must be classified to the T80-T88 series.
+- If a T80-T88 code lacks specificity, an additional code for the specific complication must be assigned.

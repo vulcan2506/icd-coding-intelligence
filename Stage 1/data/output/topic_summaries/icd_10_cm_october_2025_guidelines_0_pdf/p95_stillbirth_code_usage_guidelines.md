@@ -5,13 +5,9 @@
 
 **Key Behaviors:**
 - Code P95 is restricted to institutions maintaining separate stillbirth records
-- No other codes may be assigned alongside P95
+- No other codes should be assigned alongside P95
 - P95 must not be applied to the mother's medical record
 
-**Requirements / Properties:**
+**Mandatory Coding Criteria:**
 - Institution must maintain separate records for stillbirths
-- Documentation must confirm the event is a stillbirth
-
-**Deprecated in this version:**
-- Using P95 with other codes
-- Assigning P95 to the mother's record
+- No concurrent codes permitted with P95

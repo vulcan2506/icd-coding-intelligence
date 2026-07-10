@@ -10,7 +10,8 @@
 - Non-healing burns are coded as acute burns.
 - Necrosis of burned skin should be coded as a non-healed burn.
 
-**Requirements / Properties:**
-- Documentation must specify the degree of burn to determine the highest degree for sequencing.
-- Clinical documentation must clarify whether the admission reason is for external multiple burns or combined internal/external burns.
-- Documentation must distinguish between non-healing burns and necrosis of burned skin for accurate coding.
+**Mandatory Coding Criteria:**
+- Documentation must indicate the highest degree of burn when multiple burns are present.
+- Circumstances of admission must be documented to determine principal diagnosis for combined internal/external burns or related conditions.
+- Condition must be documented as non-healing to be coded as acute burn.
+- Necrosis of burned skin must be explicitly documented to be coded as non-healed burn.

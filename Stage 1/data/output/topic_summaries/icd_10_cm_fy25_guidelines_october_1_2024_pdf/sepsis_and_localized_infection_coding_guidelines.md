@@ -4,13 +4,15 @@
 **Feature:** Sepsis and Localized Infection Coding Guidelines
 
 **Key Behaviors:**
-- Assign code for underlying systemic infection first if admission is for sepsis/severe sepsis with a localized infection
-- Assign code for localized infection as a secondary diagnosis when sepsis is the primary admission reason
-- Assign code from subcategory R65.2 as a secondary diagnosis if the patient has severe sepsis
+- Assign code for underlying systemic infection first if admission is for sepsis/severe sepsis with localized infection
+- Assign localized infection code as secondary diagnosis when sepsis is the primary reason for admission
+- Assign severe sepsis code from subcategory R65.2 as secondary diagnosis if patient has severe sepsis
 - Assign localized infection code first if sepsis/severe sepsis develops after admission
 - Refer to guideline I.C.1.d.9 for hemolytic-uremic syndrome associated with sepsis
 
-**Requirements / Properties:**
-- Clinical documentation must distinguish between admission for sepsis versus sepsis developing post-admission
-- Documentation must specify if sepsis is severe to trigger R65.2 code assignment
-- Underlying systemic infection must be identified to assign the primary code correctly
+**Mandatory Coding Criteria:**
+- Determine if sepsis/severe sepsis was the reason for admission versus a condition developing after admission
+- Verify presence of localized infection such as pneumonia or cellulitis
+- Confirm severity level (sepsis vs severe sepsis) to determine if R65.2 code is required
+- Ensure correct sequencing based on temporal relationship between infection and sepsis onset
+- Check for specific guideline references for associated syndromes like hemolytic-uremic syndrome

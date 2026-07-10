@@ -4,21 +4,15 @@
 **Feature:** Trimester Coding Guidelines
 
 **Key Behaviors:**
-- Assign the final character for trimester based on provider documentation of the trimester or number of weeks for the current admission/encounter.
-- Apply trimester assignment to pre-existing conditions as well as those that develop during or are due to the pregnancy.
-- Use the provider's documentation of the number of weeks to assign the appropriate code identifying the trimester.
-- Assign an 'in childbirth' code whenever delivery occurs during the current admission and an option exists for the obstetric complication.
-- Use the 'unspecified trimester' code only rarely when documentation is insufficient and clarification cannot be obtained.
+- Final character indicating trimester is assigned based on provider documentation of trimester or number of weeks for the current admission.
+- Assignment applies to pre-existing conditions as well as those developing during or due to pregnancy.
+- If delivery occurs during the current admission and an 'in childbirth' option exists, that code is assigned; otherwise, the current trimester code is used.
+- Codes with trimester components are used only when the condition occurs in specific trimesters or when trimester is applicable.
+- The 'unspecified trimester' code is reserved for cases where documentation is insufficient and clarification cannot be obtained.
 
-**Requirements / Properties:**
-- Provider documentation of the trimester or number of weeks is mandatory for assigning the final character.
-- The 'in childbirth' code must be assigned if delivery occurs during the current admission and the option is available.
-- The 'unspecified trimester' code is invalid if clarification can be obtained from the provider.
-
-**Deprecated in this version:**
-- Assigning unspecified trimester codes when documentation is sufficient to determine the trimester.
-- Failing to apply trimester assignment to pre-existing conditions present during the current admission.
-
-**New in this version:**
-- Explicit requirement to use the number of weeks documented by the provider to determine the trimester code.
-- Mandatory application of trimester coding to conditions that develop during or are due to the pregnancy.
+**Mandatory Coding Criteria:**
+- Provider must document the trimester or the number of weeks to assign the appropriate code.
+- The condition must be documented as occurring in the current admission/encounter.
+- If an 'in childbirth' option is available for an obstetric complication during delivery, it takes precedence over trimester-specific codes.
+- Codes are only assigned for trimesters where the condition is known to occur.
+- The 'unspecified trimester' code requires insufficient documentation and inability to obtain clarification.

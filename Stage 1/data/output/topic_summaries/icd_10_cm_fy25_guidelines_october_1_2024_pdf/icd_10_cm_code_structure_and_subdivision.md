@@ -10,9 +10,7 @@
 - Subdivision provides greater specificity for the diagnosis.
 - The structure allows for hierarchical coding from broad categories to specific instances.
 
-**Requirements / Properties:**
+**Mandatory Coding Criteria:**
 - A three-character code must be assigned as the initial category heading.
-- Additional characters must be used to achieve the highest level of specificity available for the condition.
-- The total code length must not exceed seven characters.
-- The code must align with the specific subdivision rules defined for the category.
-- Documentation must support the use of the specific subdivision characters assigned.
+- Additional characters (4th through 7th) must be used to achieve the required level of specificity.
+- The full code length must be determined by the specific category rules.

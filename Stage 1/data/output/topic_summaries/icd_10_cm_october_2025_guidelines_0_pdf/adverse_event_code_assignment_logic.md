@@ -4,4 +4,4 @@
 **Feature:** Adverse Event Code Assignment Logic
 
 **Key Behaviors:**
-- If the same code would describe the causative agent for more than one adverse reaction, poisoning, toxic effect or underdosing, assign the code only once.
+- Assign the causative agent code only once even if it describes more than one adverse reaction, poisoning, toxic effect, or underdosing.

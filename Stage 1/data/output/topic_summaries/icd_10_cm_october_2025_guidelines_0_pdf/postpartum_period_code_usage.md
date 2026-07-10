@@ -4,4 +4,4 @@
 **Feature:** Postpartum Period Code Usage
 
 **Key Behaviors:**
-- Codes may be assigned at any time after the initial postpartum period has concluded.
+- This code may be used at any time after the initial postpartum period.

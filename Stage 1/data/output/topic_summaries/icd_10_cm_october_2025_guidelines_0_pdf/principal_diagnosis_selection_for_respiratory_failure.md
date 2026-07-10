@@ -4,10 +4,10 @@
 **Feature:** Principal Diagnosis Selection for Respiratory Failure
 
 **Key Behaviors:**
-- Principal diagnosis selection depends on the circumstances of admission when respiratory failure and another acute condition are present.
-- If respiratory failure and another acute condition are equally responsible for admission, apply the guideline for two or more diagnoses equally meeting the definition for principal diagnosis.
-- Query the provider for clarification if documentation is unclear regarding which condition is equally responsible for the admission.
+- Principal diagnosis varies based on the specific circumstances of admission when respiratory failure coexists with another acute condition.
+- Apply guidelines for two or more diagnoses equally responsible for admission if no chapter-specific sequencing rules exist.
+- Query the provider for clarification if documentation is unclear regarding which condition is primarily responsible for the admission.
 
-**Requirements / Properties:**
+**Mandatory Coding Criteria:**
 - Documentation must clearly indicate the circumstances of admission to determine the principal diagnosis.
-- If conditions are equally responsible, both must meet the definition for principal diagnosis per Section II, C.
+- If conditions are equally responsible, apply Section II, C. guidelines for two or more diagnoses meeting the definition for principal diagnosis.

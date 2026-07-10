@@ -6,15 +6,11 @@
 **Key Behaviors:**
 - NIHSS codes (R29.7-) can be used in conjunction with acute stroke codes (I60-I63) to identify neurological status and stroke severity.
 - Stroke scale codes must be sequenced after the acute stroke diagnosis code(s).
-- At a minimum, the initial documented score must be reported.
-- Facilities may optionally capture multiple stroke scale scores.
-- Clinicians other than the patient's provider must follow specific documentation guidelines per Section I.B.14.
+- At a minimum, the initial score documented must be reported.
+- Facilities may choose to capture multiple stroke scale scores if desired.
+- NIHSS stroke scale documentation may be performed by clinicians other than the patient's provider.
+- Facilities have the option to capture multiple stroke scale scores if desired.
 
-**Requirements / Properties:**
-- Acute stroke diagnosis codes (I60-I63) must be present to utilize NIHSS codes.
-- The initial NIHSS score documented in the medical record must be reported.
-- Sequencing must place the acute stroke code before the NIHSS code.
-- Clinicians other than the patient's provider must follow specific documentation guidelines per Section I.B.14.
-
-**New in this version:**
-- Explicit permission to capture multiple stroke scale scores if desired by the facility.
+**Mandatory Coding Criteria:**
+- NIHSS codes must be sequenced after the acute stroke diagnosis code(s).
+- The initial documented score must be reported at a minimum.

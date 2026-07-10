@@ -5,14 +5,14 @@
 
 **Key Behaviors:**
 - Assign codes from categories Q00-Q99 when a malformation, deformation, or chromosomal abnormality is documented.
+- A malformation/deformation or chromosomal abnormality may serve as the principal/first-listed diagnosis or a secondary diagnosis.
 - Assign additional codes for manifestations that are not an inherent component of the anomaly.
 - Do not code separately for manifestations that are an inherent component of the identified anomaly.
-- Use a personal history code if a congenital malformation has been corrected.
-- Sequence category Z38 as the principal diagnosis for birth admissions, followed by congenital anomaly codes.
+- For birth admissions, sequence category Z38 (Liveborn infants) as the principal diagnosis followed by congenital anomaly codes Q00-Q99.
 
-**Requirements / Properties:**
+**Mandatory Coding Criteria:**
 - The condition must be documented as a malformation, deformation, or chromosomal abnormality.
-- For birth admissions, the place of birth and type of delivery must be documented to assign the correct Z38 code.
-- The provider must diagnose the condition for it to be appropriate to assign a code from Q00-Q99.
-- If the code assignment specifically identifies the anomaly, inherent manifestations are excluded from separate coding.
-- Additional codes are mandatory for any manifestations present that are not inherent to the anomaly.
+- If the code assignment specifically identifies the anomaly, inherent manifestations should not be coded separately.
+- For birth admissions, the principal diagnosis must be from category Z38 based on place of birth and type of delivery.
+- Codes from categories Q00-Q99 are appropriate whenever the condition is diagnosed by the provider, even if diagnosed later in life.
+- If a congenital malformation has been corrected, a personal history code must be used to identify the history.

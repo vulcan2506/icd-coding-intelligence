@@ -4,9 +4,9 @@
 **Feature:** Injury Intent Coding Rules
 
 **Key Behaviors:**
-- Code the intent as accidental intent if the cause of an injury or other condition is unknown or unspecified.
-- All transport accident categories assume accidental intent.
+- Code intent as accidental if unknown or unspecified
+- All transport accident categories assume accidental intent
 
-**Requirements / Properties:**
-- Intent must be documented as accident, self-harm, or assault to assign specific intent codes.
-- If intent is not documented, default to accidental intent coding.
+**Mandatory Coding Criteria:**
+- Intent must be unknown or unspecified to default to accidental
+- Condition must be an injury or other condition

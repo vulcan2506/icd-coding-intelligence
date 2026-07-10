@@ -4,11 +4,9 @@
 **Feature:** Z05 Secondary Coding for Z38
 
 **Key Behaviors:**
-- Assign Z05 codes as secondary codes following Z38 codes
-- Z38 codes must be assigned as the primary diagnosis for liveborn infants
-- Z05 codes are utilized to provide additional context regarding the infant's condition after the birth event
+- Category Z05 codes must be assigned as secondary codes following a Z38 code
+- Z38 codes (Liveborn infants) take precedence as the primary diagnosis
 
-**Requirements / Properties:**
-- The infant must be liveborn to qualify for Z38 primary coding
-- Documentation must confirm the place of birth and type of delivery
-- Z05 code must be supported by clinical documentation of the specific condition
+**Mandatory Coding Criteria:**
+- The infant must be liveborn (category Z38)
+- A condition from category Z05 must be documented in addition to the birth circumstance

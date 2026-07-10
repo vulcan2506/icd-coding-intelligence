@@ -4,15 +4,11 @@
 **Feature:** COVID-19 Vaccination Status Coding
 
 **Key Behaviors:**
-- Code Z28.310 is assigned when the patient has not received a COVID-19 vaccine of any type.
-- Code Z28.311 is assigned when the patient has been partially vaccinated for COVID-19 as per CDC recommendations.
-- Vaccination status coding relies on CDC guidelines in place at the time of the encounter.
+- Assign Z28.310 when the patient has not received a COVID-19 vaccine of any type.
+- Assign Z28.311 when the patient has been partially vaccinated for COVID-19 as per CDC recommendations in place at the time of the encounter.
 
-**Requirements / Properties:**
-- Documentation must confirm the patient has not received any COVID-19 vaccine for Z28.310.
-- Documentation must confirm partial vaccination status aligns with current CDC recommendations for Z28.311.
-- Clinicians other than the patient's provider must follow Section I.B.14 for underimmunization documentation.
-
-**New in this version:**
-- Introduction of specific ICD-10-CM codes Z28.310 and Z28.311 for tracking vaccination status.
-- Mandatory alignment of vaccination status definitions with CDC recommendations at the time of service.
+**Mandatory Coding Criteria:**
+- Vaccination status must align with CDC recommendations current at the time of the encounter.
+- Documentation must explicitly indicate whether the patient is unvaccinated or partially vaccinated.
+- Documentation must be provided by clinicians other than the patient's provider for underimmunization status.
+- Refer to Section I.B.14 for specific documentation requirements regarding underimmunization.

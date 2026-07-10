@@ -4,11 +4,8 @@
 **Feature:** ICD-10 Code O94 Implementation
 
 **Key Behaviors:**
-- Code O94 is used when an initial complication of pregnancy develops a sequela requiring future care or treatment
-- The sequela must be a direct result of a complication that occurred during pregnancy, childbirth, or the puerperium
-- Care or treatment for the sequela must occur at a future date relative to the initial complication
+- Code O94 is used when an initial complication of pregnancy develops a sequela requiring future care or treatment.
 
-**Requirements / Properties:**
-- Documentation must explicitly link the sequela to an initial complication of pregnancy, childbirth, or the puerperium
-- Clinical evidence must confirm that the sequela requires care or treatment at a future date
-- The initial complication must be established as the cause of the sequela
+**Mandatory Coding Criteria:**
+- The condition must be a sequela of an initial complication of pregnancy, childbirth, or the puerperium.
+- The sequela must require care or treatment at a future date.

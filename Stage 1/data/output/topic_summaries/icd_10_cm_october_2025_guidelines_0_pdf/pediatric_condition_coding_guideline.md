@@ -4,8 +4,9 @@
 **Feature:** Pediatric Condition Coding Guideline
 
 **Key Behaviors:**
-- Assign codes for conditions specified by the provider as having implications for future health care needs
-- Exclude application of this guideline for adult patients
+- Assign codes for conditions specified by the provider as having implications for future health care needs.
+- This guideline should not be used for adult patients.
 
-**Requirements / Properties:**
-- Provider must explicitly specify that the condition has implications for future health care needs
+**Mandatory Coding Criteria:**
+- Condition must be specified by the provider.
+- Condition must have implications for future health care needs.

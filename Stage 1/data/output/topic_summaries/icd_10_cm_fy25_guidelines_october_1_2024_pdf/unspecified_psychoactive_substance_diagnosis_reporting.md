@@ -4,13 +4,11 @@
 **Feature:** Unspecified Psychoactive Substance Diagnosis Reporting
 
 **Key Behaviors:**
-- Codes for unspecified psychoactive substance use should only be assigned based on provider documentation.
-- These codes must meet the definition of a reportable diagnosis.
-- Codes are used only when substance use is associated with a substance-related disorder or medical condition.
-- The relationship between substance use and the associated condition must be documented by the provider.
-- Codes are restricted to cases where the unspecified substance use is linked to specific disorders like sexual dysfunction, sleep disorder, or mental/behavioral disorders.
+- Codes for unspecified psychoactive substance use (F10.9- through F19.9-) must be assigned based on provider documentation.
+- These codes are restricted to cases where substance use is associated with a substance-related disorder or medical condition.
+- The relationship between the substance use and the associated disorder/condition must be explicitly documented by the provider.
 
-**Requirements / Properties:**
-- Provider documentation must explicitly link the unspecified psychoactive substance use to a reportable diagnosis.
-- The association must be between the substance use and a substance-related disorder or medical condition.
-- The relationship must be clearly documented by the provider to validate the code assignment.
+**Mandatory Coding Criteria:**
+- The diagnosis must meet the definition of a reportable diagnosis per Section III.
+- Documentation must confirm the association between the unspecified substance use and a specific disorder or medical condition.
+- Provider documentation must explicitly state the relationship between the substance use and the associated condition.

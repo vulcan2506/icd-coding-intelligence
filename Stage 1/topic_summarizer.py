@@ -54,6 +54,7 @@ from delta_analyzer import (
     _parse_additions,
     _parse_profile,
     _render_profile,
+    get_delta_field_labels,
 )
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)-8s %(message)s")
@@ -110,20 +111,47 @@ def _qna_for_bracket(qna_dict: Dict, ids: List[str]) -> list:
     return out
 
 
+def _normalize(s: str) -> str:
+    return re.sub(r"\s+", " ", s.strip().lower())
+
+
+def _dedupe_exact(items: List[str]) -> List[str]:
+    """Drops case/whitespace-normalized exact duplicates, keeping first occurrence order."""
+    seen, kept = set(), []
+    for it in items:
+        it = it.strip()
+        if not it:
+            continue
+        key = _normalize(it)
+        if key in seen:
+            continue
+        seen.add(key)
+        kept.append(it)
+    return kept
+
+
 def _profile_to_embed_text(label: str, p: BehavioralProfile, char_budget: int = EMBED_CHAR_BUDGET) -> str:
     """
     Greedily fills up to char_budget in priority order (feature name, then
     behaviors, then new/requirements/deprecated items) so the most
     diagnostic content survives the cap rather than being truncated
     mid-sentence at an arbitrary cutoff.
+
+    p.feature_name is usually the extractor echoing the given topic label
+    back verbatim — including it unconditionally alongside label doubled the
+    text (and ate into char_budget) before any real content was added, so it
+    is only kept when it actually contributes words beyond the label.
     """
-    candidates = [label, p.feature_name, *p.key_behaviors, *p.new_items, *p.requirements, *p.deprecated_items]
+    label = label.strip()
+    feature = p.feature_name.strip()
+    include_feature = bool(feature) and _normalize(feature) != _normalize(label) and _normalize(feature) not in _normalize(label)
+    candidates = [label] + ([feature] if include_feature else []) + \
+        [*p.key_behaviors, *p.new_items, *p.requirements, *p.deprecated_items]
+    candidates = _dedupe_exact(candidates)
+
     parts: List[str] = []
     total = 0
     for c in candidates:
-        c = c.strip()
-        if not c:
-            continue
         add_len = len(c) + (2 if parts else 0)   # ". " separator once joined
         if parts and total + add_len > char_budget:
             break
@@ -132,11 +160,44 @@ def _profile_to_embed_text(label: str, p: BehavioralProfile, char_budget: int = 
     return ". ".join(parts)
 
 
+def _dedupe_bracket_texts(texts: List[str]) -> List[str]:
+    """Collapses exact-normalized duplicates and true containment across
+    per-source-version bracket entries, keeping the richer (longer) string
+    when one is a subset of another. Leaves genuinely different cross-version
+    text untouched — only drops a string when another kept string already
+    says everything it says."""
+    kept: List[str] = []
+    kept_norm: List[str] = []
+    for t in texts:
+        t = t.strip()
+        if not t:
+            continue
+        tn = _normalize(t)
+        merged = False
+        for i, kn in enumerate(kept_norm):
+            if tn == kn or tn in kn:
+                merged = True
+                break
+            if kn in tn:
+                kept[i], kept_norm[i] = t, tn
+                merged = True
+                break
+        if not merged:
+            kept.append(t)
+            kept_norm.append(tn)
+    return kept
+
+
 def _truncate_at_boundary(text: str, limit: int) -> str:
     if len(text) <= limit:
         return text
-    cut = text.rfind(" ", 0, limit)
-    return text[:cut if cut > 0 else limit].rstrip()
+    window = text[:limit]
+    sentence_end = max(window.rfind(". "), window.rfind("? "), window.rfind("! "))
+    if sentence_end > limit * 0.4:
+        return window[:sentence_end + 1].rstrip()
+    cut = window.rfind(" ")
+    truncated = (window[:cut] if cut > 0 else window).rstrip().rstrip(",;:")
+    return truncated + "…"
 
 
 def _load_cache() -> Dict[str, Dict]:
@@ -274,17 +335,32 @@ def run_topic_summarization(cached_only: bool = False):
 
     # ── Pass 3: render markdown, build per-topic embed text ──
     log.info("Rendering per-source markdown summaries...")
+    try:
+        import context_profiler
+    except ImportError:
+        context_profiler = None
+
     by_topic_text: Dict[str, List[Tuple[str, str]]] = {}
     for entry in all_brackets:
         label, doc, p = entry["label"], entry["doc"], entry["profile"]
-        md = [f"# {label}", f"*Source: {doc}*\n", *_render_profile(p)]
+        profile = context_profiler.get_profile(doc) if context_profiler else None
+        field_labels = get_delta_field_labels(profile)
+        md = [f"# {label}", f"*Source: {doc}*\n", *_render_profile(p, field_labels)]
         out_dir = SUMMARY_DIR / _slugify(doc)
         out_dir.mkdir(parents=True, exist_ok=True)
         (out_dir / f"{_slugify(label)}.md").write_text("\n".join(md), encoding="utf-8")
         by_topic_text.setdefault(label, []).append((doc, _profile_to_embed_text(label, p)))
 
     def _blend(entries: List[Tuple[str, str]]) -> str:
-        return _truncate_at_boundary(" ".join(t for _, t in entries), BLEND_CHAR_BUDGET)
+        unique = _dedupe_bracket_texts([t for _, t in entries])
+        if not unique:
+            return ""
+        # Only strip trailing periods from non-last parts (avoids "X.. Y"
+        # double-period artifacts at join boundaries) — the last part's own
+        # ending is left untouched so a real final sentence isn't clipped.
+        parts = [s.rstrip(" .") for s in unique[:-1]] + [unique[-1].rstrip()]
+        joined = ". ".join(parts)
+        return _truncate_at_boundary(joined, BLEND_CHAR_BUDGET)
 
     # ── Pass 4: patch topic_registry.csv ──
     log.info("Updating topic_registry.csv...")

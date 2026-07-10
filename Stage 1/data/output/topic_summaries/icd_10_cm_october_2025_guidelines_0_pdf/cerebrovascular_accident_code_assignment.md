@@ -7,9 +7,10 @@
 - Medical record documentation must clearly specify the cause- and-effect relationship between the medical intervention and the cerebrovascular accident.
 - Code assignment depends on whether the event was an infarction or hemorrhage.
 - Code assignment depends on whether the event occurred intraoperatively or postoperatively.
-- For cerebral hemorrhage, code assignment depends on the specific type of procedure performed.
+- For cerebral hemorrhage, code assignment depends on the type of procedure performed.
 
-**Requirements / Properties:**
-- Documentation must establish a clear causal link between the intervention and the cerebrovascular accident.
-- The clinical record must specify the nature of the cerebrovascular event (infarction vs. hemorrhage).
-- The timing of the event relative to the procedure (intraoperative vs. postoperative) must be documented.
+**Mandatory Coding Criteria:**
+- Documentation must explicitly link the medical intervention to the cerebrovascular accident.
+- The specific type of cerebrovascular event (infarction vs. hemorrhage) must be identified.
+- The timing of the event (intraoperative vs. postprocedural) must be documented.
+- The type of procedure performed must be documented for cerebral hemorrhage cases.

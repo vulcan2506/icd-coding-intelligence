@@ -4,11 +4,9 @@
 **Feature:** Dehydration and Malignancy Coding Sequence
 
 **Key Behaviors:**
-- When the admission is for management of dehydration due to malignancy and only dehydration is being treated, sequence dehydration first
-- Follow the sequenced dehydration code with the code(s) for the malignancy
-- Apply this sequence specifically when intravenous rehydration is the treatment provided
+- When admission is for management of dehydration due to malignancy and only dehydration is treated, sequence dehydration first
+- Follow the dehydration code with code(s) for the malignancy
 
-**Requirements / Properties:**
-- Admission or encounter must be for management of dehydration due to malignancy
-- Only dehydration must be treated during the encounter
-- Treatment must involve intravenous rehydration
+**Mandatory Coding Criteria:**
+- Admission/encounter must be for management of dehydration due to malignancy
+- Only dehydration must be treated (intravenous rehydration)

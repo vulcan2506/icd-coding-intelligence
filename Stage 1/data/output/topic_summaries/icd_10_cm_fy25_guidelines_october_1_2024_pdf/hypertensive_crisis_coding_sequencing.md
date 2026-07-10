@@ -5,9 +5,10 @@
 
 **Key Behaviors:**
 - Assign a code from category I16 for documented hypertensive urgency, hypertensive emergency, or unspecified hypertensive crisis.
-- Code any identified hypertensive disease (I10, I15) in addition to the crisis code.
+- Code any identified hypertensive disease (I10, I15) alongside the crisis code.
 - Determine sequencing based on the reason for the encounter.
 
-**Requirements / Properties:**
-- Documentation must explicitly identify the condition as hypertensive urgency, hypertensive emergency, or unspecified hypertensive crisis.
-- An identified hypertensive disease (I10 or I15) must be present to support the coding of the crisis category.
+**Mandatory Coding Criteria:**
+- Condition must be documented as hypertensive urgency, hypertensive emergency, or unspecified hypertensive crisis.
+- Hypertensive disease (I10, I15) must be identified to be coded alongside the crisis.
+- Sequencing must align with the reason for the encounter.

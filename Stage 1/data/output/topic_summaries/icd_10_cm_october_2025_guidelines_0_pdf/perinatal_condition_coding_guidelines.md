@@ -4,9 +4,9 @@
 **Feature:** Perinatal Condition Coding Guidelines
 
 **Key Behaviors:**
-- The perinatal period is defined as before birth through the 28th day following birth for coding and reporting purposes.
-- If a condition originates in the perinatal period and continues throughout the patient's life, the perinatal code must continue to be used regardless of the patient's age.
+- The perinatal period is defined as before birth through the 28th day following birth.
+- Conditions originating in the perinatal period must continue to use perinatal codes regardless of patient age if they persist throughout life.
 
-**Requirements / Properties:**
-- Conditions must originate within the defined perinatal period (before birth to 28th day post-birth) to utilize perinatal codes.
-- Continuity of the condition from the perinatal period into adulthood mandates the retention of the original perinatal code.
+**Mandatory Coding Criteria:**
+- Condition must originate in the perinatal period.
+- Condition must continue throughout the patient's life.

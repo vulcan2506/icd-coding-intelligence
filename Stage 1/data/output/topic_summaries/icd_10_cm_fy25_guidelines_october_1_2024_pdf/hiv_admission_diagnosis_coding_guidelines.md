@@ -5,10 +5,10 @@
 
 **Key Behaviors:**
 - Assign B20 as principal diagnosis for HIV-related condition admissions
-- Code additional diagnoses for all reported HIV-related conditions
-- Assign D59.31 followed by B20 for hemolytic-uremic syndrome associated with HIV
+- Code additional HIV-related conditions as secondary diagnoses
+- Reverse code order for hemolytic-uremic syndrome associated with HIV
 
-**Requirements / Properties:**
-- Patient must be admitted for an HIV-related condition
+**Mandatory Coding Criteria:**
+- Admission must be for an HIV-related condition to assign B20 as principal
 - All reported HIV-related conditions must be coded as additional diagnoses
-- Hemolytic-uremic syndrome must be explicitly associated with HIV disease
+- Hemolytic-uremic syndrome must be explicitly associated with HIV disease to trigger exception

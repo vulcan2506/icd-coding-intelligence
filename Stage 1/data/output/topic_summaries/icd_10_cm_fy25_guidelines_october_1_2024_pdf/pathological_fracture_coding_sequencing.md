@@ -4,11 +4,11 @@
 **Feature:** Pathological Fracture Coding Sequencing
 
 **Key Behaviors:**
-- When the focus of treatment is the fracture, sequence the pathological fracture code (M84.5) first, followed by the neoplasm code.
-- When the focus of treatment is the neoplasm, sequence the neoplasm code first, followed by the pathological fracture code (M84.5).
-- Sequence multiple fractures in accordance with the severity of the fracture.
+- Sequence M84.5 code first when the focus of treatment is the fracture due to neoplasm.
+- Sequence neoplasm code first when the focus of treatment is the neoplasm with an associated pathological fracture.
+- Sequence multiple fractures based on the severity of the fracture.
 
-**Requirements / Properties:**
-- The encounter must be for a pathological fracture due to a neoplasm.
-- The focus of treatment must be clearly identified as either the fracture or the neoplasm.
-- Multiple fractures must be evaluated for severity to determine sequencing order.
+**Mandatory Coding Criteria:**
+- Determine the primary focus of treatment (fracture vs. neoplasm) to establish sequencing order.
+- Assign code from subcategory M84.5 for pathological fracture in neoplastic disease.
+- Assign appropriate code for the underlying neoplasm.

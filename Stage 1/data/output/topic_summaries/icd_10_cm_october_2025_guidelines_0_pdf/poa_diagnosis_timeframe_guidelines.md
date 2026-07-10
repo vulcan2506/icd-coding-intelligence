@@ -4,9 +4,11 @@
 **Feature:** POA Diagnosis Timeframe Guidelines
 
 **Key Behaviors:**
-- There is no required timeframe for a provider to identify or document a condition to be present on admission.
-- A condition may be coded as present on admission even if the definitive diagnosis is made several days after admission.
-- Determination of POA status is based on applicable guidelines or the provider's best clinical judgment.
+- No specific timeframe is required for a provider to identify or document a condition to be present on admission.
+- Conditions may be coded as present on admission even if the definitive diagnosis is made several days after admission.
+- Determination of POA status relies on applicable guidelines or the provider's best clinical judgment rather than documentation timing.
+- Providers should be queried for clarification if documentation is unclear regarding POA status at the time of code assignment.
 
-**Requirements / Properties:**
-- If documentation is unclear regarding whether a condition was present on admission, it is appropriate to query the provider for clarification.
+**Mandatory Coding Criteria:**
+- Determination must be based on applicable POA guidelines or the provider's best clinical judgment.
+- Documentation must be queried for clarification if the POA status is unclear at the time of code assignment.

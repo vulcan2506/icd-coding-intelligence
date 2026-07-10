@@ -4,5 +4,6 @@
 **Feature:** Code Title Note Definitions
 
 **Key Behaviors:**
-- This note appears immediately under a three-character code title to further define the content of the category.
-- This note provides examples of the content included within the category.
+- Notes appear immediately under a three-character code title
+- Notes serve to further define the content of the category
+- Notes provide examples of the content of the category

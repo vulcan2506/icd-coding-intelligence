@@ -4,17 +4,18 @@
 **Feature:** ICD-10 Chapter 19 7th Character Requirements
 
 **Key Behaviors:**
+- Most categories require a 7th character with values A (initial), D (subsequent), or S (sequela).
 - Assignment of the 7th character is based on whether the patient is undergoing active treatment, not whether the provider is seeing the patient for the first time.
-- 7th character 'A' is used for encounters where the patient is receiving active treatment for the condition.
-- 7th character 'D' is used for encounters after active treatment is completed, during the healing or recovery phase.
-- 7th character 'S' is used for complications or conditions that arise as a direct result of an initial condition (sequela).
-- Aftercare Z codes should not be used for aftercare of injuries or poisonings where 7th characters are provided.
-- Categories for traumatic fractures have additional 7th character values beyond A, D, and S.
+- 7th character 'A' is used when the patient is receiving active treatment for the condition.
+- 7th character 'D' is used for routine care during the healing or recovery phase after active treatment is completed.
+- 7th character 'S' identifies the injury responsible for a sequela and is added only to the injury code, not the sequela code.
 - For complication codes, active treatment refers to treatment for the condition described by the code, even if related to an earlier precipitating problem.
+- When using 7th character 'S', the specific type of sequela (e.g., scar) is sequenced first, followed by the injury code.
 
-**Requirements / Properties:**
-- Most categories in Chapter 19 require a 7th character for each applicable code.
-- When using 7th character 'S', both the injury code that precipitated the sequela and the code for the sequela itself must be used.
+**Mandatory Coding Criteria:**
+- Active treatment must be provided for the condition described by the code to assign 7th character 'A'.
+- Routine care during the healing or recovery phase is required to assign 7th character 'D'.
+- Both the injury code and the sequela code must be used when assigning 7th character 'S'.
 - The 7th character 'S' must be added only to the injury code, not the sequela code.
-- The specific type of sequela (e.g., scar) must be sequenced first, followed by the injury code.
-- Active treatment refers to treatment for the condition described by the code, even if related to an earlier precipitating problem.
+- Aftercare Z codes should not be used for injuries or poisonings where 7th characters are provided.
+- When using 7th character 'S', it is necessary to use both the injury code that precipitated the sequela and the code for the sequela itself.

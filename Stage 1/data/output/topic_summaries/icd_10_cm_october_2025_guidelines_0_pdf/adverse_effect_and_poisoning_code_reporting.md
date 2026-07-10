@@ -5,10 +5,5 @@
 
 **Key Behaviors:**
 - Secondary diabetes may be caused by an adverse effect of correctly administered medications, poisoning or sequela of poisoning.
-- Coding for adverse effects and poisoning must follow section I.C.19.e guidelines.
-- External cause code reporting for these conditions must follow section I.C.20 guidelines.
-
-**Requirements / Properties:**
-- Documentation must distinguish between adverse effects (correctly administered) and poisoning (incorrect administration or overdose).
-- External cause codes must be assigned to identify the nature and circumstances of the poisoning or adverse event.
-- Coding must reflect whether the condition is a sequela of poisoning or a direct adverse effect.
+- Refer to section I.C.19.e for coding of adverse effects and poisoning.
+- Refer to section I.C.20 for external cause code reporting.

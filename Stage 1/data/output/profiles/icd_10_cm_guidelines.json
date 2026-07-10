@@ -1,0 +1,115 @@
+{
+  "domain": "medical coding and claims administration",
+  "document_purpose": "official guidelines for assigning ICD-10-CM diagnosis and external cause codes to healthcare claims",
+  "specialist_role": "senior medical coding compliance specialist",
+  "analyst_role": "healthcare data quality analyst",
+  "entity_types": [
+    "diagnosis code",
+    "external cause code",
+    "principal diagnosis",
+    "present on admission",
+    "etiology",
+    "manifestation",
+    "sequela",
+    "clinical criteria"
+  ],
+  "key_terminology": {
+    "ICD-10-CM": "International Classification of Diseases, 10th Revision, Clinical Modification",
+    "POA": "Present on Admission",
+    "Etiology": "The underlying cause of a disease or condition",
+    "Manifestation": "A condition that is a result of an underlying disease",
+    "Sequela": "Late effects of a disease or injury",
+    "Combination Code": "A single code that includes both the disease and its manifestation or complication",
+    "Excludes1": "Note indicating a condition is not coded here",
+    "Excludes2": "Note indicating a condition is coded elsewhere but may be coded together"
+  },
+  "labeling_few_shots": [
+    {
+      "text_snippet": "The selection of the appropriate external cause code is guided by the Alphabetic Index of External Causes and by Inclusion and Exclusion notes in the Tabular List.",
+      "master_label": "External Cause Selection",
+      "description": "Describes the methodology for choosing codes based on specific index and tabular list references."
+    },
+    {
+      "text_snippet": "All claims involving inpatient admissions to general acute care hospitals or other facilities that are subject to a law or regulation mandating collection of present on admission information.",
+      "master_label": "Reporting Requirements",
+      "description": "Defines the scope of facilities and claim types subject to specific data collection mandates."
+    },
+    {
+      "text_snippet": "Additional signs and symptoms that may not be associated routinely with a disease process should be coded when present.",
+      "master_label": "Coding of Additional Symptoms",
+      "description": "Outlines the rule for coding symptoms that are not integral to the primary disease process."
+    }
+  ],
+  "delta_change_types": [
+    {
+      "name": "Coding Rule Clarification",
+      "description": "Used when a guideline is updated to provide clearer instructions or resolve ambiguity in existing coding logic."
+    },
+    {
+      "name": "Scope Expansion",
+      "description": "Used when the application of a rule is extended to new conditions, body parts, or facility types."
+    },
+    {
+      "name": "Definition Revision",
+      "description": "Used when the clinical definition or criteria for a specific code or concept is altered."
+    },
+    {
+      "name": "Guidance Reversal",
+      "description": "Used when a newer version explicitly contradicts or reverses a previous guideline, often due to feedback or new clinical evidence."
+    },
+    {
+      "name": "No Meaningful Change",
+      "description": "Used when the text has been updated for formatting or minor wording but the coding logic remains identical."
+    }
+  ],
+  "delta_field_meaning": {
+    "requirements": "Mandatory coding criteria or conditions that must be met before a specific code can be assigned (e.g., 'code first' notes, POA status).",
+    "deprecated_items": "Guidelines or code assignments that are no longer valid, superseded by new guidelines or removed from the code set.",
+    "new_items": "Newly introduced guidelines, codes, or reporting requirements effective from a specific date."
+  },
+  "delta_field_labels": {
+    "requirements": "Mandatory Coding Criteria",
+    "deprecated_items": "Superseded Guidance",
+    "new_items": "Newly Introduced Guidance"
+  },
+  "delta_few_shots": [
+    {
+      "topic": "Documentation of Complications of Care",
+      "version_a": "Complications of care were generally coded only if they were unexpected and not routinely associated with the procedure.",
+      "version_b": "Complications of care must now be coded regardless of whether they were expected, provided they are documented as complications of care.",
+      "change_type": "Coding Rule Clarification",
+      "analysis": "The older version relied on the 'unexpected' qualifier to determine if a complication warranted coding. The newer version removes this qualifier, clarifying that any documented complication of care requires a code, ensuring more comprehensive reporting of adverse events."
+    },
+    {
+      "topic": "Reporting of Borderline Diagnoses",
+      "version_a": "A diagnosis should not be coded if the documentation is uncertain or if the provider has not confirmed the condition.",
+      "version_b": "A diagnosis may be coded if the documentation indicates the condition is suspected or probable, even if not confirmed, provided the provider documents the uncertainty.",
+      "change_type": "Guidance Reversal",
+      "analysis": "The previous guideline strictly prohibited coding uncertain diagnoses. The newer version reverses this stance, allowing coders to assign codes for suspected conditions when the provider explicitly documents the uncertainty, thereby capturing more clinical data."
+    }
+  ],
+  "qna_few_shots": [
+    {
+      "q": "If a patient has a condition that is both an etiology and a manifestation, which guideline takes precedence?",
+      "a": "The 'code first' etiology/manifestation convention takes precedence. You must code the underlying etiology first, followed by the manifestation code, unless a combination code exists that captures both."
+    },
+    {
+      "q": "How do I determine if a condition is 'present on admission' for a claim?",
+      "a": "You must review the medical record to determine if the condition was documented as existing at the time of admission. If it was noted prior to admission or developed during the encounter, it is coded as present on admission."
+    }
+  ],
+  "evolution_few_shot": {
+    "topic": "Documentation of Complications of Care",
+    "foundation": "The older version established that complications of care were only reportable if they were unexpected and not routinely associated with the procedure.",
+    "value_added": [
+      "Removal of the 'unexpected' qualifier to ensure all complications are captured.",
+      "Explicit instruction to code regardless of expectation status."
+    ],
+    "narrative": "The older version introduced a restrictive rule requiring complications to be unexpected to be coded. The newer version builds on this by removing the expectation constraint, enabling the capture of all documented complications of care for better quality reporting."
+  },
+  "type_key": "icd_10_cm_guidelines",
+  "source_files": [
+    "ICD-10-CM FY25 Guidelines October 1, 2024.pdf",
+    "icd_10_cm_october_2025_guidelines_0.pdf"
+  ]
+}

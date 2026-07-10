@@ -4,12 +4,9 @@
 **Feature:** Outpatient Prenatal Diagnosis Coding
 
 **Key Behaviors:**
-- Use category Z34 codes for routine outpatient prenatal visits without complications as the first-listed diagnosis
-- Do not use category Z34 codes in conjunction with chapter 15 codes
+- Use category Z34 codes for routine outpatient prenatal visits when no complications are present.
+- Assign Z34 codes as the first-listed diagnosis for routine prenatal encounters.
 
-**Requirements / Properties:**
-- No complications must be present during the visit
-- The visit must be a routine outpatient prenatal encounter
-
-**Deprecated in this version:**
-- Using chapter 15 codes alongside category Z34 codes for routine prenatal visits
+**Mandatory Coding Criteria:**
+- No complications should be present during the visit.
+- The encounter must be a routine outpatient prenatal visit.

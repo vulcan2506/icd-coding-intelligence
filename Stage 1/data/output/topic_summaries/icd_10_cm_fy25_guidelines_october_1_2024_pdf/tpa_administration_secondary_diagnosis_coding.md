@@ -4,15 +4,13 @@
 **Feature:** tPA Administration Secondary Diagnosis Coding
 
 **Key Behaviors:**
-- Assign code Z92.82 as a secondary diagnosis for patients transferred after tPA administration within the last 24 hours
-- Apply the guideline even if the patient is still receiving tPA upon arrival at the current facility
-- The condition code for the tPA indication (e.g., cerebrovascular disease) must be assigned as the primary diagnosis first
-- Code Z92.82 is restricted to the receiving facility record and must not be assigned to the transferring facility record
-- Documentation must indicate tPA administration occurred within 24 hours prior to admission to the current facility
+- Assign code Z92.82 as a secondary diagnosis when a patient is transferred and received documentation indicates tPA administration within the last 24 hours prior to admission
+- Apply the Z92.82 code even if the patient is still receiving the tPA at the time of receipt into the current facility
+- Assign the code for the underlying condition (e.g., cerebrovascular disease or myocardial infarction) as the primary diagnosis before assigning Z92.82
+- Restrict the use of code Z92.82 to the receiving facility record only, excluding the transferring facility record
+- Verify documentation explicitly states tPA administration occurred within the 24-hour window prior to admission to the current facility
 
-**Requirements / Properties:**
-- Documentation must explicitly state tPA administration within the last 24 hours prior to admission
-- The condition treated by tPA must be coded as the primary diagnosis before Z92.82
-
-**New in this version:**
-- ICD-10-CM code Z92.82 for status post administration of tPA
+**Mandatory Coding Criteria:**
+- Documentation must confirm tPA administration within the last 24 hours prior to admission to the current facility
+- The code Z92.82 must be assigned as a secondary diagnosis, not primary
+- The underlying condition code must be assigned first before the Z92.82 status code

@@ -24,12 +24,12 @@ TOPIC: Documentation of Complications of Care
 OUTPUT:
 {{
   "feature_name": "Documentation of Complications of Care",
-  "foundation": "The older version established that complications of care should only be coded if they occur after the onset of the condition and are not part of the natural progression of the disease.",
+  "foundation": "The older version established that complications of care were only reportable if they were unexpected and not routinely associated with the procedure.",
   "value_added": [
-    "Explicit requirement that the complication must be directly related to the care provided.",
-    "Clarification that the timing must be after the onset of the condition."
+    "Removal of the 'unexpected' qualifier to ensure all complications are captured.",
+    "Explicit instruction to code regardless of expectation status."
   ],
-  "narrative": "The older version introduced the basic criteria for coding complications of care, focusing on timing and natural progression. The newer version builds on this by adding the specific constraint that the complication must be directly related to the care provided, enabling more precise identification of adverse events linked to treatment rather than the disease itself."
+  "narrative": "The older version introduced a restrictive rule requiring complications to be unexpected to be coded. The newer version builds on this by removing the expectation constraint, enabling the capture of all documented complications of care for better quality reporting."
 }}
 
 ### ACTUAL TASK ###

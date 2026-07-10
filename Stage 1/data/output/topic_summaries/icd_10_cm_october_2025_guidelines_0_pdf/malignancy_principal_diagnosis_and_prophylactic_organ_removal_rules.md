@@ -6,10 +6,11 @@
 **Key Behaviors:**
 - Symptoms, signs, and ill-defined conditions associated with an existing malignancy cannot replace the malignancy as the principal diagnosis
 - This restriction applies regardless of the number of admissions or encounters for treatment and care of the neoplasm
-- The malignancy must be coded as the principal or first-listed diagnosis when associated with characteristic symptoms
-- Encounters for prophylactic organ removal are categorized under factors influencing health status and contact with health services
-- Coding guidelines reference Section I.C.21 for factors influencing health status and contact with health services
+- Encounters for prophylactic organ removal must be coded according to section I.C.21
+- Factors influencing health status and contact with health services are addressed in section I.C.21
+- The malignancy must be assigned as the first-listed diagnosis when associated with symptoms or signs
 
-**Requirements / Properties:**
-- Principal diagnosis must be the specific malignancy rather than associated symptoms or signs
-- Encounter type must be correctly identified as prophylactic organ removal for appropriate coding
+**Mandatory Coding Criteria:**
+- Documentation must confirm the existence of a primary or secondary site malignancy
+- Coding must follow section I.C.21 for prophylactic organ removal encounters
+- Symptoms and signs cannot be used as principal diagnosis if linked to a known malignancy

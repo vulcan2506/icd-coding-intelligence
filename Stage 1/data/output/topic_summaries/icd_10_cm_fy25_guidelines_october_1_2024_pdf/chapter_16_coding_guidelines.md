@@ -6,4 +6,8 @@
 **Key Behaviors:**
 - Codes from other chapters may be used with Chapter 16 codes if they provide more specific detail
 - Codes for signs and symptoms may be assigned when a definitive diagnosis has not been established
-- If the reason for the encounter is a perinatal condition, the Chapter 16 code must be sequenced first
+- If the reason for the encounter is a perinatal condition, the Chapter 16 code should be sequenced first
+
+**Mandatory Coding Criteria:**
+- Documentation must confirm the diagnosis before assigning specific codes
+- Chapter 16 codes take priority in sequencing when the encounter reason is a perinatal condition

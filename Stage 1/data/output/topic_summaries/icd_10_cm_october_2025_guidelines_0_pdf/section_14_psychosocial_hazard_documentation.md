@@ -4,11 +4,9 @@
 **Feature:** Section 14 Psychosocial Hazard Documentation
 
 **Key Behaviors:**
-- Documentation by clinicians other than the patient's provider
-- Assignment of codes from category Z55-Z65
-- Recording of potential health hazards related to socioeconomic and psychosocial circumstances
+- Clinicians other than the patient's provider must document psychosocial hazards related to socioeconomic circumstances.
+- Documentation must reference Section I.B.14 for codes Z55-Z65.
 
-**Requirements / Properties:**
-- Clinician documentation must be provided for non-provider clinicians
-- Hazards must relate to socioeconomic or psychosocial circumstances
-- Codes must fall within the Z55-Z65 range
+**Mandatory Coding Criteria:**
+- Documentation must be provided by a clinician other than the patient's provider.
+- Condition must relate to socioeconomic or psychosocial circumstances.

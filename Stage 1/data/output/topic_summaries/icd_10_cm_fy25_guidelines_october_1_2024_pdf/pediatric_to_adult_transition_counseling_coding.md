@@ -4,12 +4,12 @@
 **Feature:** Pediatric-to-Adult Transition Counseling Coding
 
 **Key Behaviors:**
-- Code Z71.87 is assigned when pediatric-to-adult transition counseling is the sole reason for the encounter
-- Code Z71.87 is assigned when counseling is provided in addition to other services like chronic condition treatment
-- Codes for medical conditions treated and code Z71.87 are both assigned when both are provided during the same encounter
-- Sequencing of codes depends on the specific circumstances of the encounter
-- Code Z76.81 is used for expectant mother prebirth pediatrician visits
+- Assign code Z71.87 when pediatric-to-adult transition counseling is the sole reason for the encounter
+- Assign code Z71.87 when transition counseling is provided in addition to other services such as treatment of a chronic condition
+- Assign codes for medical conditions treated alongside transition counseling during the same encounter
+- Sequence codes for medical conditions and Z71.87 based on the circumstances of the encounter
+- Do not assign Z71.87 for expectant mother prebirth pediatrician visits (code Z76.81)
 
-**New in this version:**
-- Z71.87 Encounter for pediatric-to-adult transition counseling
-- Z76.81 Expectant mother prebirth pediatrician visit
+**Mandatory Coding Criteria:**
+- Documentation must confirm that transition counseling is the sole reason or an additional service
+- Documentation must specify the medical conditions treated if provided alongside counseling

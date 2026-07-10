@@ -1,16 +1,16 @@
 # ICD-10-CM Diagnosis Coding Guidelines
 *Source: ICD-10-CM FY25 Guidelines October 1, 2024.pdf*
 
-**Feature:** Borderline Diagnosis Coding and Principal Diagnosis Selection
+**Feature:** Coding of Borderline Diagnoses and Principal Diagnosis Selection
 
 **Key Behaviors:**
-- Code borderline diagnoses as confirmed unless a specific index entry exists for the borderline condition.
-- List the ICD-10-CM code for the condition chiefly responsible for services as the first-listed diagnosis.
-- List additional codes to describe any coexisting conditions.
+- Borderline diagnoses are coded as confirmed unless a specific index entry exists (e.g., borderline diabetes).
 - No distinction is made between care settings (inpatient vs. outpatient) for borderline conditions.
-- Query the provider for clarification whenever documentation regarding a borderline condition is unclear.
+- Coders are encouraged to query for clarification when documentation regarding a borderline condition is unclear.
+- The first-listed diagnosis must be the condition chiefly responsible for services provided.
+- Additional codes should be listed to describe any coexisting conditions.
 
-**Requirements / Properties:**
-- The first-listed diagnosis must be the condition chiefly responsible for the services provided.
-- Additional codes must describe any coexisting conditions.
-- A first-listed diagnosis may be a symptom if a confirmed diagnosis has not been established by the provider.
+**Mandatory Coding Criteria:**
+- A specific index entry must exist in ICD-10-CM to code a borderline condition as such.
+- The diagnosis must be documented as chiefly responsible for the services provided to be listed first.
+- If a diagnosis has not been established (confirmed) by the provider, the first-listed diagnosis may be a symptom.

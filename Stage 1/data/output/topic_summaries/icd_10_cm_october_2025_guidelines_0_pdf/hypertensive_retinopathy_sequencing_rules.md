@@ -5,9 +5,9 @@
 
 **Key Behaviors:**
 - Subcategory H35.0 (Background retinopathy and retinal vascular changes) must be used alongside a code from categories I10-I15.
-- The sequencing order is determined by the reason for the encounter.
-- Codes from categories I10-I15 must be included to capture the systemic hypertension component.
+- The sequencing of codes is determined by the reason for the encounter.
 
-**Requirements / Properties:**
-- Documentation must explicitly link the retinopathy to systemic hypertension.
-- The reason for the encounter must clearly indicate whether the hypertension or the retinopathy is the primary focus.
+**Mandatory Coding Criteria:**
+- Documentation must indicate the presence of background retinopathy or retinal vascular changes.
+- Systemic hypertension must be documented to justify the use of categories I10-I15.
+- The reason for the encounter must be identified to determine primary vs. secondary sequencing.

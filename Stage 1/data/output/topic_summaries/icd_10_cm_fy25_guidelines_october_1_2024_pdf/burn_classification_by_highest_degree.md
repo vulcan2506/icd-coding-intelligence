@@ -4,17 +4,10 @@
 **Feature:** Burn Classification by Highest Degree
 
 **Key Behaviors:**
-- Classify burns of the same anatomic site and on the same side but of different degrees to the subcategory identifying the highest degree recorded in the diagnosis
-- Assign only a single code representing the highest degree when multiple degrees are present at the same site and side
-- Ignore lower degree burn classifications when a higher degree is documented for the same anatomic location
+- Classify burns of the same anatomic site and on the same side to the subcategory identifying the highest degree recorded in the diagnosis
+- Assign only a single code representing the highest degree when multiple degrees are present at the same site
 
-**Requirements / Properties:**
-- Documentation must specify the anatomic site and side for all recorded burn degrees
-- All burn degrees must be recorded for the same anatomic site and side to apply the highest degree rule
-
-**Deprecated in this version:**
-- Coding multiple codes for different degrees of burns at the same anatomic site and side
-- Assigning a code for the lowest degree burn when a higher degree is also documented at the same site
-
-**New in this version:**
-- Mandatory selection of the highest degree subcategory code (e.g., T24.311-) when second and third degree burns coexist on the right thigh
+**Mandatory Coding Criteria:**
+- Burns must be of the same anatomic site
+- Burns must be on the same side of the body
+- Multiple degrees must be recorded in the diagnosis

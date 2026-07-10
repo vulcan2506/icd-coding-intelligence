@@ -4,13 +4,12 @@
 **Feature:** Impending and Threatened Condition Coding
 
 **Key Behaviors:**
-- Code any condition described at discharge as 'impending' or 'threatened' as a confirmed diagnosis if it did occur.
-- If the condition did not occur, reference the Alphabetic Index for subentry terms under 'impending' or 'threatened' and main term entries.
-- Assign the given code if subterms for 'impending' or 'threatened' are listed in the index.
-- If subterms are not listed, code the existing underlying condition(s) and do not code the condition described as impending or threatened.
+- Code conditions described as 'impending' or 'threatened' at discharge as confirmed diagnoses if they occurred.
+- Reference the Alphabetic Index for subentry terms for 'impending' or 'threatened' before assigning codes.
+- Assign the specific code if subterms for 'impending' or 'threatened' are listed in the index.
+- Code the existing underlying condition(s) instead of the impending/threatened condition if subterms are not listed.
 
-**Requirements / Properties:**
-- Verification of whether the condition actually occurred at the time of discharge.
-- Consultation of the Alphabetic Index for specific subentry terms related to 'impending' or 'threatened'.
-- Verification of main term entries for 'Impending' and 'Threatened' in the index.
-- Documentation of the underlying condition if no specific impending/threatened subterm exists.
+**Mandatory Coding Criteria:**
+- Condition must be described as 'impending' or 'threatened' at the time of discharge.
+- Verification of subentry terms in the Alphabetic Index is required before code assignment.
+- Underlying condition must be coded if no specific subterms exist for the impending/threatened state.

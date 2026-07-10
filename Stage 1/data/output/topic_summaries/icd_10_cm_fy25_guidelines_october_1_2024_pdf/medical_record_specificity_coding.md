@@ -6,5 +6,5 @@
 **Key Behaviors:**
 - Code to the highest level of specificity when supported by the medical record documentation.
 
-**Requirements / Properties:**
-- Medical record documentation must explicitly support the highest level of specificity assigned.
+**Mandatory Coding Criteria:**
+- Medical record documentation must support the highest level of specificity.

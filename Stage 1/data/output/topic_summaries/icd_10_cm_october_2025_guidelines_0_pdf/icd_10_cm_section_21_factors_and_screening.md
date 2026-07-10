@@ -4,17 +4,9 @@
 **Feature:** ICD-10-CM Section 21 Factors and Screening
 
 **Key Behaviors:**
-- Code factors influencing health status and contact with health services when they are the reason for the encounter.
-- Assign screening codes only when the patient is undergoing a screening procedure for a specific condition.
-- Do not code for screening if the patient is asymptomatic and no screening procedure is performed.
+- Factors influencing health status and contact with health services are coded under Section I.C.21.
+- Screening codes are utilized to document preventive health services and diagnostic tests.
 
-**Requirements / Properties:**
-- Documentation must explicitly state the factor influencing health status or the specific condition being screened for.
-- The encounter must be for the purpose of screening or managing the factor, not for a symptomatic condition.
-
-**Deprecated in this version:**
-- Coding screening codes for asymptomatic patients when no screening procedure was performed.
-- Using screening codes as primary diagnoses for symptomatic encounters.
-
-**New in this version:**
-- Mandatory use of specific screening codes (Z11-Z13, Z14-Z16) based on the type of test and condition.
+**Mandatory Coding Criteria:**
+- Codes must be assigned based on documentation of factors influencing health status.
+- Screening codes require documentation of the specific test or procedure performed.

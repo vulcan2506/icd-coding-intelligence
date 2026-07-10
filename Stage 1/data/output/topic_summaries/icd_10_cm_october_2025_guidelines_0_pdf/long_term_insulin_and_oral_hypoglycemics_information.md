@@ -4,4 +4,4 @@
 **Feature:** Long-Term Insulin and Oral Hypoglycemics Information
 
 **Key Behaviors:**
-- Coder must reference section I.C.4.a.3 for guidelines on long-term use of insulin and oral hypoglycemics
+- Refer to section I.C.4.a.3 for information on the long-term use of insulin and oral hypoglycemics.

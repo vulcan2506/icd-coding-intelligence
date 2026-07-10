@@ -4,14 +4,12 @@
 **Feature:** Transplant Complication and Z99 Coding Guidelines
 
 **Key Behaviors:**
-- Organ transplant complications are coded according to section I.C.19 guidelines
-- Categories Z89-Z90 and Z93-Z99 are restricted to cases without organ/tissue complications or equipment malfunctions
-- These categories apply only when the patient has no complications at the amputation site
-- These categories apply only when the patient has no complications with the equipment they depend on
-- Coding must verify absence of complications before assigning Z89-Z90 or Z93-Z99 codes
+- Categories Z89-Z90 and Z93-Z99 are restricted to use only when no complications or malfunctions exist
+- These categories apply only if the organ/tissue replacement, amputation site, or dependent equipment is functioning without issues
+- Coding for organ transplant complications must follow the specific guidelines in section I.C.19
+- Do not assign Z89-Z90 or Z93-Z99 codes if the patient has active complications or equipment malfunctions
+- The presence of complications or malfunctions precludes the use of the 'dependence on enabling machines' categories
 
-**Requirements / Properties:**
-- Verify no organ or tissue replacement complications exist before using Z89-Z90 or Z93-Z99
-- Verify no amputation site complications exist before using Z89-Z90 or Z93-Z99
-- Verify no equipment malfunction exists before using Z89-Z90 or Z93-Z99
-- Ensure section I.C.19 is referenced for transplant complication coding
+**Mandatory Coding Criteria:**
+- Documentation must confirm the absence of complications or malfunctions before assigning Z89-Z90 or Z93-Z99 codes
+- Section I.C.19 must be consulted for specific organ transplant complication coding instructions

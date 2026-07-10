@@ -1,12 +1,11 @@
 # Burn Sequela Coding Guidelines
 *Source: icd_10_cm_october_2025_guidelines_0.pdf*
 
-**Feature:** Burn Sequela Coding Guidelines
+**Feature:** Burn Sequela Coding
 
 **Key Behaviors:**
-- Encounters for the treatment of the late effects of burns or corrosions must be coded with a burn or corrosion code.
-- The 7th character 'S' must be assigned to indicate sequela for scars or joint contractures.
+- Encounters for the treatment of the late effects of burns or corrosions should be coded with a burn or corrosion code with the 7th character 'S' for sequela.
 
-**Requirements / Properties:**
-- Clinical documentation must confirm the encounter is for the late effects of burns or corrosions.
-- The condition must be identified as a sequela (e.g., scars or joint contractures).
+**Mandatory Coding Criteria:**
+- The condition must be the late effects of burns or corrosions (e.g., scars or joint contractures).
+- The code must include the 7th character 'S' to indicate sequela.

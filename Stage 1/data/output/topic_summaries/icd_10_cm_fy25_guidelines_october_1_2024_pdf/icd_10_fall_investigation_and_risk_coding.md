@@ -8,6 +8,6 @@
 - Code Z91.81 for patients who have fallen in the past and are at risk for future falls.
 - Both codes R29.6 and Z91.81 may be assigned together when appropriate.
 
-**Requirements / Properties:**
-- Documentation must indicate the reason for the fall is being investigated to justify R29.6.
-- Documentation must confirm the patient has a history of falling and is at risk for future falls to justify Z91.81.
+**Mandatory Coding Criteria:**
+- R29.6 requires the encounter to be for investigating the reason for a recent fall.
+- Z91.81 requires documentation that the patient has a history of falling and is at risk for future falls.

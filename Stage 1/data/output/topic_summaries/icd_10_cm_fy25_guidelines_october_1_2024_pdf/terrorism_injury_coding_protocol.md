@@ -4,13 +4,12 @@
 **Feature:** Terrorism Injury Coding Protocol
 
 **Key Behaviors:**
-- First-listed external cause code must be from category Y38 (Terrorism) when identified by the FBI
-- Additional code for place of occurrence (Y92.-) must be assigned
-- Multiple Y38 codes may be assigned if the injury results from more than one mechanism of terrorism
-- Definition of terrorism is determined by the FBI inclusion note at the beginning of category Y38
-- Coding is triggered specifically when the Federal Government (FBI) identifies the cause as terrorism
+- Assign a code from category Y38 (Terrorism) as the first-listed external cause code when the cause is identified by the FBI as terrorism
+- Use the FBI definition of terrorism found in the inclusion note at the beginning of category Y38 to determine eligibility
+- Assign an additional code for the place of occurrence using category Y92.-
+- Assign more than one Y38 code if the injury results from multiple mechanisms of terrorism
 
-**Requirements / Properties:**
-- External cause code must be selected from category Y38
-- Place of occurrence code must be selected from category Y92
-- FBI identification of the cause as terrorism is a mandatory prerequisite
+**Mandatory Coding Criteria:**
+- Cause of injury must be explicitly identified by the Federal Government (FBI) as terrorism
+- First-listed external cause code must be selected from category Y38
+- Place of occurrence code must be selected from category Y92.-

@@ -7,5 +7,5 @@
 - Z codes are not procedure codes
 - A corresponding procedure code must accompany a Z code to describe any procedure performed
 
-**Requirements / Properties:**
+**Mandatory Coding Criteria:**
 - A corresponding procedure code must accompany a Z code to describe any procedure performed

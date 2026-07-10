@@ -4,6 +4,9 @@
 **Feature:** Chronic Pain Classification and Coding
 
 **Key Behaviors:**
-- Chronic pain is classified under ICD-10-CM subcategory G89.2
-- No specific time frame defines when pain transitions to chronic status
-- Provider documentation must be used to guide code selection for chronic pain
+- Chronic pain is classified to subcategory G89.2
+- There is no specific time frame defining when pain becomes chronic pain
+- Provider's documentation must be used to guide the use of these codes
+
+**Mandatory Coding Criteria:**
+- Documentation must explicitly support the classification of pain as chronic

@@ -6,5 +6,5 @@
 **Key Behaviors:**
 - Complications occurring within the six-week postpartum period are classified as postpartum complications.
 
-**Requirements / Properties:**
+**Mandatory Coding Criteria:**
 - The complication must occur within the six-week period following delivery.

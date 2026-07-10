@@ -4,12 +4,12 @@
 **Feature:** ICD-10-CM Pressure Ulcer Classification
 
 **Key Behaviors:**
-- Codes in category L89 must identify the specific site and stage of the pressure ulcer.
-- Stages are designated by severity levels: 1-4, deep tissue pressure injury, unspecified stage, and unstageable.
-- Assign as many codes from category L89 as needed to identify all applicable pressure ulcers the patient has.
-- Refer to Section I.B.14 for pressure ulcer stage documentation when the clinician is not the patient's provider.
+- Codes in category L89 identify the site and stage of the pressure ulcer.
+- Classification is based on severity designated by stages 1-4, deep tissue pressure injury, unspecified stage, and unstageable.
+- Assign as many codes from category L89 as needed to identify all pressure ulcers the patient has, if applicable.
+- Refer to Section I.B.14 for pressure ulcer stage documentation by clinicians other than the patient's provider.
 
-**Requirements / Properties:**
-- Clinical documentation must specify the anatomical site of the pressure ulcer.
-- Clinical documentation must specify the stage of the pressure ulcer (1-4, deep tissue, unspecified, or unstageable).
-- All pressure ulcers present must be coded individually using category L89 codes.
+**Mandatory Coding Criteria:**
+- Documentation must identify the specific site of the pressure ulcer.
+- Documentation must identify the stage of the pressure ulcer (1-4, deep tissue pressure injury, unspecified, or unstageable).
+- Multiple codes from category L89 may be assigned if the patient has multiple pressure ulcers.

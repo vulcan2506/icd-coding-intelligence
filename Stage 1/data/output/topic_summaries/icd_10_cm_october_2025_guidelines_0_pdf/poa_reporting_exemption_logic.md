@@ -4,22 +4,13 @@
 **Feature:** POA Reporting Exemption Logic
 
 **Key Behaviors:**
-- Assign 'Y' (Yes) when the condition is present on admission
-- Assign 'N' (No) when the condition is not present on admission
-- Assign 'U' (Unknown) when the presence on admission cannot be determined
-- Assign 'W' (Clinically undetermined) when the condition is clinically undetermined
-- Mark as 'Unreported/Not used' to exempt the condition from POA reporting requirements
+- Assign 'Y' (Yes) for conditions present on admission
+- Assign 'N' (No) for conditions not present on admission
+- Assign 'U' (Unknown) when presence on admission cannot be determined
+- Assign 'W' (Clinically undetermined) for conditions where presence on admission is clinically undetermined
+- Assign 'Unreported/Not used' to exempt conditions from POA reporting requirements
 
-**Requirements / Properties:**
-- Accurate determination of condition presence at the time of admission is mandatory for valid coding
-- Clinically undetermined conditions must be explicitly documented as such to justify 'W' assignment
-- Exemption status must be clearly indicated to avoid unnecessary POA reporting for specific conditions
-
-**Deprecated in this version:**
-- Assigning 'Y' without clinical documentation supporting presence on admission
-- Using unspecified codes to bypass POA reporting requirements
-- Failing to document 'Unknown' status when presence on admission is unclear
-
-**New in this version:**
-- Introduction of 'W' (Clinically undetermined) as a distinct POA indicator for ambiguous cases
-- Formal exemption category ('Unreported/Not used') for conditions excluded from POA reporting
+**Mandatory Coding Criteria:**
+- Provider must explicitly document the timing of condition onset relative to admission
+- Condition must be clinically evaluable to determine presence on admission status
+- Documentation must distinguish between expected and unexpected complications if applicable

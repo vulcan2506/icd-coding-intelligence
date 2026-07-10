@@ -7,10 +7,6 @@
 - Assign codes U07.1 and J80 for acute respiratory distress syndrome (ARDS) due to COVID-19.
 - Code O94 is used when an initial complication of pregnancy develops a sequela requiring future care or treatment.
 
-**Requirements / Properties:**
-- Documentation must confirm the sequela requires care or treatment at a future date.
-- The condition must be a direct result of an initial complication of pregnancy, childbirth, or the puerperium.
-
-**New in this version:**
-- Mandatory assignment of code O94 for sequelae of pregnancy complications.
-- Specific instruction to use U07.1 and J80 for ARDS due to COVID-19.
+**Mandatory Coding Criteria:**
+- Documentation must specify ARDS is due to COVID-19 to assign U07.1 and J80.
+- The condition must be a sequela of an initial pregnancy complication requiring future treatment to use O94.

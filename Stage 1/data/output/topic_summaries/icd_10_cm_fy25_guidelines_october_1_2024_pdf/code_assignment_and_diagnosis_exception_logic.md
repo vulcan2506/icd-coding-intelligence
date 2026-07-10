@@ -5,23 +5,16 @@
 
 **Key Behaviors:**
 - Code assignment is based on the provider's diagnostic statement that the condition exists, not on clinical criteria used to establish the diagnosis.
-- If there is conflicting medical record documentation, the provider must be queried for clarification.
 - Exceptions allow code assignment based on documentation from non-provider clinicians (e.g., dietitians, nurses) for specific metrics like BMI, pressure ulcer stage, and coma scale.
-- The associated diagnosis for these exceptions must still be documented by the patient's provider.
-- Codes for BMI, coma scale, NIHSS, blood alcohol level, SDOH, and underimmunization status must only be reported as secondary diagnoses.
+- If conflicting medical record documentation exists, the patient's provider must be queried for clarification.
+- Specific exception codes (BMI, NIHSS, SDOH, etc.) must only be reported as secondary diagnoses.
+- The associated diagnosis for these exception codes must still be documented by the patient's provider.
+- Laterality codes are included in the list of exceptions where code assignment may be based on documentation from non-provider clinicians.
+- The provider's statement that a condition exists is sufficient for code assignment, regardless of whether clinical criteria were explicitly used to establish the diagnosis.
 
-**Requirements / Properties:**
-- The provider's statement that the patient has a particular condition is sufficient for code assignment.
-- For exceptions, the associated diagnosis (e.g., obesity, acute stroke) must be documented by the patient's provider.
-- Specific metrics (BMI, ulcer depth, etc.) may be documented by permitted non-provider clinicians per regulatory or internal policies.
-- Conflicting documentation from any clinician requires a provider query before finalizing codes.
-- Exception codes must be assigned as secondary diagnoses, not primary.
-- The associated diagnosis for exception codes must be documented by the patient's provider (physician or other qualified healthcare practitioner legally accountable for establishing the patient's diagnosis).
-- Code assignment relies on documentation by the patient's provider unless a specific exception applies based on regulatory or accreditation requirements or internal hospital policies.
-
-**New in this version:**
-- Explicit inclusion of Social Determinants of Health (SDOH) classified to Chapter 21 as an exception for non-provider documentation.
-- Clarification that underimmunization status is an exception allowing non-provider documentation of the metric.
-- Mandatory restriction that exception codes (BMI, NIHSS, etc.) are limited to secondary diagnosis reporting.
-- Laterality is included as an exception allowing code assignment based on documentation from non-provider clinicians.
-- Codes for depth of non-pressure chronic ulcers are included as an exception allowing code assignment based on documentation from non-provider clinicians.
+**Mandatory Coding Criteria:**
+- The patient's provider must document the associated diagnosis (e.g., obesity, acute stroke) even if the metric is documented by another clinician.
+- Codes for BMI, coma scale, NIHSS, blood alcohol level, SDOH, and underimmunization status must be reported as secondary diagnoses.
+- Provider query is mandatory when medical record documentation is conflicting.
+- The associated diagnosis for exception codes must be documented by the patient's provider.
+- If conflicting medical record documentation exists from the same clinician or different clinicians, the patient's provider must be queried for clarification.

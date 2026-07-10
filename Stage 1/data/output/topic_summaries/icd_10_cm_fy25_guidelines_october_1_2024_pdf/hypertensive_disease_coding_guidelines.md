@@ -6,9 +6,8 @@
 **Key Behaviors:**
 - Assign appropriate codes from categories I10-I15 for existing hypertension under control by therapy.
 - Assign appropriate codes from categories I10-I15 for uncontrolled hypertension, whether untreated or not responding to therapy.
-- Differentiate between controlled and uncontrolled states based on therapeutic response documentation.
 
-**Requirements / Properties:**
-- Clinical documentation must specify the status of hypertension (controlled vs. uncontrolled).
-- Documentation must indicate if the condition is untreated or not responding to the current therapeutic regimen.
-- Codes must be selected strictly from categories I10 through I15.
+**Mandatory Coding Criteria:**
+- Diagnosis must refer to an existing state of hypertension.
+- Diagnosis must be either under control by therapy or uncontrolled (untreated/not responding).
+- Code selection must be from categories I10-I15.

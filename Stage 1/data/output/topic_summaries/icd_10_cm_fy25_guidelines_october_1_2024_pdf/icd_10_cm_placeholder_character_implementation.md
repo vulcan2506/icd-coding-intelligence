@@ -5,11 +5,11 @@
 
 **Key Behaviors:**
 - The placeholder character 'X' is utilized at specific code positions to allow for future expansion.
-- The 'X' is mandatory at certain codes, such as those in categories T36-T50 (poisoning, adverse effect, and underdosing), to ensure validity.
-- Failure to include the placeholder 'X' where required renders the code invalid.
-- The 'X' acts as a structural delimiter that ensures the code maintains a consistent seven-character length.
+- The 'X' is required at certain codes (e.g., categories T36-T50) to ensure the code is considered valid.
+- Failure to use the placeholder 'X' where required renders the code invalid.
+- The placeholder 'X' acts as a structural delimiter to ensure the code maintains a consistent seven-character length.
 - A consistent seven-character length is critical for automated data processing and sorting algorithms.
 
-**Requirements / Properties:**
-- The placeholder 'X' must be used in its designated position for the code to be considered valid.
-- Codes in categories T36-T50 require the 'X' placeholder to be present for valid assignment.
+**Mandatory Coding Criteria:**
+- The placeholder character 'X' must be used in its designated position for codes within categories such as T36-T50.
+- A code is only valid if the required placeholder character is present.

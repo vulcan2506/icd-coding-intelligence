@@ -4,6 +4,9 @@
 **Feature:** Diabetes Code Sequencing Logic
 
 **Key Behaviors:**
-- Secondary diabetes codes are sequenced based on Tabular List instructions
+- Sequencing of secondary diabetes codes relative to cause codes is determined by Tabular List instructions
 - Logic applies specifically to categories E08, E09, and E13
-- Sequencing determines the relationship between secondary diabetes codes and cause codes
+- The relationship between secondary codes and cause codes must follow official Tabular List guidance
+
+**Mandatory Coding Criteria:**
+- Tabular List instructions for categories E08, E09, and E13 must be consulted for sequencing rules

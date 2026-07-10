@@ -5,3 +5,6 @@
 
 **Key Behaviors:**
 - An external cause code can never be a principal (first-listed) diagnosis.
+
+**Mandatory Coding Criteria:**
+- External cause codes must be assigned as additional codes only, never as the primary diagnosis.

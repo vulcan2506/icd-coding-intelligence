@@ -4,10 +4,10 @@
 **Feature:** Clinical Coding Guidelines Implementation
 
 **Key Behaviors:**
-- Apply specific diagnosis and condition guidelines in addition to general coding guidelines
-- Ensure guidelines apply to all health care settings unless otherwise indicated
-- Refer to Section II for guidelines on the selection of principal diagnosis
+- Specific guidelines exist for certain diagnoses and conditions in addition to general coding guidelines.
+- These specific guidelines apply to all health care settings unless otherwise indicated.
+- Refer to Section II for guidelines on the selection of principal diagnosis.
 
-**Requirements / Properties:**
-- Guidelines must be followed for specific diagnoses and/or conditions
-- Application of guidelines is mandatory across all health care settings
+**Mandatory Coding Criteria:**
+- Guidelines apply to all health care settings unless otherwise indicated.
+- Section II must be consulted for principal diagnosis selection.

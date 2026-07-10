@@ -5,10 +5,9 @@
 
 **Key Behaviors:**
 - Assign 'N' if at least one clinical concept in the code was not present on admission.
-- Assign 'Y' if all clinical concepts in the code were present on admission.
-- Assign 'Y' for infection codes with causal organisms if infection signs were present on admission, even if culture results are pending.
+- Assign 'Y' if all clinical concepts included in the code were present on admission.
+- Assign 'Y' for infection codes with causal organisms if infection signs were present on admission, even if culture results are known post-admission.
 
-**Requirements / Properties:**
-- Clinical documentation must clearly distinguish between conditions present on admission and those developing after admission.
-- For infection codes, documentation of the causal organism must be linked to signs present on admission to justify 'Y' assignment.
-- All clinical concepts within a single code must be evaluated collectively to determine the 'Y' or 'N' status.
+**Mandatory Coding Criteria:**
+- Determine presence of all clinical concepts within the specific code at the time of admission.
+- For infection codes, presence of infection signs on admission overrides the timing of culture result availability.

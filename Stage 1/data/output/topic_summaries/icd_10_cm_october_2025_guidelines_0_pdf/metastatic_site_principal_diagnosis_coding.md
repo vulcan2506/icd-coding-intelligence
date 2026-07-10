@@ -6,9 +6,7 @@
 **Key Behaviors:**
 - Designate the metastatic site as the principal/first-listed diagnosis when treatment is directed toward it only.
 - Code the primary malignancy as an additional code when the encounter focuses on the metastatic site.
-- Ensure the encounter is explicitly for a primary malignancy with metastasis to apply this rule.
 
-**Requirements / Properties:**
+**Mandatory Coding Criteria:**
+- Encounter must be for a primary malignancy with metastasis.
 - Treatment must be directed toward the metastatic (secondary) site(s) only.
-- The encounter must be for a primary malignancy with metastasis.
-- The metastatic site must be clearly identified as the focus of care.

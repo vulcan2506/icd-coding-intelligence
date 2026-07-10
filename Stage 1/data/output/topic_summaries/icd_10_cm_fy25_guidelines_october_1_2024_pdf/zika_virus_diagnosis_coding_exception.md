@@ -8,19 +8,9 @@
 - Confirmation does not require documentation of the type of test performed; the provider's diagnostic statement is sufficient.
 - Assign code A92.5 regardless of the stated mode of transmission.
 - Do not assign code A92.5 if the provider documents 'suspected', 'possible', or 'probable' Zika.
-- For non-confirmed cases, assign a code explaining the reason for encounter or Z20.821 for exposure.
+- For non-confirmed cases, assign a code explaining the reason for encounter (e.g., fever, rash) or Z20.821.
 
-**Requirements / Properties:**
-- Provider must explicitly document a confirmed diagnosis of Zika virus.
-- Provider's diagnostic statement must indicate the condition is confirmed without specifying the test type.
-- Code A92.5 must be assigned irrespective of the mode of transmission.
-
-**Deprecated in this version:**
-- Assigning code A92.5 for 'suspected', 'possible', or 'probable' Zika diagnoses.
-- Requiring specific test documentation to validate a confirmed Zika diagnosis under this exception.
-- Withholding code A92.5 based on the stated mode of transmission.
-
-**New in this version:**
-- Exception to hospital inpatient guideline Section II, H for Zika virus coding.
-- Use of Z20.821 for contact with or suspected exposure to Zika virus when diagnosis is not confirmed.
-- This guideline serves as an explicit exception to the hospital inpatient guideline Section II, H.
+**Mandatory Coding Criteria:**
+- Provider must explicitly document the condition as 'confirmed'.
+- If documentation indicates 'suspected', 'possible', or 'probable', code A92.5 is prohibited.
+- Non-confirmed cases require an alternative code for symptoms or exposure (Z20.821).

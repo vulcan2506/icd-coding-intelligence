@@ -9,6 +9,6 @@
 - Assign only the code for dependence if use, abuse, and dependence are all documented
 - Assign only the code for dependence if both use and dependence are documented
 
-**Requirements / Properties:**
-- Provider documentation must explicitly refer to use, abuse, and/or dependence of the same substance
+**Mandatory Coding Criteria:**
+- Provider documentation must refer to use, abuse, and/or dependence of the same substance
 - Only one code should be assigned to identify the pattern of use based on the hierarchy

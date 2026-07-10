@@ -4,15 +4,12 @@
 **Feature:** Present on Admission (POA) Indicator Logic
 
 **Key Behaviors:**
-- Conditions developing during outpatient encounters, including ED, observation, or surgery, are considered present on admission.
-- POA indicators are assigned to principal and secondary diagnoses and external cause of injury codes.
+- Conditions developing during outpatient encounters (ED, observation, surgery) are considered present on admission.
+- POA indicator is assigned to principal and secondary diagnoses and external cause of injury codes.
 - Inconsistent, missing, conflicting, or unclear documentation issues must be resolved by the provider.
-- POA indicators are not reported for conditions that would not be coded based on UHDDS definitions and official guidelines.
-- POA status is determined at the time the order for inpatient admission occurs.
+- POA indicator is not reported if the condition would not be coded based on UHDDS definitions and current guidelines.
 
-**Requirements / Properties:**
+**Mandatory Coding Criteria:**
 - Condition must be present at the time the order for inpatient admission occurs.
-- Documentation must be consistent, present, and clear to avoid provider queries.
-- Condition must be reportable under UHDDS definitions and current official coding guidelines.
-- POA indicator must be assigned to principal and secondary diagnoses as defined in Section II of the Official Guidelines.
-- External cause of injury codes must also receive a POA indicator assignment.
+- Condition must be coded and reportable under UHDDS definitions and current official coding guidelines.
+- Provider must resolve any documentation inconsistencies before assignment.

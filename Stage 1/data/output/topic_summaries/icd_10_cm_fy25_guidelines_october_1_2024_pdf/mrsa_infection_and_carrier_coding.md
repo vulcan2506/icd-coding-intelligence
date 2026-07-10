@@ -4,19 +4,14 @@
 **Feature:** MRSA Infection and Carrier Coding
 
 **Key Behaviors:**
-- Assign the appropriate infection code along with code B95.62 for MRSA when no combination code exists for the causal organism.
-- Do not assign a code from subcategory Z16.11 for resistance to penicillins in this context.
-- Code Z22.322 and a code for MRSA infection may both be assigned if a patient has both colonization and infection during a hospital admission.
+- Assign appropriate infection code with B95.62 as the cause of disease when no combination code exists.
+- Do not assign codes from subcategory Z16.11 for MRSA infections.
+- Assign both Z22.322 and the MRSA infection code if both colonization and infection are documented during hospital admission.
 
-**Requirements / Properties:**
-- Documentation must confirm a current infection due to MRSA (e.g., wound infection, stitch abscess, urinary tract infection).
-- The infection must lack a combination code that includes the causal organism to require the use of B95.62.
-- Both colonization and infection must be documented during the same hospital admission to assign Z22.322 alongside an infection code.
+**Mandatory Coding Criteria:**
+- Documentation must confirm a current infection due to MRSA.
+- The infection must lack a combination code that includes the causal organism.
+- Both colonization and infection must be explicitly documented during the same hospital admission to assign Z22.322 alongside the infection code.
 
-**Deprecated in this version:**
-- Assigning a code from subcategory Z16.11 (Resistance to penicillins) for MRSA infections.
-- Failing to assign code B95.62 when the infection lacks a specific combination code for the causal organism.
-
-**New in this version:**
-- Use of code B95.62, Methicillin resistant Staphylococcus aureus infection, as the cause of diseases classified elsewhere.
-- Explicit permission to assign both Z22.322 (Carrier) and an infection code for patients with documented MRSA colonization and infection.
+**Superseded Guidance:**
+- Assignment of codes from subcategory Z16.11 for MRSA infections.

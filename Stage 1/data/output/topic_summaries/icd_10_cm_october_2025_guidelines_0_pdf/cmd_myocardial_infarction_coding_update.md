@@ -4,15 +4,13 @@
 **Feature:** CMD Myocardial Infarction Coding Update
 
 **Key Behaviors:**
-- Code I21.B is assigned for myocardial infarction with coronary microvascular disease
-- Code I21.B is assigned for myocardial infarction with coronary microvascular dysfunction
-- Code I21.B is assigned for myocardial infarction with non-obstructive coronary arteries (MINOCA) with microvascular disease
+- Assign code I21.B for myocardial infarction with coronary microvascular dysfunction
+- Assign code I21.B for myocardial infarction with non-obstructive coronary arteries (MINOCA) with microvascular disease
 
-**Requirements / Properties:**
-- Documentation must specify myocardial infarction with coronary microvascular disease
-- Documentation must specify myocardial infarction with coronary microvascular dysfunction
-- Documentation must specify myocardial infarction with non-obstructive coronary arteries (MINOCA) with microvascular disease
+**Mandatory Coding Criteria:**
+- Diagnosis must be myocardial infarction
+- Diagnosis must include coronary microvascular disease or dysfunction
+- Diagnosis must include non-obstructive coronary arteries (MINOCA) with microvascular disease
 
-**New in this version:**
-- Introduction of code I21.B for myocardial infarction with coronary microvascular dysfunction
-- Inclusion of MINOCA with microvascular disease under the I21.B code category
+**Newly Introduced Guidance:**
+- Code I21.B, Myocardial infarction with coronary microvascular dysfunction

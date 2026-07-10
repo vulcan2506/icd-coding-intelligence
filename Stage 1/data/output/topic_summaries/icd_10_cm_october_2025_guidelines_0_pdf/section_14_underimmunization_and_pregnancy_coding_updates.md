@@ -1,22 +1,20 @@
 # Section 14 Underimmunization and Pregnancy Coding Updates
 *Source: icd_10_cm_october_2025_guidelines_0.pdf*
 
-**Feature:** Underimmunization and Pregnancy Coding Updates
+**Feature:** Underimmunization and Pregnancy Coding Standards
 
 **Key Behaviors:**
-- Underimmunization documentation by clinicians other than the patient's provider is referenced in Section I.B.14
-- Z33.1 (Pregnant state, incidental) is restricted to secondary use when pregnancy does not complicate the reason for visit
-- Obstetric chapter codes are required when pregnancy complicates the reason for visit
-- Z33.1 may be used as a secondary code for 'Do not resuscitate' status documented by the provider
-- Z33.1 may be used as a secondary code for 'Blood type' documentation
+- Underimmunization documentation must be provided by clinicians other than the patient's provider
+- Pregnant state code Z33.1 is a secondary code only when pregnancy does not complicate the reason for visit
+- A code from the obstetric chapter is required if pregnancy complicates the reason for visit
+- Do not assign BMI codes during pregnancy unless an associated reportable diagnosis is documented
+- BMI codes should only be assigned when there is an associated, reportable diagnosis documented by the patient's provider
+- An obstetric chapter code is required if pregnancy complicates the reason for visit
+- BMI codes should not be assigned during pregnancy unless an associated reportable diagnosis is documented by the patient's provider
 
-**Requirements / Properties:**
-- BMI codes (Z68) should only be assigned when an associated reportable diagnosis is documented by the patient's provider
-- BMI codes must not be assigned during pregnancy
-- Z66 is the target code for underimmunization documentation by non-provider clinicians
-
-**Deprecated in this version:**
-- Assignment of BMI codes during pregnancy without an associated reportable diagnosis
-
-**New in this version:**
-- Section I.B.14 documentation reference for underimmunization by non-provider clinicians
+**Mandatory Coding Criteria:**
+- Documentation must confirm the provider is not the patient for underimmunization codes
+- Obstetric chapter codes are mandatory when pregnancy complicates the visit reason
+- BMI codes require an associated reportable diagnosis and must not be assigned during pregnancy
+- Z33.1 usage is restricted to incidental pregnancy scenarios only
+- Underimmunization documentation must be provided by clinicians other than the patient's provider

@@ -5,8 +5,8 @@
 
 **Key Behaviors:**
 - Assign code Z29.81 for encounters involving administration of pre-exposure prophylaxis medication for HIV.
-- Code any identified risk factors for HIV infection alongside the primary prophylaxis code.
+- Code any documented risk factors for HIV in addition to the primary encounter code.
 
-**Requirements / Properties:**
-- Documentation must confirm the patient is receiving pre-exposure prophylaxis medication.
-- The patient must be at risk for HIV infection through sex or injection drug use.
+**Mandatory Coding Criteria:**
+- Patient must be presenting for administration of pre-exposure prophylaxis medication.
+- Condition must be intended to prevent HIV infection in people at risk through sex or injection drug use.

@@ -3,9 +3,9 @@
   "findings": [
     {
       "section": "Juvenile Diabetes Classification Logic",
-      "change_type": "Administrative Update",
-      "summary": "The older version and the new version contain the exact same text regarding the classification of type 1 diabetes as juvenile diabetes. There are no behavioral differences, code changes, or logical shifts between the two excerpts provided. The similarity is perfect, indicating no substantive change in the feature logic itself.",
-      "detail": "ICD-10-CM FY25 Guidelines October 1, 2024 (Older): The age of a patient is not the sole determining factor, though most type 1 diabetics develop the condition before reaching puberty. -> icd (New Version): The age of a patient is not the sole determining factor, though most type 1 diabetics develop the condition before reaching puberty.",
+      "change_type": "No Meaningful Change",
+      "summary": "The October 1, 2024 guideline states that age is not the sole factor and most type 1 diabetics develop the condition before puberty. The October 2025 version contains the exact same text and logic, indicating no substantive update to the classification criteria.",
+      "detail": "October 1, 2024 (Older): Age is not the sole determining factor, though most type 1 diabetics develop the condition before reaching puberty. -> October 2025 (New Version): Age is not the sole determining factor, though most type 1 diabetics develop the condition before reaching puberty.",
       "version_from": "October 1, 2024",
       "version_to": "October 2025",
       "relevance_score": 10,

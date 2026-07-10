@@ -5,10 +5,9 @@
 
 **Key Behaviors:**
 - External cause codes should never be sequenced as the first-listed or principal diagnosis.
-- Codes capture the cause, intent, place, activity, and status of the person involved in the event.
-- Reporting is not nationally mandatory unless specific state mandates or payer requirements exist.
-- Providers are encouraged to voluntarily report codes to support injury research and prevention strategies.
+- External cause codes capture the cause, intent, place, activity, and status of the patient regarding an injury or health condition.
+- Reporting of ICD-10-CM external cause codes is not nationally mandatory unless required by state mandate or specific payer.
 
-**Requirements / Properties:**
-- State-based external cause code reporting mandates must be met for compliance in those jurisdictions.
-- Particular payer requirements must be satisfied if the payer mandates these codes.
+**Mandatory Coding Criteria:**
+- External cause codes must not be assigned as the principal diagnosis.
+- External cause codes are only mandatory if a state-based mandate or specific payer requirement exists.

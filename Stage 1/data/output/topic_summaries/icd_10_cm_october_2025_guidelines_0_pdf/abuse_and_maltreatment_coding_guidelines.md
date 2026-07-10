@@ -4,10 +4,10 @@
 **Feature:** Abuse and Maltreatment Coding Guidelines
 
 **Key Behaviors:**
-- Classify adult and child abuse, neglect, and maltreatment as assault for coding purposes.
-- Use any assault code to indicate the external cause of injuries resulting from confirmed abuse.
-- Assign a code from category Y07 (Perpetrator of maltreatment and neglect) when the perpetrator is known in confirmed cases.
+- Adult and child abuse, neglect and maltreatment are classified as assault.
+- Any assault codes may be used to indicate the external cause of any injury resulting from confirmed abuse.
+- For confirmed cases where the perpetrator is known, a code from Y07 should accompany any other assault codes.
 
-**Requirements / Properties:**
-- The case must be confirmed abuse, neglect, or maltreatment.
-- The perpetrator must be known to assign the Y07 code.
+**Mandatory Coding Criteria:**
+- Cases must be confirmed abuse, neglect, or maltreatment.
+- The perpetrator must be known to assign a Y07 code.

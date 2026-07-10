@@ -5,10 +5,10 @@
 
 **Key Behaviors:**
 - The 7th character must always be the 7th character in the data field.
-- The applicable 7th character is required for all codes within the category or as instructed by Tabular List notes.
 - A placeholder X must be used to fill in empty characters if a code requiring a 7th character is not 6 characters long.
+- The applicable 7th character is required for all codes within a category or as instructed by Tabular List notes.
 
-**Requirements / Properties:**
-- Applicable 7th characters are mandatory for all codes within specific categories.
-- Tabular List notes must be followed regarding 7th character requirements.
-- Data field length must accommodate the 7th character position.
+**Mandatory Coding Criteria:**
+- Codes requiring a 7th character must be exactly 6 characters long before the 7th character is appended.
+- If a code is shorter than 6 characters, placeholder X characters must be inserted to reach the 6-character mark.
+- The 7th character must be placed in the 7th position of the data field.

@@ -4,12 +4,13 @@
 **Feature:** Hypertension and Heart Failure Coding Logic
 
 **Key Behaviors:**
-- Conditions classified to I50.- or I51.4- through I51.9 are assigned to category I11 (Hypertensive heart disease)
-- Additional codes from category I50 (Heart failure) are used to identify the specific type of heart failure
-- Same heart conditions with hypertension are coded separately if documented as unrelated to hypertension
-- Unrelated conditions are sequenced according to the circumstances of the admission or encounter
-- Documentation of unrelatedness is required to trigger separate coding for heart conditions and hypertension
+- Assign codes from category I11 (Hypertensive heart disease) for hypertension with heart conditions classified to I50.- or I51.4-I51.9
+- Use additional codes from category I50 (Heart failure) to identify the specific type(s) of heart failure in patients with heart failure
+- Code the same heart conditions with hypertension separately if the provider documents they are unrelated to the hypertension
+- Sequence codes according to the circumstances of the admission or encounter when coding unrelated conditions
+- Combine hypertension and heart failure codes only when the documentation supports a causal relationship
+- Sequence codes for unrelated heart conditions and hypertension according to the circumstances of the admission or encounter
 
-**Requirements / Properties:**
-- Provider must document that heart conditions are unrelated to hypertension for separate coding
-- Admission or encounter circumstances must be reviewed for proper sequencing of unrelated conditions
+**Mandatory Coding Criteria:**
+- Documentation must confirm the relationship between hypertension and heart conditions to assign I11 codes
+- Provider documentation must explicitly state that heart conditions are unrelated to hypertension to trigger separate coding

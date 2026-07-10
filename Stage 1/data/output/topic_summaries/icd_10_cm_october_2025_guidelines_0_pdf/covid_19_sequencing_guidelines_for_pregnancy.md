@@ -4,20 +4,15 @@
 **Feature:** COVID-19 Sequencing Guidelines for Pregnancy
 
 **Key Behaviors:**
-- Code O98.5- should be sequenced as the principal/first-listed diagnosis when COVID-19 is the reason for admission/encounter during pregnancy, childbirth, or the puerperium.
-- Code U07.1 and codes for associated manifestations should be assigned as additional diagnoses alongside O98.5-.
-- Codes from Chapter 15 always take sequencing priority over other conditions.
-- If the reason for admission is unrelated to COVID-19, the appropriate code for the reason for admission should be sequenced as the principal/first-listed diagnosis.
-- Codes O98.5- and U07.1 should be assigned as additional diagnoses when COVID-19 is diagnosed during an admission unrelated to the primary reason.
+- Code O98.5- is sequenced as the principal/first-listed diagnosis when COVID-19 is the reason for admission/encounter during pregnancy, childbirth, or the puerperium.
+- Code U07.1 and codes for associated manifestations are assigned as additional diagnoses when COVID-19 is the reason for admission/encounter.
+- The appropriate code for the reason for admission/encounter is sequenced as the principal/first-listed diagnosis if the reason is unrelated to COVID-19, even if COVID-19 is diagnosed during the encounter.
+- Codes O98.5- and U07.1 are assigned as additional diagnoses when the reason for admission/encounter is unrelated to COVID-19.
+- Codes from Chapter 15 always take sequencing priority over other codes.
 
-**Requirements / Properties:**
-- COVID-19 must be the reason for admission/encounter to sequence O98.5- as the principal diagnosis.
-- Documentation must confirm the patient is in the period of pregnancy, childbirth, or the puerperium.
+**Mandatory Coding Criteria:**
+- COVID-19 must be the reason for admission/encounter to sequence O98.5- as principal diagnosis.
+- Documentation must indicate the patient is pregnant, in childbirth, or in the puerperium.
 - Associated manifestations of COVID-19 must be documented to assign appropriate additional codes.
-- The reason for admission must be unrelated to COVID-19 to sequence the primary reason as the principal diagnosis.
-- Chapter 15 codes must be prioritized if applicable to the clinical scenario.
-
-**New in this version:**
-- Mandatory sequencing of O98.5- as the principal diagnosis for COVID-19 during pregnancy/childbirth/puerperium.
-- Requirement to assign U07.1 as an additional diagnosis alongside O98.5-.
-- Explicit rule that Chapter 15 codes take sequencing priority regardless of other conditions.
+- The reason for admission/encounter must be unrelated to COVID-19 to sequence the primary reason as principal diagnosis.
+- Codes from Chapter 15 must be present to take sequencing priority.

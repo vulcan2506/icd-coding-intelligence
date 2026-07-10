@@ -4,11 +4,10 @@
 **Feature:** Classification Guidelines Precedence
 
 **Key Behaviors:**
-- Conventions and general guidelines are applicable to all health care settings unless otherwise indicated.
-- Chapter-specific guidelines apply to all health care settings unless otherwise indicated.
-- The conventions and instructions of the classification take precedence over guidelines.
+- Conventions and general guidelines apply to all healthcare settings unless otherwise indicated.
+- Chapter-specific guidelines apply to all healthcare settings unless otherwise indicated.
+- Classification conventions and instructions take precedence over all other guidelines.
 
-**Requirements / Properties:**
-- Applicability of conventions and general guidelines to all health care settings.
-- Applicability of chapter-specific guidelines to all health care settings.
-- Mandatory adherence to classification conventions and instructions over other guidelines.
+**Mandatory Coding Criteria:**
+- Verify if specific guidelines indicate exceptions for certain healthcare settings before applying general rules.
+- Prioritize classification conventions and instructions over conflicting chapter-specific guidelines.

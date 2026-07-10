@@ -6,5 +6,5 @@
 **Key Behaviors:**
 - Chapter 15 codes are to be used only on the maternal record, never on the record of the newborn.
 
-**Requirements / Properties:**
-- Codes must be assigned exclusively to the maternal patient record.
+**Mandatory Coding Criteria:**
+- Codes must be assigned to the maternal record.

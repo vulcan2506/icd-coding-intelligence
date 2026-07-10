@@ -4,10 +4,11 @@
 **Feature:** G81 Hemiplegia Coding Defaults
 
 **Key Behaviors:**
-- For ambidextrous patients, the default side selection is dominant.
-- If the left side is affected, the default side selection is non-dominant.
-- If the right side is affected, the default side selection is dominant.
+- For ambidextrous patients, the default side is dominant.
+- If the left side is affected, the default side is non-dominant.
+- If the right side is affected, the default side is dominant.
 
-**Requirements / Properties:**
-- The affected side must be documented in the clinical record.
-- The classification system must not indicate a specific default for the condition.
+**Mandatory Coding Criteria:**
+- The affected side must be documented.
+- The side must not be specified as dominant or nondominant.
+- The classification system must not indicate a default.

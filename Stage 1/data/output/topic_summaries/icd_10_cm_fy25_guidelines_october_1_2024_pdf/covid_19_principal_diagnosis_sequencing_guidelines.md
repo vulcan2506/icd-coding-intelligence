@@ -5,21 +5,13 @@
 
 **Key Behaviors:**
 - Code U07.1 (COVID-19) should be sequenced first when it meets the definition of principal diagnosis.
-- Associated manifestation codes follow the principal COVID-19 code unless other guidelines dictate otherwise.
-- Obstetrics, sepsis, and transplant complications take precedence over COVID-19 sequencing.
+- Associated manifestations are sequenced after U07.1 unless other specific guidelines require different sequencing.
+- Obstetrics, sepsis, and transplant complications take precedence over U07.1 sequencing when applicable.
 - Refer to specific sections for COVID-19 in pregnancy, newborns, and lung transplant patients.
-- Sepsis progression requires adherence to specific sepsis sequencing guidelines.
+- Refer to Section I.C.1.d for specific sequencing rules when COVID-19 progresses to sepsis.
+- Refer to Section I.C.15.s for specific sequencing rules for COVID-19 in pregnancy, childbirth, and the puerperium.
+- Refer to Section I.C.16.h for specific sequencing rules for COVID-19 infection in newborns.
 
-**Requirements / Properties:**
-- COVID-19 must meet the clinical definition of principal diagnosis to be sequenced first.
-- Other specific guidelines (e.g., obstetrics, sepsis) must be evaluated before finalizing sequence.
-- Documentation must support the progression to sepsis if applicable.
-- Pregnancy and newborn status must be documented to trigger specific section references.
-- Transplant status must be confirmed to apply transplant complication sequencing rules.
-
-**New in this version:**
-- Explicit sequencing rule placing U07.1 first for principal diagnoses.
-- Mandatory reference to obstetrics, sepsis, and transplant exception guidelines.
-- Specific cross-references for pregnancy, childbirth, puerperium, and newborn infections.
-- Dedicated reference for lung transplant patient complications.
-- Integration of sepsis progression logic into the sequencing workflow.
+**Mandatory Coding Criteria:**
+- COVID-19 must meet the definition of principal diagnosis to be sequenced first.
+- Other specific guidelines (e.g., obstetrics, sepsis) must be checked before sequencing U07.1.
